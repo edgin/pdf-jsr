@@ -1,0 +1,29 @@
+{
+    "name": "sporazum_fizicko",
+    "engine": "handlebars",
+    "recipe": "chrome-pdf",
+    "data": {
+        "shortid": "ddGak933b"
+    },
+    "shortid": "M6g7pjSqk4",
+    "chrome": {
+        "printBackground": true,
+        "marginTop": "2cm",
+        "marginBottom": "2cm"
+    },
+    "creationDate": {
+        "$$date": 1701075354325
+    },
+    "modificationDate": {
+        "$$date": 1701101376946
+    },
+    "_id": "IzpKgkcYSk13aPIH",
+    "$entitySet": "templates",
+    "pdfOperations": [
+        {
+            "type": "merge",
+            "templateShortid": "Juf5hnn",
+            "mergeWholeDocument": true
+        }
+    ]
+}

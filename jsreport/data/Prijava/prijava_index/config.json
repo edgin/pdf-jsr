@@ -1,0 +1,21 @@
+{
+    "_id": "6556a83a86e116580aa64a93",
+    "name": "prijava_index",
+    "engine": "handlebars",
+    "recipe": "chrome-pdf",
+    "data": {
+        "shortid": "rM_YGoC4q"
+    },
+    "shortid": "-E-zujvrT",
+    "chrome": {
+        "printBackground": true
+    },
+    "creationDate": {
+        "$$date": 1700222887394
+    },
+    "modificationDate": {
+        "$$date": 1701426598908
+    },
+    "workspaceId": "6556324886e116580aa647f3",
+    "$entitySet": "templates"
+}

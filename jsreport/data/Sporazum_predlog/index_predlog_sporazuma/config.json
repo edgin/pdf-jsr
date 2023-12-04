@@ -1,0 +1,21 @@
+{
+    "_id": "655681a286e116580aa649dd",
+    "name": "index_predlog_sporazuma",
+    "engine": "handlebars",
+    "recipe": "chrome-pdf",
+    "data": {
+        "shortid": "uh90Hp0tL"
+    },
+    "shortid": "fD6iFGsER",
+    "chrome": {
+        "printBackground": true
+    },
+    "creationDate": {
+        "$$date": 1700222887393
+    },
+    "modificationDate": {
+        "$$date": 1700222887393
+    },
+    "workspaceId": "6556324886e116580aa647f3",
+    "$entitySet": "templates"
+}

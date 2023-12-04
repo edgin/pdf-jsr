@@ -1,0 +1,17 @@
+{
+    "name": "dopis_index",
+    "engine": "handlebars",
+    "recipe": "chrome-pdf",
+    "shortid": "F4OwSUcoK",
+    "chrome": {
+        "printBackground": true
+    },
+    "creationDate": {
+        "$$date": 1700661117027
+    },
+    "modificationDate": {
+        "$$date": 1700661117027
+    },
+    "_id": "vV23wfZwf5xNzXvW",
+    "$entitySet": "templates"
+}

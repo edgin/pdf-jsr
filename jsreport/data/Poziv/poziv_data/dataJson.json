@@ -1,0 +1,100 @@
+{
+    "ministarstvo": "МИНИСТАРСТВО УНУТРАШЊИХ ПОСЛОВА РЕПУБЛИКЕ СРБИЈЕ",
+    "direkcija_policije": " ПОЛИЦИЈСКА УПРАВА ЗА ГРАД БЕОГРАД", 
+    "odeljenje": "ОДЕЉЕЊЕ ЗА САОБРАЋАЈНЕ ПРЕКРШАЈЕ И ПРЕКРШАЈНИ ПОСТУПАК",
+    "broj": "145-4-1000/23", 
+    "datum": "09.05.2023", 
+    "adresa": "Београд Савска 35", 
+    "telefon": "011/745-2171", 
+    "podnosilac_poziva": {
+            "zvanje": "НАЧЕЛНИК ОДЕЉЕЊА",
+            "cin": "потпуковник полиције", 
+            "ime": "Vesna", 
+            "prezime": "Milivojevic"
+    },
+    "kome_se_upucuje": {"fizicko_lice": true ,"pravno_lice": true, "preduzetnik": true},
+    "okrivljeni": {
+        "preduzetnik":{
+        "naziv": "АУТО-ТАXИ МИЛОРАД ЛУКИЋ ПР",
+        "maticni_broj": "53432565", 
+        "adresa": {
+            "mesto": "БЕОГРАД",
+            "opstina": " ПАЛИЛУЛА",
+            "ulica": "МАРШАЛА ТИТА", 
+            "broj": "024"            
+            }
+        },
+        "pravno_lice": {
+            "naziv": "Мала компанија ДОО",
+            "maticni_broj": "121342", 
+            "adresa": {
+                "mesto": "БЕОГРАД",
+                "opstina": " ПАЛИЛУЛА",
+                "ulica": "МАРШАЛА ТИТА", 
+                "broj": "024"            
+            }
+        }, 
+        "fizicko_lice": {   
+            "ime": "РАДМИЛО",
+            "prezime": "АЛЕКСИЋ",
+            "ime_roditelja": "ЗЛАТОМИР ",
+            "jmbg": "12345678",
+            "drzavljanstvo": "РЕПУБЛИКА СРБИЈА ",
+            "rodjenje": {
+                "datum": "22.02.1964",
+                "drzava": "РЕПУБЛИКА СРБИЈА",
+                "mesto": "КОЦЕЉЕВА ",
+                "opstina": "ДРУЖЕТИЋ"
+            },
+            "prebivaliste": {
+                "mesto": "КОЦЕЉЕВА",
+                "opstina": "ДРУЖЕТИЋ ",
+                "ulica": "СВЕТОГ САВЕ",
+                "ulaz": "050",
+                "sprat": "3",
+                "stan": "9"
+            },
+            "zaposlenje": {
+                "zaposlenje": "ПЕНЗИОНЕР"
+            }
+        }
+    },
+    "vozilo": {
+            "marka": "RENAULT", 
+            "registarski_broj": "BG18247-TX"
+    }, 
+    "lokacija_poziva": {
+        "odeljenje_naziv": "ОДЕЉЕЊЕ ЗА САОБРАЋАЈНЕ ПРЕКРШАЈЕ И ПРЕКРШАЈНИ ПОСТУПАК", 
+        "mesto":"Београд",
+        "ulica": "Савска",
+        "broj_zgrade": "35",
+        "sprat":"V",
+        "soba":"515",
+        "radi_od": "8:00",
+        "radi_do": "15:00"
+    },
+    "podaci_o_nezgodi": {
+        "datum": "22.04.2023", 
+        "vreme": "03:12", 
+        "mesto":"БЕОГРАД", 
+        "opstina": "НОВИ БЕОГРАД", 
+        "ulica": "", 
+        "opis_kretanja": "БУЛЕВАР МИХАЈЛА ПУПИНА бр.4 у смеру ОД БРАНКОВОГ МОСТА КА ПАЛАТИ СРБИЈЕ и на раскрсници МИЛЕНТИЈА ПОПОВИЋА-БУЛЕВАР МИХАЈЛА ПУПИНА",
+            "crveno_svetlo" : true,
+            "prekoracenje_brzine": false 
+    }, 
+    "sistem_registrovanja": "HWSmartCam",
+    "zakonska_odredba": [{
+        "clan": "331", 
+        "stav": "1", 
+        "tacka": "39", 
+        "zakon": "Закона о безбедности саобраћаја на путевима."
+    }], 
+    "broj_prekrsajnog_naloga": "1234567",  
+    "broj_racuna": "12321312312",
+    "poziv_na_broj": "12343567",
+    "model": "97",
+    "mera_neodazivanja": "У случају непружања тражених података, у складу са чланом 247. Закона о безбедности саобраћаја на путевима, против корисникa возила биће поднет захтев за покретање прекршајног поступка због прекршаја из члана 328. став 2. тачка 33. истог закона."
+    
+    
+}

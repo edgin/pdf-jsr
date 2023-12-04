@@ -1,0 +1,24 @@
+{
+    "pu": "Полицијска управа за град Београд",
+    "spi": "ЗАПАД", 
+    "broj_sl_1": "02.14.4.3",
+    "broj_sl_2": "11-4223/23",
+    "datum": "22.11.2023",
+    "adresa": {
+        "mesto": "Београд", 
+        "ulica": "Савска",
+        "broj": "35", 
+        "tel": "011 1234-213"
+    },
+    "broj_zahteva": "4-142-03546/23",
+    "odgovorno_sluzbeno_lice": "АЛЕКСАНДРА СМИЉАНИЋ", 
+    "okrivljeno_lice": "PATRIC DANIEL C (BERNARD) GEERAERT", 
+   "zakonska_odredba": {
+        "clan": "327",
+        "stav": "3",
+        "tacka": "3",
+        "zakon": "Закона о безбедности саобраћаја на путевима"
+    },
+    "broj_predmeta": "1234567", 
+    "ovlasceni_podnosilac_zahteva": "Љиљана Смиљанић"
+}

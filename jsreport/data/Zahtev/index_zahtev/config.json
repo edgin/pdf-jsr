@@ -1,0 +1,33 @@
+{
+    "_id": "6556324886e116580aa647f4",
+    "name": "index_zahtev",
+    "engine": "handlebars",
+    "recipe": "chrome-pdf",
+    "shortid": "MFlblLANr",
+    "chrome": {
+        "printBackground": true,
+        "marginTop": "2cm",
+        "marginBottom": "2cm"
+    },
+    "creationDate": {
+        "$$date": 1700222887392
+    },
+    "modificationDate": {
+        "$$date": 1701426631601
+    },
+    "workspaceId": "6556324886e116580aa647f3",
+    "$entitySet": "templates",
+    "data": {
+        "shortid": "-L42wIqB2"
+    },
+    "pdfOperations": [
+        {
+            "type": "merge",
+            "templateShortid": "9L3jcP8",
+            "mergeWholeDocument": true
+        }
+    ],
+    "htmlToXlsx": {
+        "htmlEngine": "chrome"
+    }
+}

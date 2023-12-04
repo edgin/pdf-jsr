@@ -1,0 +1,15 @@
+{
+    "name": "header-footer",
+    "engine": "handlebars",
+    "recipe": "chrome-pdf",
+    "creationDate": {
+        "$$date": 1701087843383
+    },
+    "modificationDate": {
+        "$$date": 1701087843383
+    },
+    "workspaceId": "6556324886e116580aa647f3",
+    "shortid": "NMY0ZE4",
+    "_id": "oWmyTB2R2DRthCtA",
+    "$entitySet": "templates"
+}

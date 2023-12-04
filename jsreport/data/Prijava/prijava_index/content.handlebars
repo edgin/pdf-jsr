@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<style>
+{#asset styles.css @encoding=utf8}
+</style>
+</head>
+<body>
+<div class="zaglavlje">
+    {{ministarstvo}}<br>
+    {{pu}}<br>
+    {{odeljenje}}<br>
+    Serijski број : {{serijski_broj}}<br>
+    Датум подношења захтева : {{datum_podnosenja_zahteva}}године<br>
+    {{adresa}}<br>
+    {{mesto}}
+</div>
+
+<div class="naslov__clan">
+<h3>{{prekrsajni_sud}}</h3>
+<h4 class="naslov__clan naslov__h4">{{zakon_osnov_zaglavlje}}
+</h4>
+</div>
+
+<div class="naslov">
+<h1>ПОДНОСИ ПРИЈАВУ</h1>
+
+</div>
+
+<div class="protiv">
+<h4>ПРОТИВ:</h4>
+
+    {{#kome_se_upucuje.fizicko_lice}}
+        <div class="okrivljeni_kontejner">
+            {{okrivljeni.fizicko_lice.prezime}} ({{okrivljeni.fizicko_lice.ime_roditelja}}) {{okrivljeni.fizicko_lice.ime}}, ЈМБГ: {{okrivljeni.fizicko_lice.jmbg}}
+            Држављанство: РЕПУБЛИКА СРБИЈА<br>
+            Рођен/а: {{okrivljeni.fizicko_lice.rodjenje.datum}}. {{okrivljeni.fizicko_lice.rodjenje.drzava}} / {{okrivljeni.fizicko_lice.rodjenje.mesto}} / {{okrivljeni.fizicko_lice.rodjenje.opstina}}<br>
+            Пребивалиште: {{okrivljeni.fizicko_lice.prebivaliste.mesto}} / {{okrivljeni.fizicko_lice.prebivaliste.opstina}} /{{okrivljeni.fizicko_lice.prebivaliste.ulica}} ул.  {{okrivljeni.fizicko_lice.prebivaliste.broj}}  сп.  {{okrivljeni.fizicko_lice.prebivaliste.sprat}}  ст.  {{okrivljeni.fizicko_lice.prebivaliste.stan}}  <br>
+            Занимање:  {{okrivljeni.fizicko_lice.zaposlenje.zaposlenje}}  <br>
+            Место и адреса запослења: {{okrivljeni.fizicko_lice.zaposlenje.adresa}} <br>
+            Због прекршаја из привредног преступа:<br>
+            {{#okrivljeni.fizicko_lice.zakonska_odredba}}
+                ИЗ ЧЛАНА {{clan}}, СТАВ {{clan}}, ТАЧКА {{tacka}}, {{zakon}}<br>
+            {{/okrivljeni.fizicko_lice.zakonska_odredba}}
+              (Сл.гласник Републике Србије,бр. 41/09, 53/10, 101/11, 32/13 - одлука YC, 55/14, 96/15 - др.закон, 9/16 - одлука УС,
+                24/18, 41/18, 41/18 - др.закон, 87/18, 23/19 и 128/20 - др.закон)
+        </div>
+        {{/kome_se_upucuje.fizicko_lice}}
+
+        {{#kome_se_upucuje.pravno_lice}}
+        <div class="okrivljeni_kontejner">
+            ПРАВНО ЛИЦЕ:  {{okrivljeni.pravno_lice.ime}}<br>
+            Адреса правног лица: {{okrivljeni.pravno_lice.prebivaliste.mesto}} / {{okrivljeni.pravno_lice.prebivaliste.opstina}} /{{okrivljeni.pravno_lice.prebivaliste.ulica}} ул.  {{okrivljeni.pravno_lice.prebivaliste.broj}}  сп.  {{okrivljeni.pravno_lice.prebivaliste.sprat}}  ст.  {{okrivljeni.pravno_lice.prebivaliste.stan}}  <br>
+            Мат.бр.:{{okrivljeni.pravno_lice.mat_broj}}<br>
+            Због прекршаја из привредног преступа: <br>
+            {{#okrivljeni.pravno_lice.zakonska_odredba}}
+                ИЗ ЧЛАНА {{clan}}, СТАВ {{clan}}, ТАЧКА {{tacka}}, {{zakon}}<br>
+            {{/okrivljeni.pravno_lice.zakonska_odredba}}
+            (Сл.гласник Републике Србије,бр. 41/09, 53/10, 101/11, 32/13 - одлука YC, 55/14, 96/15 - др.закон, 9/16 - одлука УС,
+            24/18, 41/18, 41/18 - др.закон, 87/18, 23/19 и 128/20 - др.закон)
+        </div>
+        {{/kome_se_upucuje.pravno_lice}}
+
+        {{#kome_se_upucuje.preduzetnik}}
+        <div class="okrivljeni_kontejner">
+            NAZIV: {{okrivljeni.preduzetnik.naziv}} 
+            PIB: {{okrivljeni.preduzetnik.pib}}
+            MATICNI BROJ: {{okrivljeni.preduzetnik.mat_broj}}
+             ({{okrivljeni.preduzetnik.ime_roditelja}}) {{okrivljeni.preduzetnik.ime}}, ЈМБГ: {{okrivljeni.preduzetnik.jmbg}}<br>
+            Држављанство: РЕПУБЛИКА СРБИЈА<br>
+            Рођен/а: {{okrivljeni.preduzetnik.rodjenje.datum}}. {{okrivljeni.preduzetnik.rodjenje.drzava}} / {{okrivljeni.preduzetnik.rodjenje.mesto}} / {{okrivljeni.preduzetnik.rodjenje.opstina}}<br>
+            Седиште: {{okrivljeni.preduzetnik.prebivaliste.mesto}} / {{okrivljeni.preduzetnik.prebivaliste.opstina}} /{{okrivljeni.preduzetnik.prebivaliste.ulica}} ул.  {{okrivljeni.preduzetnik.prebivaliste.broj}}  сп.  {{okrivljeni.preduzetnik.prebivaliste.sprat}}  ст.  {{okrivljeni.preduzetnik.prebivaliste.stan}}  <br>
+            Због прекршаја из привредног преступа:<br>
+                {{#okrivljeni.preduzetnik.zakonska_odredba}}
+                    ИЗ ЧЛАНА {{clan}}, СТАВ {{clan}}, ТАЧКА {{tacka}}, {{zakon}}<br>
+                {{/okrivljeni.preduzetnik.zakonska_odredba}}
+                (Сл.гласник Републике Србије,бр. 41/09, 53/10, 101/11, 32/13 - одлука YC, 55/14, 96/15 - др.закон, 9/16 - одлука УС,
+                    24/18, 41/18, 41/18 - др.закон, 87/18, 23/19 и 128/20 - др.закон)
+            </div>
+        {{/kome_se_upucuje.preduzetnik}}
+
+        {{#kome_se_upucuje.odgovorno_lice}}
+        <div class="okrivljeni_kontejner">
+            ОДГОВОРНО ЛИЦЕ: {{okrivljeni.odgovorno_lice.prezime}} ({{okrivljeni.odgovorno_lice.ime_roditelja}}) {{okrivljeni.odgovorno_lice.ime}}, ЈМБГ: {{okrivljeni.odgovorno_lice.jmbg}}<br>
+            Држављанство:{{okrivljeni.odgovorno_lice.prezime}}<br>
+            Рођен/а: {{okrivljeni.odgovorno_lice.rodjenje.datum}}. {{okrivljeni.odgovorno_lice.rodjenje.drzava}} / {{okrivljeni.odgovorno_lice.rodjenje.mesto}} / {{okrivljeni.odgovorno_lice.rodjenje.opstina}}<br>
+            Пребивалиште: {{okrivljeni.odgovorno_lice.prebivaliste.mesto}} / {{okrivljeni.odgovorno_lice.prebivaliste.opstina}} /{{okrivljeni.odgovorno_lice.prebivaliste.ulica}} ул.  {{okrivljeni.odgovorno_lice.prebivaliste.broj}}  сп.  {{okrivljeni.odgovorno_lice.prebivaliste.sprat}}  ст.  {{okrivljeni.odgovorno_lice.prebivaliste.stan}}  <br>
+            Занимање:  {{okrivljeni.odgovorno_lice.zaposlenje.zaposlenje}}  <br>
+            Место и адреса запослења: {{okrivljeni.odgovorno_lice.zaposlenje.adresa}} <br>
+            Funkcija koju obavlja u pravnom licu : {{okrivljeni.odgovorno_lice.zaposlenje.funkcija}}<br>
+            Због прекршаја из привредног преступа:<br>
+            {{#okrivljeni.odgovorno_lice.zakonska_odredba}}
+                    ИЗ ЧЛАНА {{clan}}, СТАВ {{clan}}, ТАЧКА {{tacka}}, {{zakon}}<br>
+            {{/okrivljeni.odgovorno_lice.zakonska_odredba}} 
+              (Сл.гласник Републике Србије,бр. 41/09, 53/10, 101/11, 32/13 - одлука YC, 55/14, 96/15 - др.закон, 9/16 - одлука УС,
+                    24/18, 41/18, 41/18 - др.закон, 87/18, 23/19 и 128/20 - др.закон)
+        </div>
+    {{/kome_se_upucuje.odgovorno_lice}}
+</div>
+<div class="cinjenicni_opis">
+<h3>ЧИЊЕНИЧНИ ОПИС ПРЕКРШАЈА:</h3>
+<br>
+{{cinjenicni_opis}}
+</div>
+<div clas="dodaci">
+    {{#predlog_o_dokazima}}
+    <b>ПРЕДЛОГ О ДОКАЗИМА: {{.}}</b> <br> 
+    {{/predlog_o_dokazima}}
+    {{#prilog}}
+    <b>ПРИЛОГ: {{.}}</b><br> 
+    {{/prilog}}
+    {{#napomena}}
+    <b>НАПОМЕНА: {{.}}</b><br>
+    {{/napomena}}   
+</div>
+
+
+<div class="dodati_dokumenti">
+    <ul>
+        {{#pridodati_dokumenti}}
+            <li>{{.}}</li>
+        {{/pridodati_dokumenti}}
+    </ul>
+</div>
+
+<div class="footer">
+    <div>ПОДНОСИОЦ(И) ЗАПИСНИКА <br>
+        {{#podnosioc_zapisnika}}
+            {{.}}
+        {{/podnosioc_zapisnika}}
+    </div>
+    <div>
+        OВЛАШЋЕНИ ПОДНОСИЛАЦ ЗАХТЕВА<br><br>
+         ______________________________
+    </div>
+</div>
+</body>
+</html>

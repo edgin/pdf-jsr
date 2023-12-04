@@ -1,0 +1,31 @@
+{
+    "name": "sporazum_odgovorno",
+    "engine": "handlebars",
+    "recipe": "chrome-pdf",
+    "data": {
+        "shortid": "GzHdz7k"
+    },
+    "chrome": {
+        "printBackground": true,
+        "format": "a4",
+        "marginTop": "2cm",
+        "marginBottom": "2cm"
+    },
+    "creationDate": {
+        "$$date": 1701087843388
+    },
+    "modificationDate": {
+        "$$date": 1701090323706
+    },
+    "workspaceId": "6556324886e116580aa647f3",
+    "pdfOperations": [
+        {
+            "type": "merge",
+            "templateShortid": "gMsu9yt",
+            "mergeWholeDocument": true
+        }
+    ],
+    "shortid": "9yHsHPa",
+    "_id": "xIYkXNeuiPmxMxSC",
+    "$entitySet": "templates"
+}

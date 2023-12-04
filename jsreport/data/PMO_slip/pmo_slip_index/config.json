@@ -1,0 +1,22 @@
+{
+    "name": "pmo_slip_index",
+    "engine": "handlebars",
+    "recipe": "chrome-pdf",
+    "data": {
+        "shortid": "VeFzNfc"
+    },
+    "chrome": {
+        "printBackground": true,
+        "width": "7cm",
+        "height": "3000px"
+    },
+    "creationDate": {
+        "$$date": 1701091370631
+    },
+    "modificationDate": {
+        "$$date": 1701693334567
+    },
+    "shortid": "qUFFbjc",
+    "_id": "lE0kRC6eGv9UqSb2",
+    "$entitySet": "templates"
+}

@@ -1,0 +1,20 @@
+{
+    "name": "upozorenje_index",
+    "engine": "handlebars",
+    "recipe": "chrome-pdf",
+    "shortid": "7jAH6YC4P",
+    "chrome": {
+        "printBackground": true
+    },
+    "creationDate": {
+        "$$date": 1701097142897
+    },
+    "modificationDate": {
+        "$$date": 1701174321506
+    },
+    "_id": "VXhF4ZxXllx9m4Ag",
+    "$entitySet": "templates",
+    "data": {
+        "shortid": "c-gy_EwET"
+    }
+}

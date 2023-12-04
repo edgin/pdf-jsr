@@ -1,0 +1,20 @@
+{
+    "name": "sporazum_propratni_akt",
+    "engine": "handlebars",
+    "recipe": "chrome-pdf",
+    "shortid": "Yp_rtyxsz",
+    "chrome": {
+        "printBackground": true
+    },
+    "creationDate": {
+        "$$date": 1701091786927
+    },
+    "modificationDate": {
+        "$$date": 1701094159323
+    },
+    "_id": "6krDmCMTEYvF14i0",
+    "$entitySet": "templates",
+    "data": {
+        "shortid": "83EwonXCC"
+    }
+}

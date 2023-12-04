@@ -1,0 +1,50 @@
+{
+    "broj_sporazuma": "СПП-4-246-00656/23",
+    "datum_sporazuma": "22.02.2023", 
+    "ulica": "Паланка", 
+    "broj_zgrade": "135",
+    "mesto": "Сремска Митровица",
+    "ovlasceno_sluzbeno_lice" : "AЛЕКСАНДРА ЂОРЂЕВИЋ", 
+    "pravno_okrivljeno_lice": {
+        "naziv": "WEBIZOPERATIONSDOO", 
+        "maticni_broj": "1234512312",
+        "pib": "12345",
+        "zastupnik": "MЛАЂЕН МЕРДОВИЋ"
+    },
+    "zakonska_odredba": {
+        "clan": "327",
+        "stav": "",
+        "tacka": "",
+        "zakon": "Закона о безбедности саобраћаја на путевима"
+    },
+    "cinjenicni_opis": "ДАНА 16.06.2023. ГОДИНЕ У 16,45 ЧАСОВА НА ДРЖАВНОМ ПУТУ ІАРЕДАБРОЈ3???, АУТОПУТУ, ВАН НАСЕЉА, ОКМ+100М(ОПШТИНА ШИД) ПРАВНО ЛИЦЕ  КАО КОРИСНИК И ОДГОВОРНО ЛИЦЕ У ПРАВНОМ ЛИЦУ МЛАЂЕН МЕРДОВИЋ СУ ДОЗВОЛИЛИ ДА СЕ У САОБРАЋАЈУ НА ПУТУ НАЂЕ ПУТ.МОТ.ВОЗИЛО РЕГ.БРОЈА BG2395-JC НА КОМЕ ЈЕ ИСТЕКАО РОК ВАЖНОСТИ РЕГ.НАЛЕПНИЦЕ А КОЈИМ ЈЕ УПРАВЉАО ВОЗАЧ СТАНИЋ АЛЕКСАНДАР. РЕГИСТРАЦИОНА НАЛЕПНИЦА ИСТЕКЛА ДАНА 10.06.2023.ГОДИНЕ.",
+    "prekrsajni_sud": {
+        "naziv":"Прекршајни суд у Сремској Митровици",
+        "odeljenje": "Шид "
+    },
+    "zahtev": {
+        "broj": "4-246-01715/23",
+        "datum": "22.10.2023"
+    },
+    "kazna": {
+       "tip_kazne": {
+            "novcana": true, 
+            "zastitna_mera": false, 
+            "kazneni_poeni": false
+        },
+        "novcana_kazna": {
+            "iznos": "3000"
+         },
+        "zastitna_mera": {
+            "ime_mere":"забрана управљањем возилом",
+            "trajanje_zastitne_mere": "30 dana"
+        },
+        "kazneni_poeni":"4"
+    },
+    "zakljucenje_sporazuma": {
+         "datum": "22.02.2023", 
+         "vreme": "12:12"
+    },
+    "broj_primeraka": "4"
+    
+}

@@ -1,0 +1,98 @@
+<head>
+<style>
+    body{
+        padding: 50px;
+    }
+    h4,h5{
+        text-align: center;
+    }
+    h4.regular { 
+        display: inline;
+        text-align: left;
+        font-weight: normal;
+        width: auto; 
+        padgin: 0;
+        margin: 0;
+    }
+    .header { 
+        font-weight: bold;
+        margin-bottom: 50px;
+    }
+    p{
+        text-indent: 50px;
+    }
+      .footer {
+        display: flex; 
+        justify-content: space-beetwen;
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    .footer div{
+        text-align: center;
+        width: 50%;
+    }
+    .footer p {
+        text-align: center;
+    }
+</style>
+</head>
+<body>
+<div class="header">
+    РепубликаСрбија<br>
+    МИНИСТАРСТВО УНУТРАШЊИХ ПОСЛОВА<br>
+    Дирекција полиције<br>
+    ПОЛИЦИЈСКА УПРАВА СРЕМСКА МИТРОВИЦА<br>
+    Број:{{broj_sporazuma}}<br>
+    {{datum_sporazuma}} године<br>
+    {{ulica}} br.{{broj}} <br>
+    {{mesto}}<br>
+</div>
+
+<div class="body">
+    <p><h4 class="regular">МИНИСТАРСТВО УНУТРАШЊИХ ПОСЛОВА </h4>  
+    које заступа овлашћено службено лице, полицијски службеник {{ovlasceno_sluzbeno_lice}} и окривљено правно лице {{pravno_okrivljeno_lice.naziv}}, матични број: {{pravno_okrivljeno_lice.maticni_broj}}, ПИБ:{{pravno_okrivljeno_lice.pib}},кога заступа представник  {{pravno_okrivljeno_lice.zastupnik}},у просторијама МИНИСТАРСТВА УНУТРАШЊИХ ПОСЛОВА, на основу члана 233.Закона о прекршајима("Сл.гласник Републике Србије" број 65/13, 13/16 и 98/16 — одлука УС), закључују</p>
+    <h4>СПОРАЗУМ О ПРИЗНАЊУ ПРЕКРШАЈА</h4>
+    <p>За прекршај из члана {{zakonska_odredba.clan}}. став {{zakonska_odredba.stav}}. тачка {{zakonska_odredba.stav}}. Закона о безбедности саобраћаја на путевима ("Сл.гласник Републике Србије",бр.41/09, 53/10, 101/11, 32/13-УС, 55/14, 96/15 - др. закон, 9/16-УС, 24/18, 41/18, 41/18-др. закони 87/18), за који се окривљени терети захтевом за покретање прекршајног поступка број {{zahtev.broj}} од {{zahtev.datum}} године.</p>
+   <p>Овај споразум о признању прекршаја заснива се на потпуној сагласности овлашћеног службеног лица, полицијског службеника  {{ovlasceno_sluzbeno_lice}} и  {{pravno_okrivljeno_lice.zastupnik}}, представника окривљеног правног лица {{pravno_okrivljeno_lice.naziv}} о свим законом предвиђеним елементима за закључење споразума.</p>
+    <h5>Члан 1.</h5>
+    <p>{{pravno_okrivljeno_lice.zastupnik}}, представник окривљеног правног лица {{pravno_okrivljeno_lice.naziv}}, свесно и добровольно признаје да:</p>
+    {{cinjenicni_opis}}<br>
+    чиме је учинио прекршај из члана {{zakonska_odredba.clan}}. став {{zakonska_odredba.stav}}. тачка {{zakonska_odredba.stav}}. {{zakonska_odredba.zakon}}
+    <h5>Члан 2.</h5>
+    <p>Овлашћено службено лице полицијски службеник {{ovlasceno_sluzbeno_lice}} и {{pravno_okrivljeno_lice.zastupnik}}, представник окривљеног правног лица {{pravno_okrivljeno_lice.predstavnik}} су сагласни да {{preksrajni_sud.naziv}}, {{preksajni_sud.odeljenje}} као стварно и месно надлежни суд окривљеном правном лицу {{pravno_okrivljeno_lice.naziv}} по поднетом захтеву зa покретање прекршајног поступка због прекршаја из члана {{zakonska_odredba.clan}}. став {{zakonska_odredba.stav}}. тачка {{zakonska_odredba.stav}}. {{zakonska_odredba.zakon}}, на основу овог споразума изрекне:<br>
+       {{#kazna.tip_kazne.novcana}}
+            - новчану казну у износу од {{kazna.novcana_kazna.iznos}} динара.
+        {{/kazna.tip_kazne.novcana}}
+         {{#kazna.tip_kazne.zastitna_mera}}
+            - заштитну меру у трајању од {{kazna.zastitna_mera.trajanje_mere}} дана.
+        {{/kazna.tip_kazne.zastitna_mera}}
+         {{#kazna.tip_kazne.kazneni_poeni}}
+            - додавање {{kazna.kazneni_poeni}} казнених поена.
+        {{/kazna.tip_kazne.kazneni_poeni}}
+    <h5>Члан 3.</h5>
+    <p>{{pravno_okrivljeno_lice.zastupnik}}, представник окривљеног правног лица {{pravno_okrivljeno_lice.naziv}}, изјављује да је свестан свих последица закљученог споразума, а посебно да у потпуности разуме да се споразумом одриче права на суђење и улагање жалбе против пресуде суда донете на основу споразума.</p>
+    <h5>
+        Члан 4.
+    </h5>
+    <p>Овлашћено службено лице полицијски службеник {{pravno_okrivljeno_lice.zastupnik}} изјављује да не одустаје од прекршајног гоњења за прекршаје који нису обухваћени споразумом о признању прекршаја.</p>
+    <h5>Члан 5.</h5>
+    <p>Овлашћено службено лице полицијски службеник {{ovlasceno_sluzbeno_lice}} И {{pravno_okrivljeno_lice.zastupnik}},представник окривљеног правног лица {{pravno_okrivljeno_lice.naziv}} су постигли договор да све трошкове прекршајног поступка који настану у поступку, у износу који одреди Прекршајни суд у тренутку доношења пресуде, сноси окривљени тренутку доношења пресуде, сноси окривљени.</p>
+    <h5>Члан 6.</h5>
+    <p>Овлашћено службено лице полицијски службеник {{ovlasceno_sluzbeno_lice}} И {{pravno_okrivljeno_lice.sastupnik}}, представник окривљеног правног лица {{pravno_okrivljeno_lice.naziv}} сагласно изјављују да се одричу од права на жалбу против одлуке суда којом би у потпуности био прихваћен овакав споразум.</p>
+    <h5>Члан 7.</h5>
+    <p>Овај споразум о признању прекршаја је закључен дана {{zakljucenje_sporazuma.datum}}.годинеу {{zakljucenje_sporazuma.vreme}} часова и сачињен је у {{broj_primeraka}} примерка од којих по један задржава окривљени и овлашћено службено лице, а остали примерци ће бити достављени {{prekrsajni_sud.naziv}},одељење {{preksajni_sud.odeljenje}} на даље поступање.</p>
+    </div>
+     <div class="footer">
+        <div>
+           ПРЕДСТАВНИК ОКРИВЉЕНОГ<br>
+           ПРАВНОГ ЛИЦА<br>  
+           {{pravno_okrivljeno_lice.zastupnik}}
+        </div>
+        <div>
+            ОВЛ. СЛУЖБЕНО ЛИЦЕ<br>
+            {{ovlasceno_sluzbeno_lice}}
+        </div>
+        
+    </div>
+</body>

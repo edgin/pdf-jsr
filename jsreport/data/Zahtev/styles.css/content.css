@@ -1,0 +1,57 @@
+    body {
+        padding: 40px; 
+        padding-top: 0;
+    }
+    .zaglavlje { 
+        width: 100%;
+        text-align: left;
+        margin-bottom: 30px;
+    }
+    .cinjenicni_opis, .protiv {
+        text-align: justify;
+        text-justify: inter-word;
+    }
+    .cinjenicni_opis h3 {
+        font-size: 18px;
+        text-align: center;
+    }
+    .naslov__clan{
+        text-align: center;
+    }
+    .naslov__h4 {
+        font-weight: normal;
+        margin: 0;
+        padding: 0;
+        margin-top: 8px;
+    }
+    .naslov__clan h3 {
+        padding: 0; 
+        margin: 0;
+    }
+    .naslov {
+        text-align: center;
+    }
+    h1{
+        font-weight: normal;
+        font-size: 22px;
+    }
+    h2 {
+        text-align: center;
+        font-size: 18px;
+    }
+    h3{
+        font-size: 16px;
+    }
+    .footer {
+        width: 100%;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .footer div {
+        text-align: center;
+    }
+    .okrivljeni_kontejner {
+        padding-bottom: 40px;
+    }

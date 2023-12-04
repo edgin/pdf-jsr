@@ -1,0 +1,13 @@
+{
+    "_id": "655632af86e116580aa647ff",
+    "name": "Poziv",
+    "creationDate": {
+        "$$date": 1700222887385
+    },
+    "modificationDate": {
+        "$$date": 1700222887385
+    },
+    "shortid": "vOnZ9FP",
+    "workspaceId": "6556324886e116580aa647f3",
+    "$entitySet": "folders"
+}

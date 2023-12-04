@@ -1,0 +1,13 @@
+{
+    "_id": "6556324886e116580aa647f6",
+    "name": "Prijava",
+    "creationDate": {
+        "$$date": 1700222887383
+    },
+    "modificationDate": {
+        "$$date": 1700222887383
+    },
+    "shortid": "UNzUXWF",
+    "workspaceId": "6556324886e116580aa647f3",
+    "$entitySet": "folders"
+}

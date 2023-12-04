@@ -1,0 +1,81 @@
+<head>
+    <style>
+        body{ 
+            padding: 50px;
+        }
+        .header {
+            width: 100%;
+            text-align: left;
+            margin-bottom: 50px;
+            font-weight: bold;
+        }
+        .serijski_broj {
+            width: 100%;
+            text-align: right;
+            padding-bottom: 30px;
+        }
+        h3 {
+            text-align: center;
+        }
+        .body h4 {
+            display: inline;
+        }
+        .body p {
+            text-indent: 50px;
+        }
+        .footer {
+            width: 100%;
+            display: flex; 
+            flex-direction: row;
+            justify-content: flex-end;
+        }
+
+        .podnosilac_zahteva{
+            width: 250px;
+            text-align: left;
+        }
+        .potpis{ 
+            width: 200px;
+            margin-top: 20px;
+            text-align: center;
+        }
+       
+    </style>
+</head>
+<body>
+  <div class="header">
+    КОПИЈА УПОЗОРЕЊА У ЕЛЕКТРОНСКОМ ОБЛИКУ<br>
+    Министарсво унутрашњих послова 		<br>
+    {{pu}}<br>
+    ОСП/СПИ/ПИ{{osp_spi_pi}}<br>
+    Број: {{broj}}<br>
+  </div>
+<p>{{osnov}}</p>
+<h3>УПОЗОРЕЊЕ</h3>
+<div class="body">
+Лицу 
+{{ime}} {{prezime}}, {{jmbg}} из {{adresa.mesto}}  са пребивалиштем  {{adresa.opstina}}, {{adresa.ulica}} {{adresa.broj}}
+због учињеног прекршаја из члана {{zakonska_odredba.clan}}. став {{zakonska_odredba.stav}}. тачка {{zakonska_odredba.stav}} за који је  {{zakonska_odredba.zakon}}, прописана <br>
+        {{#kazna.tip_kazne.novcana}}
+            - новчанa казнa у износу од {{kazna.novcana_kazna}} динара.<br>
+        {{/kazna.tip_kazne.novcana}}
+         {{#kazna.tip_kazne.zastitna_mera}}
+            - заштитнa мерa {{kazna.zastitna_mera.ime_mere}}  у трајању од {{kazna.zastitna_mera.trajanje}} дана.<br>
+        {{/kazna.tip_kazne.zastitna_mera}}
+         {{#kazna.tip_kazne.kazneni_poeni}}
+            - додавање {{kazna.kazneni_poeni}} казнених поена.<br>
+        {{/kazna.tip_kazne.kazneni_poeni}}
+чиме је поступио супротно члану (материјална одредба) истог закона.
+</div>
+<div class="footer">
+  <div class="potpis">
+ Дигитално потписао <br>
+квалификованим електронским потписом<br>
+  полицијски службеник<br>
+     {{odgovorno_sluzbeno_lice}}<br>
+    Оверено квалификованим електронским печатом <br>
+Министарства  унутрашњих послова<br>
+  </div>
+</div>
+</body>
+

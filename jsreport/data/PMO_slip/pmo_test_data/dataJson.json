@@ -1,0 +1,37 @@
+{
+    "ministarstvo": "MУП РЕПУБЛИКЕ СРБИЈЕ",
+    "pu": "ПОЛИЦИЈСКА УПРАВА ЗА ГРАД БЕОГРАД",
+    "odeljenje": "ОДЕЉЕЊЕ ЗА САОБРАЋАЈНО ТЕХНИЧКЕ ПОСЛОВЕ У БЕОГРАДУ",
+    "serijski_broj": "4-144-00044/23",
+    "datum_prijave": "22.02.2023.",
+    "vreme_prijave": "17:22",
+    "datum": "22.02.2023",
+    "vreme": "13:12",
+    "lice": {
+        "ime": "Dejan",
+        "prezime": "Popovic",
+        "roditelj": "Vlada",
+        "jmbg": "12145623",
+        "svojstvo": "svojstvo lica"
+    },
+    "sluzbeno_lice.ime": {
+        "prezime": "Ђорђевић", 
+        "ime": "Александра", 
+        "broj_legitimacije": "12213214"
+    }, 
+    "mesto": "Beograd",
+    "ulica": "Тадеуша Кошћука 11",
+    "km_puta": "22", 
+    "zakon":"На основу члана 168 и 169. Закона о прекршајима('Службени гласник РС', бр.65/13,13/16,98/16 - УС, 91/19 - др. закон, 91/19, ___ ) издаје",
+    "vozilo":{
+         "marka": "Renault",
+         "tip":"ПУТНИЧКО",
+         "reg_broj": "BG 2133-NA"
+    },
+    "pesak":{
+        "aktivno": true, 
+        "naslov": "ЗА ПРЕКРШАЈ УЧИЊЕН ФИЗИЧКИМ ЛИЦЕМ У САОБРАЋАЈУ"
+        }
+   }    
+
+            

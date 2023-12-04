@@ -1,0 +1,13 @@
+{
+    "_id": "6556324886e116580aa647f8",
+    "name": "Sporazum_pravno",
+    "creationDate": {
+        "$$date": 1700222887384
+    },
+    "modificationDate": {
+        "$$date": 1701084275995
+    },
+    "shortid": "Rs5vdV6",
+    "workspaceId": "6556324886e116580aa647f3",
+    "$entitySet": "folders"
+}

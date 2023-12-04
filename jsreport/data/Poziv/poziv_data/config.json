@@ -1,0 +1,13 @@
+{
+    "_id": "655633db86e116580aa64809",
+    "shortid": "PrpCVp4aj",
+    "name": "poziv_data",
+    "creationDate": {
+        "$$date": 1700222887399
+    },
+    "modificationDate": {
+        "$$date": 1701422043642
+    },
+    "workspaceId": "6556324886e116580aa647f3",
+    "$entitySet": "data"
+}

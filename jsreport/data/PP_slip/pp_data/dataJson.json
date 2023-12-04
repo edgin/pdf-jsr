@@ -1,0 +1,27 @@
+{
+    "pu": "ПОЛИЦИЈСКА УПРАВА ЗА ГРАД БЕОГРАД",
+    "spi": "СПИ ЗА УВИЂАЈЕ САОБРАЋАЈНИХ НЕЗГОДА",
+    "serijski_broj": "4-144-00044/23",
+    "datum_podnosenja_zahteva": "04.04.2023.",
+    "podaci_o_detetu": "",
+    "cinjenicni_opis": "",
+    "ministarstvo": "MУП РЕПУБЛИКЕ СРБИЈЕ",
+    "odeljenje": "ОДЕЉЕЊЕ ЗА САОБРАЋАЈНО ТЕХНИЧКЕ ПОСЛОВЕ У БЕОГРАДУ",
+        "datum_prijave": "22.02.2023.",
+        "vreme_prijave": "17:22",
+        "zakonska_odredba": [
+            {
+                "clan": "32",
+                "stav": "12",
+                "tacka": "12", 
+                "dodatak": ""
+            },
+            {
+                "clan": "32",
+                "stav": "12",
+                "tacka": "12", 
+                "dodatak": ""
+            }
+        ]
+
+}

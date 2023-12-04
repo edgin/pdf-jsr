@@ -1,0 +1,135 @@
+<head>
+<style>
+    {#asset styles.css @encoding=utf8}
+    /* Uraditi
+        Varijacije teksta u zavisnosti od prekrsaja 
+        varijacije podataka u zavisnosti od tipa lica
+
+     */
+</style>
+   
+</head>
+<body>
+{{!-- Zaglavlje --}}
+    <div class="zaglavlje">
+        Република Србија
+        {{ministarstvo}}<br>
+        Дирекција полиције<br>
+        {{direkcija_policije}}<br>
+        {{odeljenje}}<br>
+        Број:  {{broj}}<br>
+        {{datum}} године<br>
+        {{adresa}}<br>
+        тел.{{telefon}}<br>
+    </div>
+{{!-- Header --}}
+<div class="header">
+    <p>
+        На основу члана 79. став 1. Закона о полицији, а у вези члана 30. став 3. тачка 3. истог закона и члана 247. Закона о безбедности саобраћаја на путевима, упућује се 
+    </p>
+    <h1>
+        П О З И В
+    </h1>
+</div>
+<div class="body">
+<p>
+{{!-- varijacija okrivljenog--}}
+
+{{#kome_se_upucuje.preduzetnik}}
+    предузетнику {{okrivljeni.preduzetnik.naziv}}, 
+    матични број {{okrivljeni.preduzetnik.maticni_broj}}, 
+    са седиштем у месту {{okrivljeni.preduzetnik.adresa.mesto}}, 
+    општина {{okrivljeni.preduzetnik.adresa.opstina}}, 
+    {{okrivljeni.preduzetnik.adresa.ulica}} 
+    {{okrivljeni.preduzetnik.adresa.broj}} 
+{{/kome_se_upucuje.preduzetnik}}
+<br>
+<br>
+{{#kome_se_upucuje.pravno_lice}}
+    <div class="okrivljeni_kontejner">
+        правном лицу  {{okrivljeni.pravno_lice.naziv}}, 
+        матични број{{okrivljeni.pravno_lice.maticni_broj}}
+        са седиштем у месту {{okrivljeni.pravno_lice.adresa.mesto}} 
+        општина {{okrivljeni.pravno_lice.adresa.opstina}} 
+        /{{okrivljeni.pravno_lice.adresa.ulica}} 
+        {{okrivljeni.pravno_lice.adresa.broj}} 
+        сп. {{okrivljeni.pravno_lice.adresa.sprat}}  
+        ст. {{okrivljeni.pravno_lice.adresa.stan}} 
+    </div>
+{{/kome_se_upucuje.pravno_lice}}
+<br>
+<br>
+{{#kome_se_upucuje.fizicko_lice}}
+    <div class="okrivljeni_kontejner">
+        лицу {{okrivljeni.fizicko_lice.prezime}} 
+        ({{okrivljeni.fizicko_lice.ime_roditelja}}) 
+        {{okrivljeni.fizicko_lice.ime}}, 
+        ЈМБГ: {{okrivljeni.fizicko_lice.jmbg}},
+        Држављанство:{{okrivljeni.fizicko_lice.drzavljanstvo}},
+        Рођен/а: {{okrivljeni.fizicko_lice.rodjenje.datum}}. {{okrivljeni.fizicko_lice.rodjenje.drzava}} / {{okrivljeni.fizicko_lice.rodjenje.mesto}} / {{okrivljeni.fizicko_lice.rodjenje.opstina}}<br>
+        Пребивалиште: {{okrivljeni.fizicko_lice.prebivaliste.mesto}} / {{okrivljeni.fizicko_lice.prebivaliste.opstina}} /{{okrivljeni.fizicko_lice.prebivaliste.ulica}}, {{okrivljeni.fizicko_lice.prebivaliste.broj}}  сп.  {{okrivljeni.fizicko_lice.prebivaliste.sprat}}  ст.  {{okrivljeni.fizicko_lice.prebivaliste.stan}},
+        Занимање:  {{okrivljeni.fizicko_lice.zaposlenje.zaposlenje}},
+    </div>
+{{/kome_se_upucuje.fizicko_lice}}
+
+{{!-- vozilo --}}
+<br>
+<br>
+    кориснику возила марке {{vozilo.marka}}, регистарске ознаке {{vozilo.registarski_broj}},
+<br>
+<br>
+{{!-- Sadrzaj --}}
+да НАЈКАСНИЈЕ у року од 8 ДАНА од дана уручења позива, дође у просторије {{lokacija_poziva.odeljenje_naziv}}, 
+у месту {{lokacija_poziva.mesto}}, {{lokacija_poziva.ulica}} {{lokacija_poziva.broj_zgrade}}, {{lokacija_poziva.sprat}} спрат, соба {{lokacija_poziva.soba}}, радним даном од {{lokacija_poziva.radi_od}} до {{lokacija_poziva.radi_do}} часова или да на наведену адресу, 
+с позивом на број овог позива, у писаној форми да потпуне и тачне податке о идентитету лица коме је омогућено управљање возилом и ДОКАЗ 
+(писану изјаву којом то лице потврђује да је управљало возилом у одређено време, оверену од стране надлежног органа) на основу којег се 
+на неспоран начин може утврдити да је то лице дана 
+<br>
+<br>
+<b>{{podaci_o_nezgodi.datum}} године у {{podaci_o_nezgodi.vreme}} часова управљало наведеним возилом у месту {{podaci_o_nezgodi.mesto}}, општина {{podaci_o_nezgodi.opstina}}, 
+крећући се улицом {{podaci_o_nezgodi.opis_kretanja}}</b>
+
+{{!-- varijacija za tipove prekrsaja --}}
+{{#podaci_o_nezgodi.crveno_svetlo}}
+<b>прошло светлосни саобраћајни знак када му је датим знаком црвеног светла на семафору био забрањен пролаз, чиме је учињен прекршај </b>
+{{/podaci_o_nezgodi.crveno_svetlo}}
+
+{{#podaci_o_nezgodi.koriscenje_telefona}}
+Tekst za prekoracenje brzine
+{{/podaci_o_nezgodi.koriscenje_telefona}}
+
+{{#podaci_o_nezgodi.prekoracenje_brzine}}
+Tekst za prekoracenje brzine
+{{/podaci_o_nezgodi.prekoracenje_brzine}}
+{{!-- kraj varijacija za tipove prekrsaja --}}
+<br>
+<br>
+    {{#zakonska_odredba}}
+        ИЗ ЧЛАНА {{clan}}, СТАВ {{stav}}, ТАЧКА {{tacka}}, {{zakon}}
+    {{/zakonska_odredba}}
+        (Сл.гласник Републике Србије,бр. 41/09, 53/10, 101/11, 32/13 - одлука YC, 55/14, 96/15 - др.закон, 9/16 - одлука УС,
+        24/18, 41/18, 41/18 - др.закон, 87/18, 23/19 и 128/20 - др.закон)
+    <p>
+         Прекршај је откривен уређајем {{sistem_registrovanja}}.
+    </p>
+<p>Доказом из члана 247. ст. 4. Закона о безбедности саобраћаја на путевима сматраће се писана изјава оверена од стране надлежног органакојим лице чије податке је дао власник, односно корисник возила, потврђује да је управљало возилом у одређено време.</p>
+<p>Изјава из претходног става може се дати и у службеним просторијама из става 1. овог позива.</p>
+<p>У случају непружања тражених података, у складу са чланом 247. Закона о безбедности саобраћаја на путевима, против власника/корисника возила биће поднет захтев за покретање прекршајног поступка због прекршајхог поступка због прекршаја из члана 330. став 1. тачка 23. истог закона.</p>
+<p>НАПОМЕНА: У случају да власник/корисник наведеног возила по пријему овог позива прихвати одговорност за учињени прокршај у складу са чланом 173. став 1. Закона о прекршајима и НАЈКАСНИЈЕ У РОКУ ОД 8 ДАНА ПЛАТИ ПОЛОВИНУ ИЗРЕЧЕНЕ КАЗНЕ, НИЈЕ У ОБАВЕЗИ ДА СЕ ОДАЗОВЕ НА ОВАЈ ПОЗИВ, НИТИ ДА ДОСТАВИ ТРАЖЕНЕ ПОДАТКЕ И ДОКАЗ. </p>   
+<p>Уплату извршити у корист: БУЏЕТ РЕПУБЛИКЕ СРБИЈЕ, у сврху плаћања: УПЛАТА ПО ПРЕКРШАЈНОМ НАЛОГУ БРОЈ: {{broj_prekrsajnog_naloga}} на рачун број {{broj_racuna}} са позивом на број {{poziv_na_broj}} модел {{model}}.</p>
+<p>Прилиог: уплатница</p>
+</div>
+
+<div class="footer">
+<p>
+    {{podnosilac_poziva.zvanje}}<br>
+    {{podnosilac_poziva.cin}}<br><br><br><br>
+    {{podnosilac_poziva.ime}} {{podnosilac_poziva.prezime}}<br>
+</p>
+</div>
+
+
+</body>
+
+
+

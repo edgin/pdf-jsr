@@ -1,0 +1,14 @@
+{
+    "name": "header-footer",
+    "engine": "handlebars",
+    "recipe": "chrome-pdf",
+    "creationDate": {
+        "$$date": 1700488102734
+    },
+    "modificationDate": {
+        "$$date": 1700488102734
+    },
+    "shortid": "NZbUG9z",
+    "_id": "B1V1X9JL1GczVGL0",
+    "$entitySet": "templates"
+}

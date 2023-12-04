@@ -1,0 +1,15 @@
+{
+    "_id": "6556a97a86e116580aa64aa0",
+    "name": "header-footer",
+    "engine": "handlebars",
+    "recipe": "chrome-pdf",
+    "creationDate": {
+        "$$date": 1700222887395
+    },
+    "modificationDate": {
+        "$$date": 1701085142537
+    },
+    "shortid": "gMsu9yt",
+    "workspaceId": "6556324886e116580aa647f3",
+    "$entitySet": "templates"
+}

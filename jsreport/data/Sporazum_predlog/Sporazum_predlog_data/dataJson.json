@@ -1,0 +1,30 @@
+{
+    "serijski_broj": "4-144-00044/23" , 
+    "policijska_uprava_lokacija": "ПОЛИЦИЈСКА УПРАВА ЗА ГРАД БЕОГРАД",
+    "policijska_uprava_sluzba": "УПРАВА САОБРАЋАЈНЕ ПОЛИЦИЈЕ",
+    "odeljenje": "Одељење за саобраћајне прекршаје и прекршајни поступак",
+    "odsek": "Одсек за закључивање споразума и правно заступање",
+    "datum": "22.02.2023",
+    "spi_ps": "Полицијска управа у Београду",
+    "prekrsaj": {
+        "clan": "330",
+        "stav": "1",
+        "tacka": "23"
+    },
+    "kazna": {
+        "iznos": "1000",
+        "kazneni_poeni": "3",
+        "trajanje_zastitne_mere": "20",
+        "trajanje_zastitne_mere_mera":"dana" 
+    },
+    "datum_predloga": "22.02.2023",
+    "lokacija_predloga": "Београдy",
+    "podnosilac_predloga": {
+        "ime_prezime": "Милан Mирковић",
+        "jmbg": "12345678899",
+        "mesto_porekla": "Београд",
+        "ulica_stanovanja": "Проте Матеје 22",
+        "broj_telefona": "011-122-4432",
+        "branilac": "Адвокат ХаџиТонић"
+    }
+}

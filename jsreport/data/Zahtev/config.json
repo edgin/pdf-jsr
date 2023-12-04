@@ -1,0 +1,13 @@
+{
+    "_id": "6556324886e116580aa647f5",
+    "name": "Zahtev",
+    "creationDate": {
+        "$$date": 1700222887383
+    },
+    "modificationDate": {
+        "$$date": 1700222887383
+    },
+    "shortid": "fyv6V3b",
+    "workspaceId": "6556324886e116580aa647f3",
+    "$entitySet": "folders"
+}

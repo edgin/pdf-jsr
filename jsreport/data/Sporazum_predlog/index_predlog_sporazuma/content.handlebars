@@ -1,0 +1,81 @@
+<head>
+    <style>
+        body{ 
+            padding: 30px;
+        }
+        .head {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        .serijski_broj {
+            width: 100%;
+            text-align: right;
+            padding-bottom: 30px;
+        }
+        .footer {
+            width: 100%;
+            display: flex; 
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .podnosilac_zahteva{
+            width: 250px;
+            text-align: left;
+        }
+        .potpis{ 
+            width: 200px;
+            margin-top: 20px;
+            border-top: 1px solid #333;
+            text-align: center;
+        }
+       
+    </style>
+
+</head>
+<body>
+    <div class="serijski_broj"> 
+            Serijski broj: {{serijski_broj}}
+    </div>
+    <div class="head">
+        {{policijska_uprava_lokacija}}<br>
+         {{policijska_uprava_sluzba}}<br>
+        {{odeljenje}}<br>
+        {{odsek}}<br>
+    </div>
+    <div class="body">
+        <h5>Предмет: Предлог за закључење споразума</h5>
+     <p>Обраћам вам се предлогом за закључење споразума о признању прекршаја у вези захтева за 
+        покретање прекршајног поступка сер. бр. {{serijski_broj}} od {{datum}}, СПИ-ПС {{spi_ps}}
+        због прекршаја из члана  ст. т. ЗОБС-а на путевима.</p>
+        <p>
+            <b>Прекршај за који се теретим у потпуности признајем и пристајем на изрицање: </b>
+        </p> 
+        <p>
+            новчане казне у износу од {{kazna.iznos}}<br>
+            казнених поена {{kazna.kazneni_poeni}}<br>
+            заштитну меру {{kazna.zastitna_mera}} у трајању  {{kazna.trajanje_zastitne_mere}}  {{kazna.trajanje_zastitne_mere_mera}}<br>
+        </p>
+        <p>
+            Обавезујем се да ћз сносити трошкове прекршајног поступка по наведеном Захтеву који настану до доношења пресуде у износу који одреди надлежни прекршајни суд.
+        </p>
+        <p>У {{lokacija_predloga}}</p>
+    </div>
+    <div class="footer">
+        <div>
+            дана {{datum_predloga}}
+        </div>
+        <div class="podnosilac_zahteva">
+            <h5>Подносилац предлога</h5>
+            {{podnosilac_predloga.ime_prezime}}<br>
+            ЈМБГ{{podnosilac_predloga.jmbg}}<br>
+            из  {{podnosilac_predloga.mesto_stanovanja}}     ул.{{podnosilac_predloga.ulica_stanovanja}}<br>
+            број тел. {{podnosilac_predloga.broj_telefona}}<br><br>
+            
+                        <div class="potpis">(потпис) <br>
+            </div>
+            
+            Бранилац {{podnosilac_predloga.branilac}}<br>
+        </div>
+    </div>
+</body>

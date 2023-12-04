@@ -1,0 +1,13 @@
+{
+    "_id": "6556358d86e116580aa64819",
+    "shortid": "rM_YGoC4q",
+    "name": "prijava_data",
+    "creationDate": {
+        "$$date": 1700222887399
+    },
+    "modificationDate": {
+        "$$date": 1701425767445
+    },
+    "workspaceId": "6556324886e116580aa647f3",
+    "$entitySet": "data"
+}

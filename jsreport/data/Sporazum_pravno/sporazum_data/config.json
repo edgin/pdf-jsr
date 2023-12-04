@@ -1,0 +1,13 @@
+{
+    "_id": "6556324886e116580aa647fb",
+    "shortid": "BBCHzcseQ",
+    "name": "sporazum_data",
+    "creationDate": {
+        "$$date": 1700222887398
+    },
+    "modificationDate": {
+        "$$date": 1701085589171
+    },
+    "workspaceId": "6556324886e116580aa647f3",
+    "$entitySet": "data"
+}

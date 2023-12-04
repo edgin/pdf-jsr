@@ -1,0 +1,23 @@
+{
+    "name": "pns_index",
+    "engine": "handlebars",
+    "recipe": "chrome-pdf",
+    "data": {
+        "shortid": "flbhzmKcJ"
+    },
+    "shortid": "gRvOEL7OcK",
+    "chrome": {
+        "printBackground": true,
+        "width": "5.8cm",
+        "height": "50cm",
+        "viewportHeight": 2000
+    },
+    "creationDate": {
+        "$$date": 1700817150133
+    },
+    "modificationDate": {
+        "$$date": 1701701663858
+    },
+    "_id": "wNAiItRKhv6LwJA4",
+    "$entitySet": "templates"
+}

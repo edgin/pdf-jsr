@@ -1,0 +1,31 @@
+{
+    "_id": "65568d6086e116580aa64a26",
+    "name": "sporazum_pravno",
+    "engine": "handlebars",
+    "recipe": "chrome-pdf",
+    "data": {
+        "shortid": "BBCHzcseQ"
+    },
+    "shortid": "Wyk9ECsJW",
+    "chrome": {
+        "printBackground": true,
+        "format": "a4",
+        "marginTop": "2cm",
+        "marginBottom": "2cm"
+    },
+    "creationDate": {
+        "$$date": 1700222887394
+    },
+    "modificationDate": {
+        "$$date": 1701086384261
+    },
+    "workspaceId": "6556324886e116580aa647f3",
+    "pdfOperations": [
+        {
+            "type": "merge",
+            "templateShortid": "gMsu9yt",
+            "mergeWholeDocument": true
+        }
+    ],
+    "$entitySet": "templates"
+}

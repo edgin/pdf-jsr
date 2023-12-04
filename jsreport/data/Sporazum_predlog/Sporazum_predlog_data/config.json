@@ -1,0 +1,13 @@
+{
+    "_id": "6556324886e116580aa647fa",
+    "shortid": "uh90Hp0tL",
+    "name": "Sporazum_predlog_data",
+    "creationDate": {
+        "$$date": 1700222887397
+    },
+    "modificationDate": {
+        "$$date": 1700222887397
+    },
+    "workspaceId": "6556324886e116580aa647f3",
+    "$entitySet": "data"
+}

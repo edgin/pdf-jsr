@@ -1,0 +1,13 @@
+{
+    "_id": "6556324886e116580aa647f9",
+    "shortid": "-L42wIqB2",
+    "name": "test_zahtev",
+    "creationDate": {
+        "$$date": 1700222887396
+    },
+    "modificationDate": {
+        "$$date": 1701424845005
+    },
+    "workspaceId": "6556324886e116580aa647f3",
+    "$entitySet": "data"
+}
