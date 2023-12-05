@@ -11023,3 +11023,1329 @@ Error: Report cancelled by the client or closed network
 2023-12-05T06:01:47.742Z - info: 2 worker threads initialized in 320ms
 2023-12-05T06:01:47.742Z - info: Starting temp files cleanup with 180000ms threshold
 2023-12-05T06:01:47.742Z - info: reporter initialized
+2023-12-05T07:48:53.833Z - info: Initializing jsreport (version: 4.1.0, configuration file: jsreport.config.json, nodejs: 18.18.0)
+2023-12-05T07:48:53.834Z - info: Searching for available extensions in /Users/lukamata/Projects/factory/PDF-JSR/jsreport/
+2023-12-05T07:48:53.838Z - info: Extensions location cache contains up to date information, skipping crawling in /Users/lukamata/Projects/factory/PDF-JSR/jsreport/
+2023-12-05T07:48:53.850Z - info: Found 35 extension(s)
+2023-12-05T07:48:53.889Z - info: Using extension base@4.0.0
+2023-12-05T07:48:53.892Z - info: Using extension child-templates@4.0.0
+2023-12-05T07:48:53.895Z - info: Using extension cli@4.0.1
+2023-12-05T07:48:53.896Z - info: Using extension components@4.0.0
+2023-12-05T07:48:53.897Z - info: Using extension data@4.0.0
+2023-12-05T07:48:53.898Z - info: Using extension express@4.0.0
+2023-12-05T07:48:54.007Z - info: Using extension freeze@4.0.0
+2023-12-05T07:48:54.008Z - info: Using extension fs-store@4.0.1
+2023-12-05T07:48:54.056Z - info: Using extension handlebars@4.0.0
+2023-12-05T07:48:54.057Z - info: Using extension import-export@4.0.1
+2023-12-05T07:48:54.062Z - info: Using extension jsrender@4.0.0
+2023-12-05T07:48:54.062Z - info: Using extension licensing@4.0.0
+2023-12-05T07:48:54.072Z - info: Using extension localization@4.0.0
+2023-12-05T07:48:54.073Z - info: Using extension npm@4.0.0
+2023-12-05T07:48:54.074Z - info: Using extension pdf-utils@4.0.1
+2023-12-05T07:48:54.075Z - info: Using extension reports@4.0.0
+2023-12-05T07:48:54.076Z - info: Using extension tags@4.0.1
+2023-12-05T07:48:54.077Z - info: Using extension text@4.0.0
+2023-12-05T07:48:54.077Z - info: Using extension version-control@4.0.0
+2023-12-05T07:48:54.083Z - info: Using extension assets@4.0.1
+2023-12-05T07:48:54.089Z - info: Using extension authorization@4.0.0
+2023-12-05T07:48:54.090Z - info: Using extension browser-client@4.0.0
+2023-12-05T07:48:54.091Z - info: Using extension chrome-pdf@4.0.0
+2023-12-05T07:48:54.093Z - info: Using extension docx@4.0.1
+2023-12-05T07:48:54.093Z - info: Using extension html-to-xlsx@4.0.0
+2023-12-05T07:48:54.239Z - info: html-to-xlsx detected chrome as available html engine
+2023-12-05T07:48:54.239Z - info: Using extension pptx@4.0.1
+2023-12-05T07:48:54.240Z - info: Using extension scheduling@4.0.0
+2023-12-05T07:48:54.254Z - info: Using extension scripts@4.0.0
+2023-12-05T07:48:54.254Z - info: Using extension static-pdf@4.0.0
+2023-12-05T07:48:54.255Z - info: Using extension studio@4.0.1
+2023-12-05T07:48:54.299Z - info: Using extension xlsx@4.0.1
+2023-12-05T07:48:54.299Z - info: Using extension public-templates@4.0.0
+2023-12-05T07:48:54.300Z - info: Using extension sample-template@4.0.0
+2023-12-05T07:48:54.301Z - info: Using extension studio-theme-dark@4.0.0
+2023-12-05T07:48:54.301Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2023-12-05T07:48:54.301Z - info: Using fs provider for template store.
+2023-12-05T07:48:54.303Z - info: fs store is persisting using fs for /Users/lukamata/Projects/factory/PDF-JSR/jsreport/data
+2023-12-05T07:48:54.307Z - info: fs store is loading data
+2023-12-05T07:48:54.330Z - info: fs store is initialized successfully
+2023-12-05T07:48:54.340Z - info: Creating default express app.
+2023-12-05T07:48:54.352Z - info: jsreport server successfully started on http port: 5488
+2023-12-05T07:48:54.354Z - info: Verifying license key free
+2023-12-05T07:48:54.646Z - info: Starting one month enterprise trial
+2023-12-05T07:48:54.649Z - info: Initializing worker threads
+2023-12-05T07:48:55.002Z - info: 2 worker threads initialized in 353ms
+2023-12-05T07:48:55.003Z - info: Starting temp files cleanup with 180000ms threshold
+2023-12-05T07:48:55.003Z - info: reporter initialized
+2023-12-05T07:49:07.610Z - info: Render request 1 queued for execution and waiting for available worker rootId=uif9c6qaqollnjf, id=uif9c6qaqollnjf
+2023-12-05T07:49:07.665Z - info: Starting rendering request 1 rootId=uif9c6qaqollnjf, id=uif9c6qaqollnjf
+2023-12-05T07:49:07.665Z - info: Rendering template { name: pns_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=uif9c6qaqollnjf, id=uif9c6qaqollnjf
+2023-12-05T07:49:08.191Z - info: Rendering request 1 finished in 583 ms rootId=uif9c6qaqollnjf, id=uif9c6qaqollnjf
+2023-12-05T07:49:32.829Z - info: Render request 2 queued for execution and waiting for available worker rootId=50imrxlmr3mgjg6, id=50imrxlmr3mgjg6
+2023-12-05T07:49:32.877Z - info: Starting rendering request 2 rootId=50imrxlmr3mgjg6, id=50imrxlmr3mgjg6
+2023-12-05T07:49:32.878Z - info: Rendering template { name: pp_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=50imrxlmr3mgjg6, id=50imrxlmr3mgjg6
+2023-12-05T07:49:33.331Z - info: Rendering request 2 finished in 504 ms rootId=50imrxlmr3mgjg6, id=50imrxlmr3mgjg6
+2023-12-05T07:50:05.859Z - info: Render request 3 queued for execution and waiting for available worker rootId=6jrvucz34os54jb, id=6jrvucz34os54jb
+2023-12-05T07:50:05.881Z - info: Starting rendering request 3 rootId=6jrvucz34os54jb, id=6jrvucz34os54jb
+2023-12-05T07:50:05.882Z - info: Rendering template { name: pp_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=6jrvucz34os54jb, id=6jrvucz34os54jb
+2023-12-05T07:50:06.003Z - info: Rendering request 3 finished in 144 ms rootId=6jrvucz34os54jb, id=6jrvucz34os54jb
+2023-12-05T07:50:59.782Z - info: Render request 4 queued for execution and waiting for available worker rootId=ojoum3cmr1yv4i6, id=ojoum3cmr1yv4i6
+2023-12-05T07:50:59.805Z - info: Starting rendering request 4 rootId=ojoum3cmr1yv4i6, id=ojoum3cmr1yv4i6
+2023-12-05T07:50:59.805Z - info: Rendering template { name: pp_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=ojoum3cmr1yv4i6, id=ojoum3cmr1yv4i6
+2023-12-05T07:50:59.905Z - info: Rendering request 4 finished in 125 ms rootId=ojoum3cmr1yv4i6, id=ojoum3cmr1yv4i6
+2023-12-05T07:51:28.083Z - info: Render request 5 queued for execution and waiting for available worker rootId=z3q51wmvanngm8d, id=z3q51wmvanngm8d
+2023-12-05T07:51:28.105Z - info: Starting rendering request 5 rootId=z3q51wmvanngm8d, id=z3q51wmvanngm8d
+2023-12-05T07:51:28.105Z - info: Rendering template { name: pns_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=z3q51wmvanngm8d, id=z3q51wmvanngm8d
+2023-12-05T07:51:28.222Z - info: Rendering request 5 finished in 139 ms rootId=z3q51wmvanngm8d, id=z3q51wmvanngm8d
+2023-12-05T07:51:41.479Z - info: Render request 6 queued for execution and waiting for available worker rootId=j8abf0174igi5cy, id=j8abf0174igi5cy
+2023-12-05T07:51:41.502Z - info: Starting rendering request 6 rootId=j8abf0174igi5cy, id=j8abf0174igi5cy
+2023-12-05T07:51:41.502Z - info: Rendering template { name: pp_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=j8abf0174igi5cy, id=j8abf0174igi5cy
+2023-12-05T07:51:41.599Z - info: Rendering request 6 finished in 122 ms rootId=j8abf0174igi5cy, id=j8abf0174igi5cy
+2023-12-05T07:59:33.429Z - error: Error when processing OData PATCH: /odata/assets(Aa55QWiJE1qlRLa3) Error: Entity (_id: Aa55QWiJE1qlRLa3) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T08:04:04.340Z - info: Render request 7 queued for execution and waiting for available worker rootId=rrnfp2ggu6yk6qw, id=rrnfp2ggu6yk6qw
+2023-12-05T08:04:04.360Z - info: Starting rendering request 7 rootId=rrnfp2ggu6yk6qw, id=rrnfp2ggu6yk6qw
+2023-12-05T08:04:04.360Z - info: Rendering template { name: pp_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=rrnfp2ggu6yk6qw, id=rrnfp2ggu6yk6qw
+2023-12-05T08:04:04.472Z - info: Rendering request 7 finished in 134 ms rootId=rrnfp2ggu6yk6qw, id=rrnfp2ggu6yk6qw
+2023-12-05T08:04:16.538Z - error: Error when processing OData PATCH: /odata/assets(Aa55QWiJE1qlRLa3) Error: Entity (_id: Aa55QWiJE1qlRLa3) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T08:04:18.894Z - info: Render request 8 queued for execution and waiting for available worker rootId=ii1uugx2qlebcsd, id=ii1uugx2qlebcsd
+2023-12-05T08:04:18.912Z - info: Starting rendering request 8 rootId=ii1uugx2qlebcsd, id=ii1uugx2qlebcsd
+2023-12-05T08:04:18.913Z - info: Rendering template { name: pp_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=ii1uugx2qlebcsd, id=ii1uugx2qlebcsd
+2023-12-05T08:04:19.032Z - info: Rendering request 8 finished in 139 ms rootId=ii1uugx2qlebcsd, id=ii1uugx2qlebcsd
+2023-12-05T08:04:35.034Z - error: Error when processing OData PATCH: /odata/assets(Aa55QWiJE1qlRLa3) Error: Entity (_id: Aa55QWiJE1qlRLa3) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T08:04:37.251Z - info: Render request 9 queued for execution and waiting for available worker rootId=6tnz2069ge56ykc, id=6tnz2069ge56ykc
+2023-12-05T08:04:37.272Z - info: Starting rendering request 9 rootId=6tnz2069ge56ykc, id=6tnz2069ge56ykc
+2023-12-05T08:04:37.273Z - info: Rendering template { name: pp_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=6tnz2069ge56ykc, id=6tnz2069ge56ykc
+2023-12-05T08:04:37.384Z - info: Rendering request 9 finished in 136 ms rootId=6tnz2069ge56ykc, id=6tnz2069ge56ykc
+2023-12-05T08:04:48.463Z - error: Error when processing OData PATCH: /odata/assets(Aa55QWiJE1qlRLa3) Error: Entity (_id: Aa55QWiJE1qlRLa3) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T08:04:50.635Z - info: Render request 10 queued for execution and waiting for available worker rootId=rmtzd2qsyefzow5, id=rmtzd2qsyefzow5
+2023-12-05T08:04:50.659Z - info: Starting rendering request 10 rootId=rmtzd2qsyefzow5, id=rmtzd2qsyefzow5
+2023-12-05T08:04:50.659Z - info: Rendering template { name: pp_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=rmtzd2qsyefzow5, id=rmtzd2qsyefzow5
+2023-12-05T08:04:50.766Z - info: Rendering request 10 finished in 133 ms rootId=rmtzd2qsyefzow5, id=rmtzd2qsyefzow5
+2023-12-05T08:05:13.699Z - error: Error when processing OData PATCH: /odata/assets(Aa55QWiJE1qlRLa3) Error: Entity (_id: Aa55QWiJE1qlRLa3) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T08:05:20.546Z - error: Error when processing OData PATCH: /odata/assets(Aa55QWiJE1qlRLa3) Error: Entity (_id: Aa55QWiJE1qlRLa3) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T08:05:26.170Z - error: Error when processing OData PATCH: /odata/assets(Aa55QWiJE1qlRLa3) Error: Entity (_id: Aa55QWiJE1qlRLa3) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T08:05:34.017Z - error: Error when processing OData PATCH: /odata/assets(Aa55QWiJE1qlRLa3) Error: Entity (_id: Aa55QWiJE1qlRLa3) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T08:05:36.202Z - info: Render request 11 queued for execution and waiting for available worker rootId=oe2q8n9ba1ud63x, id=oe2q8n9ba1ud63x
+2023-12-05T08:05:36.226Z - info: Starting rendering request 11 rootId=oe2q8n9ba1ud63x, id=oe2q8n9ba1ud63x
+2023-12-05T08:05:36.226Z - info: Rendering template { name: pp_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=oe2q8n9ba1ud63x, id=oe2q8n9ba1ud63x
+2023-12-05T08:05:36.334Z - info: Rendering request 11 finished in 132 ms rootId=oe2q8n9ba1ud63x, id=oe2q8n9ba1ud63x
+2023-12-05T08:06:39.208Z - error: Error when processing OData PATCH: /odata/assets(Aa55QWiJE1qlRLa3) Error: Entity (_id: Aa55QWiJE1qlRLa3) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T08:06:58.771Z - error: Error when processing OData PATCH: /odata/assets(Aa55QWiJE1qlRLa3) Error: Entity (_id: Aa55QWiJE1qlRLa3) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T08:07:01.077Z - info: Render request 12 queued for execution and waiting for available worker rootId=ivawscq9kvtddwc, id=ivawscq9kvtddwc
+2023-12-05T08:07:01.097Z - info: Starting rendering request 12 rootId=ivawscq9kvtddwc, id=ivawscq9kvtddwc
+2023-12-05T08:07:01.097Z - info: Rendering template { name: pp_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=ivawscq9kvtddwc, id=ivawscq9kvtddwc
+2023-12-05T08:07:01.210Z - info: Rendering request 12 finished in 135 ms rootId=ivawscq9kvtddwc, id=ivawscq9kvtddwc
+2023-12-05T08:07:34.511Z - error: Error when processing OData PATCH: /odata/assets(Aa55QWiJE1qlRLa3) Error: Entity (_id: Aa55QWiJE1qlRLa3) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T08:07:39.843Z - error: Error when processing OData PATCH: /odata/assets(Aa55QWiJE1qlRLa3) Error: Entity (_id: Aa55QWiJE1qlRLa3) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T08:07:45.719Z - error: Error when processing OData PATCH: /odata/assets(Aa55QWiJE1qlRLa3) Error: Entity (_id: Aa55QWiJE1qlRLa3) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T08:07:49.068Z - error: Error when processing OData PATCH: /odata/assets(Aa55QWiJE1qlRLa3) Error: Entity (_id: Aa55QWiJE1qlRLa3) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T08:07:54.758Z - error: Error when processing OData PATCH: /odata/assets(Aa55QWiJE1qlRLa3) Error: Entity (_id: Aa55QWiJE1qlRLa3) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T08:07:58.662Z - error: Error when processing OData PATCH: /odata/assets(Aa55QWiJE1qlRLa3) Error: Entity (_id: Aa55QWiJE1qlRLa3) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T08:08:04.505Z - error: Error when processing OData PATCH: /odata/assets(Aa55QWiJE1qlRLa3) Error: Entity (_id: Aa55QWiJE1qlRLa3) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T08:08:13.130Z - error: Error when processing OData PATCH: /odata/assets(Aa55QWiJE1qlRLa3) Error: Entity (_id: Aa55QWiJE1qlRLa3) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T08:08:15.446Z - error: Error when processing OData PATCH: /odata/assets(Aa55QWiJE1qlRLa3) Error: Entity (_id: Aa55QWiJE1qlRLa3) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T08:08:20.445Z - error: Error when processing OData PATCH: /odata/assets(Aa55QWiJE1qlRLa3) Error: Entity (_id: Aa55QWiJE1qlRLa3) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T08:08:26.691Z - error: Error when processing OData PATCH: /odata/assets(Aa55QWiJE1qlRLa3) Error: Entity (_id: Aa55QWiJE1qlRLa3) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T08:09:54.273Z - error: Error when processing OData PATCH: /odata/assets(Aa55QWiJE1qlRLa3) Error: Entity (_id: Aa55QWiJE1qlRLa3) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T08:10:03.093Z - info: Render request 13 queued for execution and waiting for available worker rootId=adew6utpkhqu4rh, id=adew6utpkhqu4rh
+2023-12-05T08:10:03.115Z - info: Starting rendering request 13 rootId=adew6utpkhqu4rh, id=adew6utpkhqu4rh
+2023-12-05T08:10:03.115Z - info: Rendering template { name: pp_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=adew6utpkhqu4rh, id=adew6utpkhqu4rh
+2023-12-05T08:10:03.227Z - info: Rendering request 13 finished in 134 ms rootId=adew6utpkhqu4rh, id=adew6utpkhqu4rh
+2023-12-05T08:10:25.798Z - error: Error when processing OData PATCH: /odata/assets(Aa55QWiJE1qlRLa3) Error: Entity (_id: Aa55QWiJE1qlRLa3) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T08:10:28.277Z - info: Render request 14 queued for execution and waiting for available worker rootId=562a0p9hhbj8urc, id=562a0p9hhbj8urc
+2023-12-05T08:10:28.303Z - info: Starting rendering request 14 rootId=562a0p9hhbj8urc, id=562a0p9hhbj8urc
+2023-12-05T08:10:28.303Z - info: Rendering template { name: pp_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=562a0p9hhbj8urc, id=562a0p9hhbj8urc
+2023-12-05T08:10:28.410Z - info: Rendering request 14 finished in 135 ms rootId=562a0p9hhbj8urc, id=562a0p9hhbj8urc
+2023-12-05T08:10:36.714Z - error: Error when processing OData PATCH: /odata/assets(Aa55QWiJE1qlRLa3) Error: Entity (_id: Aa55QWiJE1qlRLa3) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T08:16:16.013Z - info: Render request 15 queued for execution and waiting for available worker rootId=r9y3ciulqnk0nad, id=r9y3ciulqnk0nad
+2023-12-05T08:16:16.031Z - info: Starting rendering request 15 rootId=r9y3ciulqnk0nad, id=r9y3ciulqnk0nad
+2023-12-05T08:16:16.031Z - info: Rendering template { name: pp_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=r9y3ciulqnk0nad, id=r9y3ciulqnk0nad
+2023-12-05T08:16:16.140Z - info: Rendering request 15 finished in 127 ms rootId=r9y3ciulqnk0nad, id=r9y3ciulqnk0nad
+2023-12-05T08:17:44.350Z - info: Initializing jsreport (version: 4.1.0, configuration file: jsreport.config.json, nodejs: 18.18.0)
+2023-12-05T08:17:44.351Z - info: Searching for available extensions in /Users/lukamata/Projects/factory/PDF-JSR/jsreport/
+2023-12-05T08:17:44.355Z - info: Extensions location cache contains up to date information, skipping crawling in /Users/lukamata/Projects/factory/PDF-JSR/jsreport/
+2023-12-05T08:17:44.366Z - info: Found 35 extension(s)
+2023-12-05T08:17:44.403Z - info: Using extension base@4.0.0
+2023-12-05T08:17:44.406Z - info: Using extension child-templates@4.0.0
+2023-12-05T08:17:44.408Z - info: Using extension cli@4.0.1
+2023-12-05T08:17:44.410Z - info: Using extension components@4.0.0
+2023-12-05T08:17:44.411Z - info: Using extension data@4.0.0
+2023-12-05T08:17:44.411Z - info: Using extension express@4.0.0
+2023-12-05T08:17:44.513Z - info: Using extension freeze@4.0.0
+2023-12-05T08:17:44.514Z - info: Using extension fs-store@4.0.1
+2023-12-05T08:17:44.561Z - info: Using extension handlebars@4.0.0
+2023-12-05T08:17:44.562Z - info: Using extension import-export@4.0.1
+2023-12-05T08:17:44.566Z - info: Using extension jsrender@4.0.0
+2023-12-05T08:17:44.567Z - info: Using extension licensing@4.0.0
+2023-12-05T08:17:44.575Z - info: Using extension localization@4.0.0
+2023-12-05T08:17:44.575Z - info: Using extension npm@4.0.0
+2023-12-05T08:17:44.578Z - info: Using extension pdf-utils@4.0.1
+2023-12-05T08:17:44.579Z - info: Using extension reports@4.0.0
+2023-12-05T08:17:44.580Z - info: Using extension tags@4.0.1
+2023-12-05T08:17:44.581Z - info: Using extension text@4.0.0
+2023-12-05T08:17:44.582Z - info: Using extension version-control@4.0.0
+2023-12-05T08:17:44.587Z - info: Using extension assets@4.0.1
+2023-12-05T08:17:44.592Z - info: Using extension authorization@4.0.0
+2023-12-05T08:17:44.594Z - info: Using extension browser-client@4.0.0
+2023-12-05T08:17:44.595Z - info: Using extension chrome-pdf@4.0.0
+2023-12-05T08:17:44.596Z - info: Using extension docx@4.0.1
+2023-12-05T08:17:44.597Z - info: Using extension html-to-xlsx@4.0.0
+2023-12-05T08:17:44.743Z - info: html-to-xlsx detected chrome as available html engine
+2023-12-05T08:17:44.743Z - info: Using extension pptx@4.0.1
+2023-12-05T08:17:44.744Z - info: Using extension scheduling@4.0.0
+2023-12-05T08:17:44.758Z - info: Using extension scripts@4.0.0
+2023-12-05T08:17:44.758Z - info: Using extension static-pdf@4.0.0
+2023-12-05T08:17:44.758Z - info: Using extension studio@4.0.1
+2023-12-05T08:17:44.806Z - info: Using extension xlsx@4.0.1
+2023-12-05T08:17:44.806Z - info: Using extension public-templates@4.0.0
+2023-12-05T08:17:44.807Z - info: Using extension sample-template@4.0.0
+2023-12-05T08:17:44.808Z - info: Using extension studio-theme-dark@4.0.0
+2023-12-05T08:17:44.808Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2023-12-05T08:17:44.808Z - info: Using fs provider for template store.
+2023-12-05T08:17:44.810Z - info: fs store is persisting using fs for /Users/lukamata/Projects/factory/PDF-JSR/jsreport/data
+2023-12-05T08:17:44.812Z - info: fs store is loading data
+2023-12-05T08:17:44.843Z - info: fs store is initialized successfully
+2023-12-05T08:17:44.858Z - info: Creating default express app.
+2023-12-05T08:17:44.869Z - info: jsreport server successfully started on http port: 5488
+2023-12-05T08:17:44.871Z - info: Verifying license key free
+2023-12-05T08:17:45.186Z - info: Using enterprise trial license
+2023-12-05T08:17:45.191Z - info: Initializing worker threads
+2023-12-05T08:17:45.557Z - info: 2 worker threads initialized in 366ms
+2023-12-05T08:17:45.557Z - info: Starting temp files cleanup with 180000ms threshold
+2023-12-05T08:17:45.557Z - info: reporter initialized
+2023-12-05T08:18:00.875Z - info: Render request 1 queued for execution and waiting for available worker rootId=9gjwnmbts6mpd1f, id=9gjwnmbts6mpd1f
+2023-12-05T08:18:00.926Z - info: Starting rendering request 1 rootId=9gjwnmbts6mpd1f, id=9gjwnmbts6mpd1f
+2023-12-05T08:18:00.926Z - info: Rendering template { name: pp_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=9gjwnmbts6mpd1f, id=9gjwnmbts6mpd1f
+2023-12-05T08:18:01.465Z - info: Rendering request 1 finished in 592 ms rootId=9gjwnmbts6mpd1f, id=9gjwnmbts6mpd1f
+2023-12-05T08:18:51.563Z - info: Render request 2 queued for execution and waiting for available worker rootId=0v11eqxvuajli7j, id=0v11eqxvuajli7j
+2023-12-05T08:18:51.610Z - info: Starting rendering request 2 rootId=0v11eqxvuajli7j, id=0v11eqxvuajli7j
+2023-12-05T08:18:51.611Z - info: Rendering template { name: pp_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=0v11eqxvuajli7j, id=0v11eqxvuajli7j
+2023-12-05T08:18:52.071Z - info: Rendering request 2 finished in 509 ms rootId=0v11eqxvuajli7j, id=0v11eqxvuajli7j
+2023-12-05T08:19:42.980Z - error: Error when processing OData PATCH: /odata/assets(Aa55QWiJE1qlRLa3) Error: Entity (_id: Aa55QWiJE1qlRLa3) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T08:19:45.447Z - info: Render request 3 queued for execution and waiting for available worker rootId=7igrmbk2gw2z3zu, id=7igrmbk2gw2z3zu
+2023-12-05T08:19:45.462Z - info: Starting rendering request 3 rootId=7igrmbk2gw2z3zu, id=7igrmbk2gw2z3zu
+2023-12-05T08:19:45.463Z - info: Rendering template { name: pp_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=7igrmbk2gw2z3zu, id=7igrmbk2gw2z3zu
+2023-12-05T08:19:45.572Z - info: Rendering request 3 finished in 126 ms rootId=7igrmbk2gw2z3zu, id=7igrmbk2gw2z3zu
+2023-12-05T08:21:45.029Z - info: Render request 4 queued for execution and waiting for available worker rootId=1tg6qcii3mb999g, id=1tg6qcii3mb999g
+2023-12-05T08:21:45.046Z - info: Starting rendering request 4 rootId=1tg6qcii3mb999g, id=1tg6qcii3mb999g
+2023-12-05T08:21:45.046Z - info: Rendering template { name: pp_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=1tg6qcii3mb999g, id=1tg6qcii3mb999g
+2023-12-05T08:21:45.153Z - info: Rendering request 4 finished in 125 ms rootId=1tg6qcii3mb999g, id=1tg6qcii3mb999g
+2023-12-05T08:22:04.876Z - info: Render request 5 queued for execution and waiting for available worker rootId=dsxw1f27ic7p61r, id=dsxw1f27ic7p61r
+2023-12-05T08:22:04.882Z - info: Starting rendering request 5 rootId=dsxw1f27ic7p61r, id=dsxw1f27ic7p61r
+2023-12-05T08:22:04.882Z - info: Rendering template { name: pp_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=dsxw1f27ic7p61r, id=dsxw1f27ic7p61r
+2023-12-05T08:22:04.981Z - info: Rendering request 5 finished in 106 ms rootId=dsxw1f27ic7p61r, id=dsxw1f27ic7p61r
+2023-12-05T08:22:14.308Z - info: Render request 6 queued for execution and waiting for available worker rootId=0vurelxsc3gende, id=0vurelxsc3gende
+2023-12-05T08:22:14.326Z - info: Starting rendering request 6 rootId=0vurelxsc3gende, id=0vurelxsc3gende
+2023-12-05T08:22:14.326Z - info: Rendering template { name: pp_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=0vurelxsc3gende, id=0vurelxsc3gende
+2023-12-05T08:22:14.424Z - info: Rendering request 6 finished in 116 ms rootId=0vurelxsc3gende, id=0vurelxsc3gende
+2023-12-05T08:22:39.171Z - error: Error when processing OData PATCH: /odata/assets(Aa55QWiJE1qlRLa3) Error: Entity (_id: Aa55QWiJE1qlRLa3) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T08:22:42.172Z - info: Render request 7 queued for execution and waiting for available worker rootId=9vdo53wdzdkwip1, id=9vdo53wdzdkwip1
+2023-12-05T08:22:42.187Z - info: Starting rendering request 7 rootId=9vdo53wdzdkwip1, id=9vdo53wdzdkwip1
+2023-12-05T08:22:42.188Z - info: Rendering template { name: pp_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=9vdo53wdzdkwip1, id=9vdo53wdzdkwip1
+2023-12-05T08:22:42.292Z - info: Rendering request 7 finished in 121 ms rootId=9vdo53wdzdkwip1, id=9vdo53wdzdkwip1
+2023-12-05T08:22:47.846Z - error: Error when processing OData PATCH: /odata/assets(Aa55QWiJE1qlRLa3) Error: Entity (_id: Aa55QWiJE1qlRLa3) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T08:22:51.249Z - info: Render request 8 queued for execution and waiting for available worker rootId=z6ydso640v0y08q, id=z6ydso640v0y08q
+2023-12-05T08:22:51.263Z - info: Starting rendering request 8 rootId=z6ydso640v0y08q, id=z6ydso640v0y08q
+2023-12-05T08:22:51.263Z - info: Rendering template { name: pp_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=z6ydso640v0y08q, id=z6ydso640v0y08q
+2023-12-05T08:22:51.363Z - info: Rendering request 8 finished in 116 ms rootId=z6ydso640v0y08q, id=z6ydso640v0y08q
+2023-12-05T08:22:51.593Z - info: Render request 9 queued for execution and waiting for available worker rootId=qvydoahekk9td68, id=qvydoahekk9td68
+2023-12-05T08:22:51.605Z - info: Starting rendering request 9 rootId=qvydoahekk9td68, id=qvydoahekk9td68
+2023-12-05T08:22:51.606Z - info: Rendering template { name: pp_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=qvydoahekk9td68, id=qvydoahekk9td68
+2023-12-05T08:22:51.710Z - info: Rendering request 9 finished in 118 ms rootId=qvydoahekk9td68, id=qvydoahekk9td68
+2023-12-05T08:23:49.768Z - info: Render request 10 queued for execution and waiting for available worker rootId=d56icw2q5o2rnte, id=d56icw2q5o2rnte
+2023-12-05T08:23:49.786Z - info: Starting rendering request 10 rootId=d56icw2q5o2rnte, id=d56icw2q5o2rnte
+2023-12-05T08:23:49.787Z - info: Rendering template { name: pp_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=d56icw2q5o2rnte, id=d56icw2q5o2rnte
+2023-12-05T08:23:49.891Z - info: Rendering request 10 finished in 124 ms rootId=d56icw2q5o2rnte, id=d56icw2q5o2rnte
+2023-12-05T08:23:55.924Z - info: Render request 11 queued for execution and waiting for available worker rootId=o0ols1rr8bjel7c, id=o0ols1rr8bjel7c
+2023-12-05T08:23:55.935Z - info: Starting rendering request 11 rootId=o0ols1rr8bjel7c, id=o0ols1rr8bjel7c
+2023-12-05T08:23:55.943Z - info: Rendering template { name: pp_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=o0ols1rr8bjel7c, id=o0ols1rr8bjel7c
+2023-12-05T08:23:56.049Z - info: Rendering request 11 finished in 127 ms rootId=o0ols1rr8bjel7c, id=o0ols1rr8bjel7c
+2023-12-05T08:24:04.785Z - info: Render request 12 queued for execution and waiting for available worker rootId=f84ppkuuffs8mev, id=f84ppkuuffs8mev
+2023-12-05T08:24:04.809Z - info: Starting rendering request 12 rootId=f84ppkuuffs8mev, id=f84ppkuuffs8mev
+2023-12-05T08:24:04.809Z - info: Rendering template { name: pp_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=f84ppkuuffs8mev, id=f84ppkuuffs8mev
+2023-12-05T08:24:04.909Z - info: Rendering request 12 finished in 124 ms rootId=f84ppkuuffs8mev, id=f84ppkuuffs8mev
+2023-12-05T08:24:22.691Z - info: Render request 13 queued for execution and waiting for available worker rootId=iix4jia30zknyor, id=iix4jia30zknyor
+2023-12-05T08:24:22.700Z - info: Starting rendering request 13 rootId=iix4jia30zknyor, id=iix4jia30zknyor
+2023-12-05T08:24:22.700Z - info: Rendering template { name: pp_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=iix4jia30zknyor, id=iix4jia30zknyor
+2023-12-05T08:24:22.807Z - info: Rendering request 13 finished in 118 ms rootId=iix4jia30zknyor, id=iix4jia30zknyor
+2023-12-05T08:24:42.699Z - error: Error when processing OData PATCH: /odata/assets(Aa55QWiJE1qlRLa3) Error: Entity (_id: Aa55QWiJE1qlRLa3) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T08:24:44.688Z - info: Render request 14 queued for execution and waiting for available worker rootId=zlajrbtvp9hk0y5, id=zlajrbtvp9hk0y5
+2023-12-05T08:24:44.710Z - info: Starting rendering request 14 rootId=zlajrbtvp9hk0y5, id=zlajrbtvp9hk0y5
+2023-12-05T08:24:44.710Z - info: Rendering template { name: pp_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=zlajrbtvp9hk0y5, id=zlajrbtvp9hk0y5
+2023-12-05T08:24:44.811Z - info: Rendering request 14 finished in 124 ms rootId=zlajrbtvp9hk0y5, id=zlajrbtvp9hk0y5
+2023-12-05T08:25:11.540Z - error: Error when processing OData PATCH: /odata/assets(Aa55QWiJE1qlRLa3) Error: Entity (_id: Aa55QWiJE1qlRLa3) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T08:25:14.915Z - info: Render request 15 queued for execution and waiting for available worker rootId=8gao12mhvuxtuzj, id=8gao12mhvuxtuzj
+2023-12-05T08:25:14.936Z - info: Starting rendering request 15 rootId=8gao12mhvuxtuzj, id=8gao12mhvuxtuzj
+2023-12-05T08:25:14.937Z - info: Rendering template { name: pp_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=8gao12mhvuxtuzj, id=8gao12mhvuxtuzj
+2023-12-05T08:25:15.045Z - info: Rendering request 15 finished in 131 ms rootId=8gao12mhvuxtuzj, id=8gao12mhvuxtuzj
+2023-12-05T08:25:17.016Z - info: Render request 16 queued for execution and waiting for available worker rootId=pp2schi90yj1c9s, id=pp2schi90yj1c9s
+2023-12-05T08:25:17.042Z - info: Starting rendering request 16 rootId=pp2schi90yj1c9s, id=pp2schi90yj1c9s
+2023-12-05T08:25:17.042Z - info: Rendering template { name: pp_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=pp2schi90yj1c9s, id=pp2schi90yj1c9s
+2023-12-05T08:25:17.149Z - info: Rendering request 16 finished in 134 ms rootId=pp2schi90yj1c9s, id=pp2schi90yj1c9s
+2023-12-05T08:25:23.453Z - info: Render request 17 queued for execution and waiting for available worker rootId=oiialfpsjemr2ym, id=oiialfpsjemr2ym
+2023-12-05T08:25:23.473Z - info: Starting rendering request 17 rootId=oiialfpsjemr2ym, id=oiialfpsjemr2ym
+2023-12-05T08:25:23.473Z - info: Rendering template { name: pp_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=oiialfpsjemr2ym, id=oiialfpsjemr2ym
+2023-12-05T08:25:23.577Z - info: Rendering request 17 finished in 126 ms rootId=oiialfpsjemr2ym, id=oiialfpsjemr2ym
+2023-12-05T08:25:33.381Z - info: Render request 18 queued for execution and waiting for available worker rootId=tac3mcg3k1efewu, id=tac3mcg3k1efewu
+2023-12-05T08:25:33.401Z - info: Starting rendering request 18 rootId=tac3mcg3k1efewu, id=tac3mcg3k1efewu
+2023-12-05T08:25:33.401Z - info: Rendering template { name: pp_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=tac3mcg3k1efewu, id=tac3mcg3k1efewu
+2023-12-05T08:25:33.500Z - info: Rendering request 18 finished in 120 ms rootId=tac3mcg3k1efewu, id=tac3mcg3k1efewu
+2023-12-05T08:25:43.847Z - info: Render request 19 queued for execution and waiting for available worker rootId=iz7gwp8w736ewg6, id=iz7gwp8w736ewg6
+2023-12-05T08:25:43.870Z - info: Starting rendering request 19 rootId=iz7gwp8w736ewg6, id=iz7gwp8w736ewg6
+2023-12-05T08:25:43.870Z - info: Rendering template { name: pp_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=iz7gwp8w736ewg6, id=iz7gwp8w736ewg6
+2023-12-05T08:25:43.972Z - info: Rendering request 19 finished in 126 ms rootId=iz7gwp8w736ewg6, id=iz7gwp8w736ewg6
+2023-12-05T08:25:51.015Z - info: Render request 20 queued for execution and waiting for available worker rootId=wx03j49y0eq3cjo, id=wx03j49y0eq3cjo
+2023-12-05T08:25:51.042Z - info: Starting rendering request 20 rootId=wx03j49y0eq3cjo, id=wx03j49y0eq3cjo
+2023-12-05T08:25:51.042Z - info: Rendering template { name: pp_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=wx03j49y0eq3cjo, id=wx03j49y0eq3cjo
+2023-12-05T08:25:51.148Z - info: Rendering request 20 finished in 134 ms rootId=wx03j49y0eq3cjo, id=wx03j49y0eq3cjo
+2023-12-05T08:26:03.952Z - info: Render request 21 queued for execution and waiting for available worker rootId=vppxhi7cika9zf3, id=vppxhi7cika9zf3
+2023-12-05T08:26:03.957Z - info: Starting rendering request 21 rootId=vppxhi7cika9zf3, id=vppxhi7cika9zf3
+2023-12-05T08:26:03.957Z - info: Rendering template { name: pp_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=vppxhi7cika9zf3, id=vppxhi7cika9zf3
+2023-12-05T08:26:04.035Z - info: Rendering request 21 finished in 82 ms rootId=vppxhi7cika9zf3, id=vppxhi7cika9zf3
+2023-12-05T08:26:22.819Z - info: Render request 22 queued for execution and waiting for available worker rootId=6nototwkevoff1o, id=6nototwkevoff1o
+2023-12-05T08:26:22.836Z - info: Starting rendering request 22 rootId=6nototwkevoff1o, id=6nototwkevoff1o
+2023-12-05T08:26:22.836Z - info: Rendering template { name: pp_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=6nototwkevoff1o, id=6nototwkevoff1o
+2023-12-05T08:26:22.947Z - info: Rendering request 22 finished in 128 ms rootId=6nototwkevoff1o, id=6nototwkevoff1o
+2023-12-05T08:26:37.537Z - info: Render request 23 queued for execution and waiting for available worker rootId=jar5drgi08qeqe9, id=jar5drgi08qeqe9
+2023-12-05T08:26:37.562Z - info: Starting rendering request 23 rootId=jar5drgi08qeqe9, id=jar5drgi08qeqe9
+2023-12-05T08:26:37.562Z - info: Rendering template { name: pp_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=jar5drgi08qeqe9, id=jar5drgi08qeqe9
+2023-12-05T08:26:37.665Z - info: Rendering request 23 finished in 129 ms rootId=jar5drgi08qeqe9, id=jar5drgi08qeqe9
+2023-12-05T08:27:04.540Z - error: Error when processing OData PATCH: /odata/assets(Aa55QWiJE1qlRLa3) Error: Entity (_id: Aa55QWiJE1qlRLa3) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T08:27:07.168Z - info: Render request 24 queued for execution and waiting for available worker rootId=3ae8jao9mdj5ez3, id=3ae8jao9mdj5ez3
+2023-12-05T08:27:07.184Z - info: Starting rendering request 24 rootId=3ae8jao9mdj5ez3, id=3ae8jao9mdj5ez3
+2023-12-05T08:27:07.185Z - info: Rendering template { name: pp_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=3ae8jao9mdj5ez3, id=3ae8jao9mdj5ez3
+2023-12-05T08:27:07.299Z - info: Rendering request 24 finished in 131 ms rootId=3ae8jao9mdj5ez3, id=3ae8jao9mdj5ez3
+2023-12-05T08:27:16.769Z - info: Render request 25 queued for execution and waiting for available worker rootId=7ip1iz57nxrli8s, id=7ip1iz57nxrli8s
+2023-12-05T08:27:16.776Z - info: Starting rendering request 25 rootId=7ip1iz57nxrli8s, id=7ip1iz57nxrli8s
+2023-12-05T08:27:16.776Z - info: Rendering template { name: pp_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=7ip1iz57nxrli8s, id=7ip1iz57nxrli8s
+2023-12-05T08:27:16.872Z - info: Rendering request 25 finished in 102 ms rootId=7ip1iz57nxrli8s, id=7ip1iz57nxrli8s
+2023-12-05T08:27:34.299Z - error: Error when processing OData PATCH: /odata/assets(Aa55QWiJE1qlRLa3) Error: Entity (_id: Aa55QWiJE1qlRLa3) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T08:27:36.581Z - info: Render request 26 queued for execution and waiting for available worker rootId=6mblat4djfk17u3, id=6mblat4djfk17u3
+2023-12-05T08:27:36.598Z - info: Starting rendering request 26 rootId=6mblat4djfk17u3, id=6mblat4djfk17u3
+2023-12-05T08:27:36.599Z - info: Rendering template { name: pp_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=6mblat4djfk17u3, id=6mblat4djfk17u3
+2023-12-05T08:27:36.705Z - info: Rendering request 26 finished in 125 ms rootId=6mblat4djfk17u3, id=6mblat4djfk17u3
+2023-12-05T08:28:26.294Z - error: Error when processing OData PATCH: /odata/assets(Aa55QWiJE1qlRLa3) Error: Entity (_id: Aa55QWiJE1qlRLa3) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T08:28:28.807Z - info: Render request 27 queued for execution and waiting for available worker rootId=qbitpggx300ep0r, id=qbitpggx300ep0r
+2023-12-05T08:28:28.820Z - info: Starting rendering request 27 rootId=qbitpggx300ep0r, id=qbitpggx300ep0r
+2023-12-05T08:28:28.820Z - info: Rendering template { name: pp_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=qbitpggx300ep0r, id=qbitpggx300ep0r
+2023-12-05T08:28:28.932Z - info: Rendering request 27 finished in 125 ms rootId=qbitpggx300ep0r, id=qbitpggx300ep0r
+2023-12-05T08:28:38.285Z - error: Error when processing OData PATCH: /odata/assets(Aa55QWiJE1qlRLa3) Error: Entity (_id: Aa55QWiJE1qlRLa3) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T08:28:43.199Z - info: Render request 28 queued for execution and waiting for available worker rootId=ci2pa76mpcytym7, id=ci2pa76mpcytym7
+2023-12-05T08:28:43.218Z - info: Starting rendering request 28 rootId=ci2pa76mpcytym7, id=ci2pa76mpcytym7
+2023-12-05T08:28:43.218Z - info: Rendering template { name: pp_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=ci2pa76mpcytym7, id=ci2pa76mpcytym7
+2023-12-05T08:28:43.326Z - info: Rendering request 28 finished in 129 ms rootId=ci2pa76mpcytym7, id=ci2pa76mpcytym7
+2023-12-05T08:29:29.596Z - info: Render request 29 queued for execution and waiting for available worker rootId=ucyhydnh6scybvh, id=ucyhydnh6scybvh
+2023-12-05T08:29:29.616Z - info: Starting rendering request 29 rootId=ucyhydnh6scybvh, id=ucyhydnh6scybvh
+2023-12-05T08:29:29.616Z - info: Rendering template { name: pp_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=ucyhydnh6scybvh, id=ucyhydnh6scybvh
+2023-12-05T08:29:29.721Z - info: Rendering request 29 finished in 127 ms rootId=ucyhydnh6scybvh, id=ucyhydnh6scybvh
+2023-12-05T08:29:58.943Z - error: Error when processing OData PATCH: /odata/assets(Aa55QWiJE1qlRLa3) Error: Entity (_id: Aa55QWiJE1qlRLa3) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T08:30:01.777Z - info: Render request 30 queued for execution and waiting for available worker rootId=vsu9ezdgyrh0q37, id=vsu9ezdgyrh0q37
+2023-12-05T08:30:01.795Z - info: Starting rendering request 30 rootId=vsu9ezdgyrh0q37, id=vsu9ezdgyrh0q37
+2023-12-05T08:30:01.795Z - info: Rendering template { name: pp_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=vsu9ezdgyrh0q37, id=vsu9ezdgyrh0q37
+2023-12-05T08:30:01.900Z - info: Rendering request 30 finished in 124 ms rootId=vsu9ezdgyrh0q37, id=vsu9ezdgyrh0q37
+2023-12-05T08:30:22.050Z - error: Error when processing OData PATCH: /odata/assets(Aa55QWiJE1qlRLa3) Error: Entity (_id: Aa55QWiJE1qlRLa3) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T08:30:31.006Z - error: Error when processing OData PATCH: /odata/assets(Aa55QWiJE1qlRLa3) Error: Entity (_id: Aa55QWiJE1qlRLa3) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T08:30:36.151Z - info: Render request 31 queued for execution and waiting for available worker rootId=4rfuj2xe4ynt2qj, id=4rfuj2xe4ynt2qj
+2023-12-05T08:30:36.172Z - info: Starting rendering request 31 rootId=4rfuj2xe4ynt2qj, id=4rfuj2xe4ynt2qj
+2023-12-05T08:30:36.172Z - info: Rendering template { name: pp_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=4rfuj2xe4ynt2qj, id=4rfuj2xe4ynt2qj
+2023-12-05T08:30:36.275Z - info: Rendering request 31 finished in 125 ms rootId=4rfuj2xe4ynt2qj, id=4rfuj2xe4ynt2qj
+2023-12-05T08:31:01.052Z - info: Render request 32 queued for execution and waiting for available worker rootId=pklrquabb5bogje, id=pklrquabb5bogje
+2023-12-05T08:31:01.079Z - info: Starting rendering request 32 rootId=pklrquabb5bogje, id=pklrquabb5bogje
+2023-12-05T08:31:01.080Z - info: Rendering template { name: pp_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=pklrquabb5bogje, id=pklrquabb5bogje
+2023-12-05T08:31:01.172Z - info: Rendering request 32 finished in 122 ms rootId=pklrquabb5bogje, id=pklrquabb5bogje
+2023-12-05T08:42:57.378Z - error: Error when processing OData PATCH: /odata/assets(Aa55QWiJE1qlRLa3) Error: Entity (_id: Aa55QWiJE1qlRLa3) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T08:42:59.970Z - info: Render request 33 queued for execution and waiting for available worker rootId=pdt3hcl22f5cs1m, id=pdt3hcl22f5cs1m
+2023-12-05T08:42:59.996Z - info: Starting rendering request 33 rootId=pdt3hcl22f5cs1m, id=pdt3hcl22f5cs1m
+2023-12-05T08:42:59.996Z - info: Rendering template { name: pp_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=pdt3hcl22f5cs1m, id=pdt3hcl22f5cs1m
+2023-12-05T08:43:00.305Z - info: Rendering request 33 finished in 336 ms rootId=pdt3hcl22f5cs1m, id=pdt3hcl22f5cs1m
+2023-12-05T08:43:10.969Z - info: Render request 34 queued for execution and waiting for available worker rootId=a02p4r1llcdqdwz, id=a02p4r1llcdqdwz
+2023-12-05T08:43:10.985Z - info: Starting rendering request 34 rootId=a02p4r1llcdqdwz, id=a02p4r1llcdqdwz
+2023-12-05T08:43:10.985Z - info: Rendering template { name: pp_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=a02p4r1llcdqdwz, id=a02p4r1llcdqdwz
+2023-12-05T08:43:11.221Z - info: Rendering request 34 finished in 252 ms rootId=a02p4r1llcdqdwz, id=a02p4r1llcdqdwz
+2023-12-05T08:43:38.085Z - info: Render request 35 queued for execution and waiting for available worker rootId=xhi8j27v72wln8i, id=xhi8j27v72wln8i
+2023-12-05T08:43:38.102Z - info: Starting rendering request 35 rootId=xhi8j27v72wln8i, id=xhi8j27v72wln8i
+2023-12-05T08:43:38.103Z - info: Rendering template { name: pp_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=xhi8j27v72wln8i, id=xhi8j27v72wln8i
+2023-12-05T08:43:38.208Z - info: Rendering request 35 finished in 126 ms rootId=xhi8j27v72wln8i, id=xhi8j27v72wln8i
+2023-12-05T08:47:21.965Z - info: fs store is loading data
+2023-12-05T08:54:54.621Z - info: fs store is loading data
+2023-12-05T08:56:48.057Z - info: fs store is loading data
+2023-12-05T09:02:40.919Z - info: fs store is loading data
+2023-12-05T09:14:54.805Z - info: Render request 36 queued for execution and waiting for available worker rootId=v751xbawnqsw39p, id=v751xbawnqsw39p
+2023-12-05T09:14:54.821Z - info: Starting rendering request 36 rootId=v751xbawnqsw39p, id=v751xbawnqsw39p
+2023-12-05T09:14:54.821Z - info: Rendering template { name: pp_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=v751xbawnqsw39p, id=v751xbawnqsw39p
+2023-12-05T09:14:55.156Z - info: Rendering request 36 finished in 353 ms rootId=v751xbawnqsw39p, id=v751xbawnqsw39p
+2023-12-05T10:08:12.756Z - info: fs store is loading data
+2023-12-05T10:19:47.005Z - info: fs store is loading data
+2023-12-05T10:25:15.220Z - info: fs store is loading data
+2023-12-05T10:31:22.414Z - info: fs store is loading data
+2023-12-05T10:37:15.016Z - info: fs store is loading data
+2023-12-05T10:37:21.645Z - info: Render request 37 queued for execution and waiting for available worker rootId=j7qyg2c9ro7f6fq, id=j7qyg2c9ro7f6fq
+2023-12-05T10:37:21.675Z - info: Starting rendering request 37 rootId=j7qyg2c9ro7f6fq, id=j7qyg2c9ro7f6fq
+2023-12-05T10:37:21.675Z - info: Rendering template { name: pns_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=j7qyg2c9ro7f6fq, id=j7qyg2c9ro7f6fq
+2023-12-05T10:37:22.118Z - info: Rendering request 37 finished in 474 ms rootId=j7qyg2c9ro7f6fq, id=j7qyg2c9ro7f6fq
+2023-12-05T10:37:27.858Z - info: Render request 38 queued for execution and waiting for available worker rootId=7m2h2e9bn6df1wi, id=7m2h2e9bn6df1wi
+2023-12-05T10:37:27.876Z - info: Starting rendering request 38 rootId=7m2h2e9bn6df1wi, id=7m2h2e9bn6df1wi
+2023-12-05T10:37:27.877Z - info: Rendering template { name: pns_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=7m2h2e9bn6df1wi, id=7m2h2e9bn6df1wi
+2023-12-05T10:37:28.122Z - info: Rendering request 38 finished in 269 ms rootId=7m2h2e9bn6df1wi, id=7m2h2e9bn6df1wi
+2023-12-05T10:37:59.220Z - info: Render request 39 queued for execution and waiting for available worker rootId=go6x6nqvba8975k, id=go6x6nqvba8975k
+2023-12-05T10:37:59.244Z - info: Starting rendering request 39 rootId=go6x6nqvba8975k, id=go6x6nqvba8975k
+2023-12-05T10:37:59.244Z - info: Rendering template { name: pns_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=go6x6nqvba8975k, id=go6x6nqvba8975k
+2023-12-05T10:37:59.323Z - error: Error when processing render request 39
+(because) failed to parse parameter value: ocm
+Error: Failed to parse parameter value: ocm
+  at assert (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/puppeteer-core/lib/cjs/puppeteer/util/assert.js:28:15)
+  at convertPrintParameterToInches (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/puppeteer-core/lib/cjs/puppeteer/api/Page.js:1477:32)
+  at CdpPage._getPDFOptions (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/puppeteer-core/lib/cjs/puppeteer/api/Page.js:1064:23)
+  at CdpPage.createPDFStream (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/Page.js:821:218)
+  at CdpPage.pdf (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/Page.js:851:37)
+  at /Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-chrome-pdf/lib/conversion.js:391:27
+  at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+  at async /Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-chrome-pdf/lib/conversion.js:432:22 rootId=go6x6nqvba8975k, id=go6x6nqvba8975k
+2023-12-05T10:37:59.323Z - error: Rendering request 39 finished with error in 103 ms rootId=go6x6nqvba8975k, id=go6x6nqvba8975k
+2023-12-05T10:38:27.766Z - info: Initializing jsreport (version: 4.1.0, configuration file: jsreport.config.json, nodejs: 18.18.0)
+2023-12-05T10:38:27.767Z - info: Searching for available extensions in /Users/lukamata/Projects/factory/PDF-JSR/jsreport/
+2023-12-05T10:38:27.770Z - info: Extensions location cache contains up to date information, skipping crawling in /Users/lukamata/Projects/factory/PDF-JSR/jsreport/
+2023-12-05T10:38:27.784Z - info: Found 35 extension(s)
+2023-12-05T10:38:27.822Z - info: Using extension base@4.0.0
+2023-12-05T10:38:27.826Z - info: Using extension child-templates@4.0.0
+2023-12-05T10:38:27.828Z - info: Using extension cli@4.0.1
+2023-12-05T10:38:27.830Z - info: Using extension components@4.0.0
+2023-12-05T10:38:27.830Z - info: Using extension data@4.0.0
+2023-12-05T10:38:27.831Z - info: Using extension express@4.0.0
+2023-12-05T10:38:27.937Z - info: Using extension freeze@4.0.0
+2023-12-05T10:38:27.938Z - info: Using extension fs-store@4.0.1
+2023-12-05T10:38:27.984Z - info: Using extension handlebars@4.0.0
+2023-12-05T10:38:27.985Z - info: Using extension import-export@4.0.1
+2023-12-05T10:38:27.990Z - info: Using extension jsrender@4.0.0
+2023-12-05T10:38:27.990Z - info: Using extension licensing@4.0.0
+2023-12-05T10:38:28.000Z - info: Using extension localization@4.0.0
+2023-12-05T10:38:28.001Z - info: Using extension npm@4.0.0
+2023-12-05T10:38:28.002Z - info: Using extension pdf-utils@4.0.1
+2023-12-05T10:38:28.003Z - info: Using extension reports@4.0.0
+2023-12-05T10:38:28.004Z - info: Using extension tags@4.0.1
+2023-12-05T10:38:28.005Z - info: Using extension text@4.0.0
+2023-12-05T10:38:28.005Z - info: Using extension version-control@4.0.0
+2023-12-05T10:38:28.011Z - info: Using extension assets@4.0.1
+2023-12-05T10:38:28.016Z - info: Using extension authorization@4.0.0
+2023-12-05T10:38:28.018Z - info: Using extension browser-client@4.0.0
+2023-12-05T10:38:28.019Z - info: Using extension chrome-pdf@4.0.0
+2023-12-05T10:38:28.020Z - info: Using extension docx@4.0.1
+2023-12-05T10:38:28.021Z - info: Using extension html-to-xlsx@4.0.0
+2023-12-05T10:38:28.163Z - info: html-to-xlsx detected chrome as available html engine
+2023-12-05T10:38:28.163Z - info: Using extension pptx@4.0.1
+2023-12-05T10:38:28.164Z - info: Using extension scheduling@4.0.0
+2023-12-05T10:38:28.179Z - info: Using extension scripts@4.0.0
+2023-12-05T10:38:28.179Z - info: Using extension static-pdf@4.0.0
+2023-12-05T10:38:28.180Z - info: Using extension studio@4.0.1
+2023-12-05T10:38:28.223Z - info: Using extension xlsx@4.0.1
+2023-12-05T10:38:28.224Z - info: Using extension public-templates@4.0.0
+2023-12-05T10:38:28.225Z - info: Using extension sample-template@4.0.0
+2023-12-05T10:38:28.226Z - info: Using extension studio-theme-dark@4.0.0
+2023-12-05T10:38:28.226Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2023-12-05T10:38:28.226Z - info: Using fs provider for template store.
+2023-12-05T10:38:28.228Z - info: fs store is persisting using fs for /Users/lukamata/Projects/factory/PDF-JSR/jsreport/data
+2023-12-05T10:38:28.231Z - info: fs store is loading data
+2023-12-05T10:38:28.260Z - info: fs store is initialized successfully
+2023-12-05T10:38:28.275Z - info: Creating default express app.
+2023-12-05T10:38:28.287Z - info: jsreport server successfully started on http port: 5488
+2023-12-05T10:38:28.287Z - info: Verifying license key free
+2023-12-05T10:38:28.580Z - info: Using enterprise trial license
+2023-12-05T10:38:28.582Z - info: Initializing worker threads
+2023-12-05T10:38:28.935Z - info: 2 worker threads initialized in 353ms
+2023-12-05T10:38:28.935Z - info: Starting temp files cleanup with 180000ms threshold
+2023-12-05T10:38:28.935Z - info: reporter initialized
+2023-12-05T10:38:44.183Z - info: Render request 1 queued for execution and waiting for available worker rootId=kjqthrmpvngf2eq, id=kjqthrmpvngf2eq
+2023-12-05T10:38:44.234Z - info: Starting rendering request 1 rootId=kjqthrmpvngf2eq, id=kjqthrmpvngf2eq
+2023-12-05T10:38:44.234Z - info: Rendering template { name: pns_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=kjqthrmpvngf2eq, id=kjqthrmpvngf2eq
+2023-12-05T10:38:44.760Z - error: Error when processing render request 1
+(because) failed to parse parameter value: ocm
+Error: Failed to parse parameter value: ocm
+  at assert (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/puppeteer-core/lib/cjs/puppeteer/util/assert.js:28:15)
+  at convertPrintParameterToInches (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/puppeteer-core/lib/cjs/puppeteer/api/Page.js:1477:32)
+  at CdpPage._getPDFOptions (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/puppeteer-core/lib/cjs/puppeteer/api/Page.js:1064:23)
+  at CdpPage.createPDFStream (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/Page.js:821:218)
+  at CdpPage.pdf (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/Page.js:851:37)
+  at /Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-chrome-pdf/lib/conversion.js:391:27
+  at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+  at async /Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-chrome-pdf/lib/conversion.js:432:22 rootId=kjqthrmpvngf2eq, id=kjqthrmpvngf2eq
+2023-12-05T10:38:44.760Z - error: Rendering request 1 finished with error in 579 ms rootId=kjqthrmpvngf2eq, id=kjqthrmpvngf2eq
+2023-12-05T10:38:56.540Z - info: Render request 2 queued for execution and waiting for available worker rootId=uxsan2vvf1stit8, id=uxsan2vvf1stit8
+2023-12-05T10:38:56.596Z - info: Starting rendering request 2 rootId=uxsan2vvf1stit8, id=uxsan2vvf1stit8
+2023-12-05T10:38:56.596Z - info: Rendering template { name: pns_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=uxsan2vvf1stit8, id=uxsan2vvf1stit8
+2023-12-05T10:38:57.080Z - info: Rendering request 2 finished in 541 ms rootId=uxsan2vvf1stit8, id=uxsan2vvf1stit8
+2023-12-05T10:56:12.660Z - info: fs store is loading data
+2023-12-05T11:05:16.814Z - info: fs store is loading data
+2023-12-05T11:06:50.118Z - info: Initializing jsreport (version: 4.1.0, configuration file: jsreport.config.json, nodejs: 18.18.0)
+2023-12-05T11:06:50.119Z - info: Searching for available extensions in /Users/lukamata/Projects/factory/PDF-JSR/jsreport/
+2023-12-05T11:06:50.123Z - info: Extensions location cache contains up to date information, skipping crawling in /Users/lukamata/Projects/factory/PDF-JSR/jsreport/
+2023-12-05T11:06:50.133Z - info: Found 35 extension(s)
+2023-12-05T11:06:50.169Z - info: Using extension base@4.0.0
+2023-12-05T11:06:50.173Z - info: Using extension child-templates@4.0.0
+2023-12-05T11:06:50.175Z - info: Using extension cli@4.0.1
+2023-12-05T11:06:50.177Z - info: Using extension components@4.0.0
+2023-12-05T11:06:50.178Z - info: Using extension data@4.0.0
+2023-12-05T11:06:50.178Z - info: Using extension express@4.0.0
+2023-12-05T11:06:50.280Z - info: Using extension freeze@4.0.0
+2023-12-05T11:06:50.281Z - info: Using extension fs-store@4.0.1
+2023-12-05T11:06:50.327Z - info: Using extension handlebars@4.0.0
+2023-12-05T11:06:50.328Z - info: Using extension import-export@4.0.1
+2023-12-05T11:06:50.332Z - info: Using extension jsrender@4.0.0
+2023-12-05T11:06:50.333Z - info: Using extension licensing@4.0.0
+2023-12-05T11:06:50.341Z - info: Using extension localization@4.0.0
+2023-12-05T11:06:50.341Z - info: Using extension npm@4.0.0
+2023-12-05T11:06:50.344Z - info: Using extension pdf-utils@4.0.1
+2023-12-05T11:06:50.345Z - info: Using extension reports@4.0.0
+2023-12-05T11:06:50.346Z - info: Using extension tags@4.0.1
+2023-12-05T11:06:50.347Z - info: Using extension text@4.0.0
+2023-12-05T11:06:50.347Z - info: Using extension version-control@4.0.0
+2023-12-05T11:06:50.352Z - info: Using extension assets@4.0.1
+2023-12-05T11:06:50.358Z - info: Using extension authorization@4.0.0
+2023-12-05T11:06:50.359Z - info: Using extension browser-client@4.0.0
+2023-12-05T11:06:50.360Z - info: Using extension chrome-pdf@4.0.0
+2023-12-05T11:06:50.362Z - info: Using extension docx@4.0.1
+2023-12-05T11:06:50.362Z - info: Using extension html-to-xlsx@4.0.0
+2023-12-05T11:06:50.503Z - info: html-to-xlsx detected chrome as available html engine
+2023-12-05T11:06:50.503Z - info: Using extension pptx@4.0.1
+2023-12-05T11:06:50.504Z - info: Using extension scheduling@4.0.0
+2023-12-05T11:06:50.517Z - info: Using extension scripts@4.0.0
+2023-12-05T11:06:50.517Z - info: Using extension static-pdf@4.0.0
+2023-12-05T11:06:50.518Z - info: Using extension studio@4.0.1
+2023-12-05T11:06:50.567Z - info: Using extension xlsx@4.0.1
+2023-12-05T11:06:50.568Z - info: Using extension public-templates@4.0.0
+2023-12-05T11:06:50.569Z - info: Using extension sample-template@4.0.0
+2023-12-05T11:06:50.569Z - info: Using extension studio-theme-dark@4.0.0
+2023-12-05T11:06:50.570Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2023-12-05T11:06:50.570Z - info: Using fs provider for template store.
+2023-12-05T11:06:50.572Z - info: fs store is persisting using fs for /Users/lukamata/Projects/factory/PDF-JSR/jsreport/data
+2023-12-05T11:06:50.574Z - info: fs store is loading data
+2023-12-05T11:06:50.599Z - info: fs store is initialized successfully
+2023-12-05T11:06:50.609Z - info: Creating default express app.
+2023-12-05T11:06:50.621Z - info: jsreport server successfully started on http port: 5488
+2023-12-05T11:06:50.622Z - info: Verifying license key free
+2023-12-05T11:06:50.911Z - info: Starting one month enterprise trial
+2023-12-05T11:06:50.914Z - info: Initializing worker threads
+2023-12-05T11:06:51.271Z - info: 2 worker threads initialized in 357ms
+2023-12-05T11:06:51.271Z - info: Starting temp files cleanup with 180000ms threshold
+2023-12-05T11:06:51.271Z - info: reporter initialized
+2023-12-05T11:28:19.077Z - info: fs store is loading data
+2023-12-05T11:44:08.032Z - info: fs store is loading data
+2023-12-05T11:59:29.924Z - info: fs store is loading data
+2023-12-05T12:01:07.710Z - info: fs store is loading data
+2023-12-05T12:04:56.983Z - info: Render request 1 queued for execution and waiting for available worker rootId=xa4lc80do0rmnfv, id=xa4lc80do0rmnfv
+2023-12-05T12:04:57.038Z - info: Starting rendering request 1 rootId=xa4lc80do0rmnfv, id=xa4lc80do0rmnfv
+2023-12-05T12:04:57.038Z - info: Rendering template { name: pmo_slip_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=xa4lc80do0rmnfv, id=xa4lc80do0rmnfv
+2023-12-05T12:04:57.541Z - info: Rendering request 1 finished in 562 ms rootId=xa4lc80do0rmnfv, id=xa4lc80do0rmnfv
+2023-12-05T12:05:11.843Z - info: Render request 2 queued for execution and waiting for available worker rootId=odqufy07a1zrl3z, id=odqufy07a1zrl3z
+2023-12-05T12:05:11.886Z - info: Starting rendering request 2 rootId=odqufy07a1zrl3z, id=odqufy07a1zrl3z
+2023-12-05T12:05:11.887Z - info: Rendering template { name: pp_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=odqufy07a1zrl3z, id=odqufy07a1zrl3z
+2023-12-05T12:05:12.292Z - info: Rendering request 2 finished in 451 ms rootId=odqufy07a1zrl3z, id=odqufy07a1zrl3z
+2023-12-05T12:16:17.953Z - info: Render request 3 queued for execution and waiting for available worker rootId=l0e5ij3nzd91g8q, id=l0e5ij3nzd91g8q
+2023-12-05T12:16:17.977Z - info: Starting rendering request 3 rootId=l0e5ij3nzd91g8q, id=l0e5ij3nzd91g8q
+2023-12-05T12:16:17.977Z - info: Rendering template { name: upozorenje_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=l0e5ij3nzd91g8q, id=l0e5ij3nzd91g8q
+2023-12-05T12:16:18.092Z - info: Rendering request 3 finished in 141 ms rootId=l0e5ij3nzd91g8q, id=l0e5ij3nzd91g8q
+2023-12-05T12:32:54.288Z - info: fs store is loading data
+2023-12-05T12:56:32.387Z - info: fs store is loading data
+2023-12-05T13:08:53.118Z - info: fs store is loading data
+2023-12-05T13:17:45.518Z - info: fs store is loading data
+2023-12-05T13:25:37.720Z - info: fs store is loading data
+2023-12-05T13:36:26.215Z - info: Initializing jsreport (version: 4.1.0, configuration file: jsreport.config.json, nodejs: 18.18.0)
+2023-12-05T13:36:26.216Z - info: Searching for available extensions in /Users/lukamata/Projects/factory/PDF-JSR/jsreport/
+2023-12-05T13:36:26.220Z - info: Extensions location cache contains up to date information, skipping crawling in /Users/lukamata/Projects/factory/PDF-JSR/jsreport/
+2023-12-05T13:36:26.233Z - info: Found 35 extension(s)
+2023-12-05T13:36:26.270Z - info: Using extension base@4.0.0
+2023-12-05T13:36:26.273Z - info: Using extension child-templates@4.0.0
+2023-12-05T13:36:26.276Z - info: Using extension cli@4.0.1
+2023-12-05T13:36:26.277Z - info: Using extension components@4.0.0
+2023-12-05T13:36:26.278Z - info: Using extension data@4.0.0
+2023-12-05T13:36:26.278Z - info: Using extension express@4.0.0
+2023-12-05T13:36:26.385Z - info: Using extension freeze@4.0.0
+2023-12-05T13:36:26.386Z - info: Using extension fs-store@4.0.1
+2023-12-05T13:36:26.432Z - info: Using extension handlebars@4.0.0
+2023-12-05T13:36:26.433Z - info: Using extension import-export@4.0.1
+2023-12-05T13:36:26.438Z - info: Using extension jsrender@4.0.0
+2023-12-05T13:36:26.438Z - info: Using extension licensing@4.0.0
+2023-12-05T13:36:26.446Z - info: Using extension localization@4.0.0
+2023-12-05T13:36:26.446Z - info: Using extension npm@4.0.0
+2023-12-05T13:36:26.451Z - info: Using extension pdf-utils@4.0.1
+2023-12-05T13:36:26.452Z - info: Using extension reports@4.0.0
+2023-12-05T13:36:26.453Z - info: Using extension tags@4.0.1
+2023-12-05T13:36:26.454Z - info: Using extension text@4.0.0
+2023-12-05T13:36:26.455Z - info: Using extension version-control@4.0.0
+2023-12-05T13:36:26.461Z - info: Using extension assets@4.0.1
+2023-12-05T13:36:26.467Z - info: Using extension authorization@4.0.0
+2023-12-05T13:36:26.469Z - info: Using extension browser-client@4.0.0
+2023-12-05T13:36:26.470Z - info: Using extension chrome-pdf@4.0.0
+2023-12-05T13:36:26.471Z - info: Using extension docx@4.0.1
+2023-12-05T13:36:26.472Z - info: Using extension html-to-xlsx@4.0.0
+2023-12-05T13:36:26.622Z - info: html-to-xlsx detected chrome as available html engine
+2023-12-05T13:36:26.622Z - info: Using extension pptx@4.0.1
+2023-12-05T13:36:26.623Z - info: Using extension scheduling@4.0.0
+2023-12-05T13:36:26.640Z - info: Using extension scripts@4.0.0
+2023-12-05T13:36:26.640Z - info: Using extension static-pdf@4.0.0
+2023-12-05T13:36:26.640Z - info: Using extension studio@4.0.1
+2023-12-05T13:36:26.689Z - info: Using extension xlsx@4.0.1
+2023-12-05T13:36:26.690Z - info: Using extension public-templates@4.0.0
+2023-12-05T13:36:26.690Z - info: Using extension sample-template@4.0.0
+2023-12-05T13:36:26.691Z - info: Using extension studio-theme-dark@4.0.0
+2023-12-05T13:36:26.692Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2023-12-05T13:36:26.692Z - info: Using fs provider for template store.
+2023-12-05T13:36:26.694Z - info: fs store is persisting using fs for /Users/lukamata/Projects/factory/PDF-JSR/jsreport/data
+2023-12-05T13:36:26.696Z - info: fs store is loading data
+2023-12-05T13:36:26.724Z - info: fs store is initialized successfully
+2023-12-05T13:36:26.734Z - info: Creating default express app.
+2023-12-05T13:36:26.749Z - info: jsreport server successfully started on http port: 5488
+2023-12-05T13:36:26.751Z - info: Verifying license key free
+2023-12-05T13:36:27.065Z - info: Using enterprise trial license
+2023-12-05T13:36:27.068Z - info: Initializing worker threads
+2023-12-05T13:36:27.445Z - info: 2 worker threads initialized in 377ms
+2023-12-05T13:36:27.445Z - info: Starting temp files cleanup with 180000ms threshold
+2023-12-05T13:36:27.445Z - info: reporter initialized
+2023-12-05T13:43:11.970Z - info: fs store is loading data
+2023-12-05T13:44:45.206Z - info: Render request 1 queued for execution and waiting for available worker rootId=z2iawj3mdm4f6p6, id=z2iawj3mdm4f6p6
+2023-12-05T13:44:45.260Z - info: Starting rendering request 1 rootId=z2iawj3mdm4f6p6, id=z2iawj3mdm4f6p6
+2023-12-05T13:44:45.260Z - info: Rendering template { name: pp_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=z2iawj3mdm4f6p6, id=z2iawj3mdm4f6p6
+2023-12-05T13:44:45.991Z - info: Rendering request 1 finished in 789 ms rootId=z2iawj3mdm4f6p6, id=z2iawj3mdm4f6p6
+2023-12-05T13:45:58.571Z - info: Render request 2 queued for execution and waiting for available worker rootId=p7uu6sw04qmg8r0, id=p7uu6sw04qmg8r0
+2023-12-05T13:45:58.636Z - info: Starting rendering request 2 rootId=p7uu6sw04qmg8r0, id=p7uu6sw04qmg8r0
+2023-12-05T13:45:58.636Z - info: Rendering template { name: pmo_slip_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=p7uu6sw04qmg8r0, id=p7uu6sw04qmg8r0
+2023-12-05T13:45:59.259Z - info: Rendering request 2 finished in 690 ms rootId=p7uu6sw04qmg8r0, id=p7uu6sw04qmg8r0
+2023-12-05T13:47:20.352Z - info: Render request 3 queued for execution and waiting for available worker rootId=w56tystsy70likm, id=w56tystsy70likm
+2023-12-05T13:47:20.382Z - info: Starting rendering request 3 rootId=w56tystsy70likm, id=w56tystsy70likm
+2023-12-05T13:47:20.382Z - info: Rendering template { name: pns_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=w56tystsy70likm, id=w56tystsy70likm
+2023-12-05T13:47:20.532Z - info: Rendering request 3 finished in 182 ms rootId=w56tystsy70likm, id=w56tystsy70likm
+2023-12-05T13:52:42.618Z - info: Render request 4 queued for execution and waiting for available worker rootId=jbxyoj5dnciwxjj, id=jbxyoj5dnciwxjj
+2023-12-05T13:52:42.640Z - info: Starting rendering request 4 rootId=jbxyoj5dnciwxjj, id=jbxyoj5dnciwxjj
+2023-12-05T13:52:42.640Z - info: Rendering template { name: pns_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=jbxyoj5dnciwxjj, id=jbxyoj5dnciwxjj
+2023-12-05T13:52:42.798Z - info: Rendering request 4 finished in 182 ms rootId=jbxyoj5dnciwxjj, id=jbxyoj5dnciwxjj
+2023-12-05T13:54:28.696Z - info: Render request 5 queued for execution and waiting for available worker rootId=t0dnf37wdczkt4o, id=t0dnf37wdczkt4o
+2023-12-05T13:54:28.706Z - info: Starting rendering request 5 rootId=t0dnf37wdczkt4o, id=t0dnf37wdczkt4o
+2023-12-05T13:54:28.706Z - info: Rendering template { name: pns_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=t0dnf37wdczkt4o, id=t0dnf37wdczkt4o
+2023-12-05T13:54:28.838Z - info: Rendering request 5 finished in 142 ms rootId=t0dnf37wdczkt4o, id=t0dnf37wdczkt4o
+2023-12-05T13:54:42.373Z - error: Error when processing OData PATCH: /odata/assets(dtV2RW1moEVl9rqL) Error: Entity (_id: dtV2RW1moEVl9rqL) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T13:54:46.354Z - info: Render request 6 queued for execution and waiting for available worker rootId=y57oksruczxgnnd, id=y57oksruczxgnnd
+2023-12-05T13:54:46.373Z - info: Starting rendering request 6 rootId=y57oksruczxgnnd, id=y57oksruczxgnnd
+2023-12-05T13:54:46.374Z - info: Rendering template { name: pns_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=y57oksruczxgnnd, id=y57oksruczxgnnd
+2023-12-05T13:54:46.504Z - info: Rendering request 6 finished in 151 ms rootId=y57oksruczxgnnd, id=y57oksruczxgnnd
+2023-12-05T13:55:02.648Z - info: Render request 7 queued for execution and waiting for available worker rootId=z6paezielpffgjt, id=z6paezielpffgjt
+2023-12-05T13:55:02.671Z - info: Starting rendering request 7 rootId=z6paezielpffgjt, id=z6paezielpffgjt
+2023-12-05T13:55:02.672Z - info: Rendering template { name: pns_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=z6paezielpffgjt, id=z6paezielpffgjt
+2023-12-05T13:55:02.805Z - info: Rendering request 7 finished in 158 ms rootId=z6paezielpffgjt, id=z6paezielpffgjt
+2023-12-05T13:55:52.698Z - info: Render request 8 queued for execution and waiting for available worker rootId=fl38evvh9brwlbo, id=fl38evvh9brwlbo
+2023-12-05T13:55:52.717Z - info: Starting rendering request 8 rootId=fl38evvh9brwlbo, id=fl38evvh9brwlbo
+2023-12-05T13:55:52.718Z - info: Rendering template { name: pmo_slip_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=fl38evvh9brwlbo, id=fl38evvh9brwlbo
+2023-12-05T13:55:52.830Z - info: Rendering request 8 finished in 132 ms rootId=fl38evvh9brwlbo, id=fl38evvh9brwlbo
+2023-12-05T13:56:00.073Z - info: Render request 9 queued for execution and waiting for available worker rootId=sa032g8ei8i6fs5, id=sa032g8ei8i6fs5
+2023-12-05T13:56:00.089Z - info: Starting rendering request 9 rootId=sa032g8ei8i6fs5, id=sa032g8ei8i6fs5
+2023-12-05T13:56:00.090Z - info: Rendering template { name: upozorenje_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=sa032g8ei8i6fs5, id=sa032g8ei8i6fs5
+2023-12-05T13:56:00.192Z - info: Rendering request 9 finished in 122 ms rootId=sa032g8ei8i6fs5, id=sa032g8ei8i6fs5
+2023-12-05T13:56:30.780Z - info: Render request 10 queued for execution and waiting for available worker rootId=kdstvg939mhppk8, id=kdstvg939mhppk8
+2023-12-05T13:56:30.787Z - info: Starting rendering request 10 rootId=kdstvg939mhppk8, id=kdstvg939mhppk8
+2023-12-05T13:56:30.787Z - info: Rendering template { name: pns_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=kdstvg939mhppk8, id=kdstvg939mhppk8
+2023-12-05T13:56:30.924Z - info: Rendering request 10 finished in 144 ms rootId=kdstvg939mhppk8, id=kdstvg939mhppk8
+2023-12-05T13:56:53.022Z - error: Error when processing OData PATCH: /odata/assets(dtV2RW1moEVl9rqL) Error: Entity (_id: dtV2RW1moEVl9rqL) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T13:57:05.904Z - error: Error when processing OData PATCH: /odata/assets(dtV2RW1moEVl9rqL) Error: Entity (_id: dtV2RW1moEVl9rqL) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T13:59:03.313Z - info: Render request 11 queued for execution and waiting for available worker rootId=qrmft58uhp52xzb, id=qrmft58uhp52xzb
+2023-12-05T13:59:03.330Z - info: Starting rendering request 11 rootId=qrmft58uhp52xzb, id=qrmft58uhp52xzb
+2023-12-05T13:59:03.330Z - info: Rendering template { name: pp_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=qrmft58uhp52xzb, id=qrmft58uhp52xzb
+2023-12-05T13:59:03.452Z - info: Rendering request 11 finished in 141 ms rootId=qrmft58uhp52xzb, id=qrmft58uhp52xzb
+2023-12-05T14:01:30.065Z - error: Error when processing OData PATCH: /odata/data(xoOo6v2sSfldLHcu) Error: Entity (_id: xoOo6v2sSfldLHcu) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T14:01:38.930Z - error: Error when processing OData PATCH: /odata/data(xoOo6v2sSfldLHcu) Error: Entity (_id: xoOo6v2sSfldLHcu) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T14:04:07.249Z - error: Error when processing OData PATCH: /odata/data(xoOo6v2sSfldLHcu) Error: Entity (_id: xoOo6v2sSfldLHcu) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T14:06:58.555Z - info: Render request 12 queued for execution and waiting for available worker rootId=m5qjwdmfml2m0dj, id=m5qjwdmfml2m0dj
+2023-12-05T14:06:58.573Z - warn: Report render failed
+(because) unable to parse request data
+(because) unexpected token / in JSON at position 2066
+SyntaxError: Unexpected token / in JSON at position 2066
+  at JSON.parse (<anonymous>)
+  at normalizeJSONData (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/request.js:62:19)
+  at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/request.js:37:23)
+  at WorkerReporter._render (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:112:21)
+  at WorkerReporter.render (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:173:17)
+  at /Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:224:30
+  at WorkerReporter.executeWorkerAction (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:219:12)
+  at Object.execute (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/worker/workerHandler.js:52:23)
+  at execute (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/advanced-workers/lib/workerHandler.js:91:23)
+  at processAndResponse (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/advanced-workers/lib/workerHandler.js:41:23)
+  at MessagePort.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/advanced-workers/lib/workerHandler.js:110:12)
+  at [nodejs.internal.kHybridDispatch] (node:internal/event_target:757:20)
+  at exports.emitMessage (node:internal/per_context/messageport:23:28)
+wrapped by:
+Error: Unable to parse request data
+(because) unexpected token / in JSON at position 2066
+  at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+  at normalizeJSONData (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/request.js:64:13)
+  at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/request.js:37:23)
+  at WorkerReporter._render (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:112:21)
+  at WorkerReporter.render (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:173:17)
+  at /Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:224:30
+  at WorkerReporter.executeWorkerAction (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:219:12)
+  at Object.execute (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/worker/workerHandler.js:52:23)
+  at execute (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/advanced-workers/lib/workerHandler.js:91:23)
+  at processAndResponse (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/advanced-workers/lib/workerHandler.js:41:23)
+  at MessagePort.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/advanced-workers/lib/workerHandler.js:110:12)
+  at [nodejs.internal.kHybridDispatch] (node:internal/event_target:757:20)
+  at exports.emitMessage (node:internal/per_context/messageport:23:28) rootId=m5qjwdmfml2m0dj, id=m5qjwdmfml2m0dj
+2023-12-05T14:07:18.939Z - info: Initializing jsreport (version: 4.1.0, configuration file: jsreport.config.json, nodejs: 18.18.0)
+2023-12-05T14:07:18.940Z - info: Searching for available extensions in /Users/lukamata/Projects/factory/PDF-JSR/jsreport/
+2023-12-05T14:07:18.943Z - info: Extensions location cache contains up to date information, skipping crawling in /Users/lukamata/Projects/factory/PDF-JSR/jsreport/
+2023-12-05T14:07:18.956Z - info: Found 35 extension(s)
+2023-12-05T14:07:18.997Z - info: Using extension base@4.0.0
+2023-12-05T14:07:19.000Z - info: Using extension child-templates@4.0.0
+2023-12-05T14:07:19.003Z - info: Using extension cli@4.0.1
+2023-12-05T14:07:19.004Z - info: Using extension components@4.0.0
+2023-12-05T14:07:19.005Z - info: Using extension data@4.0.0
+2023-12-05T14:07:19.005Z - info: Using extension express@4.0.0
+2023-12-05T14:07:19.126Z - info: Using extension freeze@4.0.0
+2023-12-05T14:07:19.127Z - info: Using extension fs-store@4.0.1
+2023-12-05T14:07:19.181Z - info: Using extension handlebars@4.0.0
+2023-12-05T14:07:19.181Z - info: Using extension import-export@4.0.1
+2023-12-05T14:07:19.186Z - info: Using extension jsrender@4.0.0
+2023-12-05T14:07:19.186Z - info: Using extension licensing@4.0.0
+2023-12-05T14:07:19.197Z - info: Using extension localization@4.0.0
+2023-12-05T14:07:19.198Z - info: Using extension npm@4.0.0
+2023-12-05T14:07:19.199Z - info: Using extension pdf-utils@4.0.1
+2023-12-05T14:07:19.200Z - info: Using extension reports@4.0.0
+2023-12-05T14:07:19.202Z - info: Using extension tags@4.0.1
+2023-12-05T14:07:19.202Z - info: Using extension text@4.0.0
+2023-12-05T14:07:19.203Z - info: Using extension version-control@4.0.0
+2023-12-05T14:07:19.208Z - info: Using extension assets@4.0.1
+2023-12-05T14:07:19.213Z - info: Using extension authorization@4.0.0
+2023-12-05T14:07:19.215Z - info: Using extension browser-client@4.0.0
+2023-12-05T14:07:19.216Z - info: Using extension chrome-pdf@4.0.0
+2023-12-05T14:07:19.217Z - info: Using extension docx@4.0.1
+2023-12-05T14:07:19.218Z - info: Using extension html-to-xlsx@4.0.0
+2023-12-05T14:07:19.373Z - info: html-to-xlsx detected chrome as available html engine
+2023-12-05T14:07:19.373Z - info: Using extension pptx@4.0.1
+2023-12-05T14:07:19.374Z - info: Using extension scheduling@4.0.0
+2023-12-05T14:07:19.389Z - info: Using extension scripts@4.0.0
+2023-12-05T14:07:19.389Z - info: Using extension static-pdf@4.0.0
+2023-12-05T14:07:19.390Z - info: Using extension studio@4.0.1
+2023-12-05T14:07:19.437Z - info: Using extension xlsx@4.0.1
+2023-12-05T14:07:19.438Z - info: Using extension public-templates@4.0.0
+2023-12-05T14:07:19.438Z - info: Using extension sample-template@4.0.0
+2023-12-05T14:07:19.439Z - info: Using extension studio-theme-dark@4.0.0
+2023-12-05T14:07:19.440Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2023-12-05T14:07:19.440Z - info: Using fs provider for template store.
+2023-12-05T14:07:19.442Z - info: fs store is persisting using fs for /Users/lukamata/Projects/factory/PDF-JSR/jsreport/data
+2023-12-05T14:07:19.446Z - info: fs store is loading data
+2023-12-05T14:07:19.478Z - info: fs store is initialized successfully
+2023-12-05T14:07:19.489Z - info: Creating default express app.
+2023-12-05T14:07:19.502Z - info: jsreport server successfully started on http port: 5488
+2023-12-05T14:07:19.502Z - info: Verifying license key free
+2023-12-05T14:07:19.780Z - info: Using enterprise trial license
+2023-12-05T14:07:19.783Z - info: Initializing worker threads
+2023-12-05T14:07:20.163Z - info: 2 worker threads initialized in 380ms
+2023-12-05T14:07:20.163Z - info: Starting temp files cleanup with 180000ms threshold
+2023-12-05T14:07:20.164Z - info: reporter initialized
+2023-12-05T14:07:28.064Z - info: Render request 1 queued for execution and waiting for available worker rootId=nyv3udb67awvw3c, id=nyv3udb67awvw3c
+2023-12-05T14:07:28.116Z - info: Starting rendering request 1 rootId=nyv3udb67awvw3c, id=nyv3udb67awvw3c
+2023-12-05T14:07:28.117Z - info: Rendering template { name: pp_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=nyv3udb67awvw3c, id=nyv3udb67awvw3c
+2023-12-05T14:07:28.684Z - info: Rendering request 1 finished in 622 ms rootId=nyv3udb67awvw3c, id=nyv3udb67awvw3c
+2023-12-05T14:08:02.229Z - info: Render request 2 queued for execution and waiting for available worker rootId=e3vdywvhqg9pjsy, id=e3vdywvhqg9pjsy
+2023-12-05T14:08:02.287Z - info: Starting rendering request 2 rootId=e3vdywvhqg9pjsy, id=e3vdywvhqg9pjsy
+2023-12-05T14:08:02.287Z - info: Rendering template { name: pp_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=e3vdywvhqg9pjsy, id=e3vdywvhqg9pjsy
+2023-12-05T14:08:02.855Z - info: Rendering request 2 finished in 627 ms rootId=e3vdywvhqg9pjsy, id=e3vdywvhqg9pjsy
+2023-12-05T14:08:51.244Z - info: Render request 3 queued for execution and waiting for available worker rootId=u1n4o3zmebyovhf, id=u1n4o3zmebyovhf
+2023-12-05T14:08:51.271Z - info: Starting rendering request 3 rootId=u1n4o3zmebyovhf, id=u1n4o3zmebyovhf
+2023-12-05T14:08:51.271Z - info: Rendering template { name: pp_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=u1n4o3zmebyovhf, id=u1n4o3zmebyovhf
+2023-12-05T14:08:51.422Z - info: Rendering request 3 finished in 178 ms rootId=u1n4o3zmebyovhf, id=u1n4o3zmebyovhf
+2023-12-05T14:08:59.153Z - info: Render request 4 queued for execution and waiting for available worker rootId=aa5ekx28dslcc6h, id=aa5ekx28dslcc6h
+2023-12-05T14:08:59.170Z - info: Starting rendering request 4 rootId=aa5ekx28dslcc6h, id=aa5ekx28dslcc6h
+2023-12-05T14:08:59.171Z - info: Rendering template { name: pns_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=aa5ekx28dslcc6h, id=aa5ekx28dslcc6h
+2023-12-05T14:08:59.318Z - info: Rendering request 4 finished in 168 ms rootId=aa5ekx28dslcc6h, id=aa5ekx28dslcc6h
+2023-12-05T14:09:45.540Z - info: Render request 5 queued for execution and waiting for available worker rootId=qcjwvr4hz54wrzc, id=qcjwvr4hz54wrzc
+2023-12-05T14:09:45.547Z - info: Starting rendering request 5 rootId=qcjwvr4hz54wrzc, id=qcjwvr4hz54wrzc
+2023-12-05T14:09:45.547Z - info: Rendering template { name: pns_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=qcjwvr4hz54wrzc, id=qcjwvr4hz54wrzc
+2023-12-05T14:09:45.661Z - info: Rendering request 5 finished in 121 ms rootId=qcjwvr4hz54wrzc, id=qcjwvr4hz54wrzc
+2023-12-05T14:10:15.666Z - info: Render request 6 queued for execution and waiting for available worker rootId=yynotk4dd2g5iez, id=yynotk4dd2g5iez
+2023-12-05T14:10:15.689Z - info: Starting rendering request 6 rootId=yynotk4dd2g5iez, id=yynotk4dd2g5iez
+2023-12-05T14:10:15.689Z - info: Rendering template { name: pmo_slip_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=yynotk4dd2g5iez, id=yynotk4dd2g5iez
+2023-12-05T14:10:15.812Z - info: Rendering request 6 finished in 147 ms rootId=yynotk4dd2g5iez, id=yynotk4dd2g5iez
+2023-12-05T14:21:09.596Z - info: fs store is loading data
+2023-12-05T14:24:12.036Z - error: Error when processing OData PATCH: /odata/templates(lE0kRC6eGv9UqSb2) Error: Entity (_id: lE0kRC6eGv9UqSb2) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T14:29:58.086Z - info: Render request 7 queued for execution and waiting for available worker rootId=3rbmwgcgdlc9sv0, id=3rbmwgcgdlc9sv0
+2023-12-05T14:29:58.115Z - info: Starting rendering request 7 rootId=3rbmwgcgdlc9sv0, id=3rbmwgcgdlc9sv0
+2023-12-05T14:29:58.115Z - info: Rendering template { name: pmo_slip_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=3rbmwgcgdlc9sv0, id=3rbmwgcgdlc9sv0
+2023-12-05T14:29:58.586Z - info: Rendering request 7 finished in 507 ms rootId=3rbmwgcgdlc9sv0, id=3rbmwgcgdlc9sv0
+2023-12-05T14:32:34.801Z - error: Error when processing OData PATCH: /odata/assets(Aa55QWiJE1qlRLa3) Error: Entity (_id: Aa55QWiJE1qlRLa3) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T14:32:38.873Z - error: Error when processing OData PATCH: /odata/assets(Aa55QWiJE1qlRLa3) Error: Entity (_id: Aa55QWiJE1qlRLa3) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T14:33:32.063Z - error: Error when processing OData PATCH: /odata/assets(dtV2RW1moEVl9rqL) Error: Entity (_id: dtV2RW1moEVl9rqL) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T14:33:47.954Z - error: Error when processing OData PATCH: /odata/assets(Aa55QWiJE1qlRLa3) Error: Entity (_id: Aa55QWiJE1qlRLa3) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T14:33:53.272Z - info: Render request 8 queued for execution and waiting for available worker rootId=nzt7lkjvsqz0s4k, id=nzt7lkjvsqz0s4k
+2023-12-05T14:33:53.304Z - info: Starting rendering request 8 rootId=nzt7lkjvsqz0s4k, id=nzt7lkjvsqz0s4k
+2023-12-05T14:33:53.304Z - info: Rendering template { name: pmo_slip_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=nzt7lkjvsqz0s4k, id=nzt7lkjvsqz0s4k
+2023-12-05T14:33:53.620Z - info: Rendering request 8 finished in 348 ms rootId=nzt7lkjvsqz0s4k, id=nzt7lkjvsqz0s4k
+2023-12-05T14:34:16.047Z - error: Error when processing OData PATCH: /odata/assets(TcRpCZgOjF3ed1MG) Error: Entity (_id: TcRpCZgOjF3ed1MG) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T14:34:20.258Z - info: Render request 9 queued for execution and waiting for available worker rootId=46w2dzq2nvs014k, id=46w2dzq2nvs014k
+2023-12-05T14:34:20.280Z - info: Starting rendering request 9 rootId=46w2dzq2nvs014k, id=46w2dzq2nvs014k
+2023-12-05T14:34:20.280Z - info: Rendering template { name: pmo_slip_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=46w2dzq2nvs014k, id=46w2dzq2nvs014k
+2023-12-05T14:34:20.381Z - info: Rendering request 9 finished in 126 ms rootId=46w2dzq2nvs014k, id=46w2dzq2nvs014k
+2023-12-05T14:35:16.625Z - error: Error when processing OData PATCH: /odata/assets(TcRpCZgOjF3ed1MG) Error: Entity (_id: TcRpCZgOjF3ed1MG) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T14:35:32.399Z - error: Error when processing OData PATCH: /odata/assets(TcRpCZgOjF3ed1MG) Error: Entity (_id: TcRpCZgOjF3ed1MG) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T14:35:36.135Z - error: Error when processing OData PATCH: /odata/assets(TcRpCZgOjF3ed1MG) Error: Entity (_id: TcRpCZgOjF3ed1MG) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T14:35:38.571Z - info: Render request 10 queued for execution and waiting for available worker rootId=cc1d7otbwamolwk, id=cc1d7otbwamolwk
+2023-12-05T14:35:38.578Z - info: Starting rendering request 10 rootId=cc1d7otbwamolwk, id=cc1d7otbwamolwk
+2023-12-05T14:35:38.578Z - info: Rendering template { name: pmo_slip_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=cc1d7otbwamolwk, id=cc1d7otbwamolwk
+2023-12-05T14:35:38.673Z - info: Rendering request 10 finished in 104 ms rootId=cc1d7otbwamolwk, id=cc1d7otbwamolwk
+2023-12-05T14:36:33.957Z - error: Error when processing OData PATCH: /odata/assets(TcRpCZgOjF3ed1MG) Error: Entity (_id: TcRpCZgOjF3ed1MG) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T14:36:41.220Z - error: Error when processing OData PATCH: /odata/assets(TcRpCZgOjF3ed1MG) Error: Entity (_id: TcRpCZgOjF3ed1MG) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T14:36:44.926Z - error: Error when processing OData PATCH: /odata/assets(TcRpCZgOjF3ed1MG) Error: Entity (_id: TcRpCZgOjF3ed1MG) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T14:36:52.887Z - info: Render request 11 queued for execution and waiting for available worker rootId=t5byuzqw1fvxtd7, id=t5byuzqw1fvxtd7
+2023-12-05T14:36:52.903Z - info: Starting rendering request 11 rootId=t5byuzqw1fvxtd7, id=t5byuzqw1fvxtd7
+2023-12-05T14:36:52.903Z - info: Rendering template { name: pmo_slip_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=t5byuzqw1fvxtd7, id=t5byuzqw1fvxtd7
+2023-12-05T14:36:53.009Z - info: Rendering request 11 finished in 124 ms rootId=t5byuzqw1fvxtd7, id=t5byuzqw1fvxtd7
+2023-12-05T14:37:59.479Z - info: Render request 12 queued for execution and waiting for available worker rootId=x7gmeo8sohyztze, id=x7gmeo8sohyztze
+2023-12-05T14:37:59.498Z - info: Starting rendering request 12 rootId=x7gmeo8sohyztze, id=x7gmeo8sohyztze
+2023-12-05T14:37:59.498Z - info: Rendering template { name: pmo_slip_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=x7gmeo8sohyztze, id=x7gmeo8sohyztze
+2023-12-05T14:37:59.603Z - info: Rendering request 12 finished in 124 ms rootId=x7gmeo8sohyztze, id=x7gmeo8sohyztze
+2023-12-05T14:39:35.583Z - info: Render request 13 queued for execution and waiting for available worker rootId=d9i4xe1eppk8rg1, id=d9i4xe1eppk8rg1
+2023-12-05T14:39:35.603Z - info: Starting rendering request 13 rootId=d9i4xe1eppk8rg1, id=d9i4xe1eppk8rg1
+2023-12-05T14:39:35.603Z - info: Rendering template { name: pmo_slip_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=d9i4xe1eppk8rg1, id=d9i4xe1eppk8rg1
+2023-12-05T14:39:35.645Z - warn: Error when processing render request 13
+(because) error when evaluating engine handlebars for template /PMO_slip/pmo_slip_index
+(because) primedba doesn't match primedbe - 79:15
+
+(sandbox.js line 2914:18)
+Error: primedba doesn't match primedbe - 79:15
+  at validateClose (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/handlebars/dist/cjs/handlebars/compiler/helpers.js:28:11)
+  at Object.prepareBlock (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/handlebars/dist/cjs/handlebars/compiler/helpers.js:142:5)
+  at Object.anonymous (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:65:33)
+  at Parser.parse (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:367:48)
+  at parseWithoutProcessing (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/handlebars/dist/cjs/handlebars/compiler/base.js:46:33)
+  at HandlebarsEnvironment.parse (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/handlebars/dist/cjs/handlebars/compiler/base.js:52:13)
+  at Object.precompile (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:485:17)
+  at hb.precompile (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/handlebars/dist/cjs/handlebars.js:42:40)
+  at Object.compile (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-handlebars/lib/handlebarsEngine.js:34:52)
+  at Object.compile (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-handlebars/lib/worker.js:26:43)
+  at executionFn (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/worker/render/executeEngine.js:199:42)
+  at eval (sandbox.js:2914:18)
+  at async run (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/worker/sandbox/createSandbox.js:132:18)
+  at async WorkerReporter.runInSandbox [as _runInSandbox] (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/worker/sandbox/runInSandbox.js:195:14)
+  at async executeEngine (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/worker/render/executeEngine.js:285:14)
+  at async engine.engine (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/worker/render/executeEngine.js:115:14)
+wrapped by:
+Error: Error when evaluating engine handlebars for template /PMO_slip/pmo_slip_index
+(because) primedba doesn't match primedbe - 79:15
+  at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+  at WorkerReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+  at executeEngine (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/worker/render/executeEngine.js:308:33)
+  at async engine.engine (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/worker/render/executeEngine.js:115:14)
+  at async invokeRender (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:62:23)
+  at async WorkerReporter._render (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:147:7)
+  at async /Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:224:19
+  at async processAndResponse (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/advanced-workers/lib/workerHandler.js:41:17) rootId=d9i4xe1eppk8rg1, id=d9i4xe1eppk8rg1
+2023-12-05T14:39:35.646Z - warn: Rendering request 13 finished with error in 64 ms rootId=d9i4xe1eppk8rg1, id=d9i4xe1eppk8rg1
+2023-12-05T14:39:56.677Z - info: Render request 14 queued for execution and waiting for available worker rootId=juortz9lsnnw485, id=juortz9lsnnw485
+2023-12-05T14:39:56.684Z - info: Starting rendering request 14 rootId=juortz9lsnnw485, id=juortz9lsnnw485
+2023-12-05T14:39:56.684Z - info: Rendering template { name: pmo_slip_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=juortz9lsnnw485, id=juortz9lsnnw485
+2023-12-05T14:39:56.779Z - info: Rendering request 14 finished in 103 ms rootId=juortz9lsnnw485, id=juortz9lsnnw485
+2023-12-05T14:45:54.427Z - info: Render request 15 queued for execution and waiting for available worker rootId=32pk69cios1guq2, id=32pk69cios1guq2
+2023-12-05T14:45:54.447Z - info: Starting rendering request 15 rootId=32pk69cios1guq2, id=32pk69cios1guq2
+2023-12-05T14:45:54.448Z - info: Rendering template { name: pmo_slip_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=32pk69cios1guq2, id=32pk69cios1guq2
+2023-12-05T14:45:54.553Z - info: Rendering request 15 finished in 127 ms rootId=32pk69cios1guq2, id=32pk69cios1guq2
+2023-12-05T14:46:18.824Z - error: Error when processing OData PATCH: /odata/assets(TcRpCZgOjF3ed1MG) Error: Entity (_id: TcRpCZgOjF3ed1MG) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T14:46:23.179Z - error: Error when processing OData PATCH: /odata/assets(TcRpCZgOjF3ed1MG) Error: Entity (_id: TcRpCZgOjF3ed1MG) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T14:46:26.077Z - info: Render request 16 queued for execution and waiting for available worker rootId=yvgp7mou3dl834b, id=yvgp7mou3dl834b
+2023-12-05T14:46:26.099Z - info: Starting rendering request 16 rootId=yvgp7mou3dl834b, id=yvgp7mou3dl834b
+2023-12-05T14:46:26.099Z - info: Rendering template { name: pmo_slip_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=yvgp7mou3dl834b, id=yvgp7mou3dl834b
+2023-12-05T14:46:26.203Z - info: Rendering request 16 finished in 128 ms rootId=yvgp7mou3dl834b, id=yvgp7mou3dl834b
+2023-12-05T14:46:35.830Z - info: Render request 17 queued for execution and waiting for available worker rootId=lilr49vfdt816qy, id=lilr49vfdt816qy
+2023-12-05T14:46:35.843Z - info: Starting rendering request 17 rootId=lilr49vfdt816qy, id=lilr49vfdt816qy
+2023-12-05T14:46:35.843Z - info: Rendering template { name: pns_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=lilr49vfdt816qy, id=lilr49vfdt816qy
+2023-12-05T14:46:35.965Z - info: Rendering request 17 finished in 136 ms rootId=lilr49vfdt816qy, id=lilr49vfdt816qy
+2023-12-05T14:46:50.328Z - info: Render request 18 queued for execution and waiting for available worker rootId=7oaj9c838741wnq, id=7oaj9c838741wnq
+2023-12-05T14:46:50.351Z - info: Starting rendering request 18 rootId=7oaj9c838741wnq, id=7oaj9c838741wnq
+2023-12-05T14:46:50.351Z - info: Rendering template { name: pp_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=7oaj9c838741wnq, id=7oaj9c838741wnq
+2023-12-05T14:46:50.448Z - info: Rendering request 18 finished in 120 ms rootId=7oaj9c838741wnq, id=7oaj9c838741wnq
+2023-12-05T14:47:02.982Z - info: Render request 19 queued for execution and waiting for available worker rootId=g9ro7vwg425f1lp, id=g9ro7vwg425f1lp
+2023-12-05T14:47:03.008Z - info: Starting rendering request 19 rootId=g9ro7vwg425f1lp, id=g9ro7vwg425f1lp
+2023-12-05T14:47:03.008Z - info: Rendering template { name: pns_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=g9ro7vwg425f1lp, id=g9ro7vwg425f1lp
+2023-12-05T14:47:03.110Z - info: Rendering request 19 finished in 129 ms rootId=g9ro7vwg425f1lp, id=g9ro7vwg425f1lp
+2023-12-05T14:51:52.696Z - error: Error when processing OData PATCH: /odata/templates(lE0kRC6eGv9UqSb2) Error: Entity (_id: lE0kRC6eGv9UqSb2) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T14:52:13.103Z - info: Render request 20 queued for execution and waiting for available worker rootId=8bluevl3fiqfi59, id=8bluevl3fiqfi59
+2023-12-05T14:52:13.120Z - info: Starting rendering request 20 rootId=8bluevl3fiqfi59, id=8bluevl3fiqfi59
+2023-12-05T14:52:13.120Z - info: Rendering template { name: pns_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=8bluevl3fiqfi59, id=8bluevl3fiqfi59
+2023-12-05T14:52:13.231Z - info: Rendering request 20 finished in 129 ms rootId=8bluevl3fiqfi59, id=8bluevl3fiqfi59
+2023-12-05T14:52:19.421Z - info: Render request 21 queued for execution and waiting for available worker rootId=gqf8c6pwoz15uzp, id=gqf8c6pwoz15uzp
+2023-12-05T14:52:19.449Z - info: Starting rendering request 21 rootId=gqf8c6pwoz15uzp, id=gqf8c6pwoz15uzp
+2023-12-05T14:52:19.449Z - info: Rendering template { name: pp_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=gqf8c6pwoz15uzp, id=gqf8c6pwoz15uzp
+2023-12-05T14:52:19.544Z - info: Rendering request 21 finished in 124 ms rootId=gqf8c6pwoz15uzp, id=gqf8c6pwoz15uzp
+2023-12-05T14:52:54.797Z - error: Error when processing OData PATCH: /odata/templates(lE0kRC6eGv9UqSb2) Error: Entity (_id: lE0kRC6eGv9UqSb2) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T14:56:35.004Z - info: Render request 22 queued for execution and waiting for available worker rootId=fhndby28q9pvkz9, id=fhndby28q9pvkz9
+2023-12-05T14:56:35.027Z - info: Starting rendering request 22 rootId=fhndby28q9pvkz9, id=fhndby28q9pvkz9
+2023-12-05T14:56:35.028Z - info: Rendering template { name: pp_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=fhndby28q9pvkz9, id=fhndby28q9pvkz9
+2023-12-05T14:56:35.122Z - info: Rendering request 22 finished in 119 ms rootId=fhndby28q9pvkz9, id=fhndby28q9pvkz9
+2023-12-05T14:56:44.253Z - info: Render request 23 queued for execution and waiting for available worker rootId=gjo4apqy370oq0i, id=gjo4apqy370oq0i
+2023-12-05T14:56:44.269Z - info: Starting rendering request 23 rootId=gjo4apqy370oq0i, id=gjo4apqy370oq0i
+2023-12-05T14:56:44.269Z - info: Rendering template { name: pns_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=gjo4apqy370oq0i, id=gjo4apqy370oq0i
+2023-12-05T14:56:44.381Z - info: Rendering request 23 finished in 130 ms rootId=gjo4apqy370oq0i, id=gjo4apqy370oq0i
+2023-12-05T14:58:20.955Z - info: Render request 24 queued for execution and waiting for available worker rootId=q4vv1ywd9kiak2h, id=q4vv1ywd9kiak2h
+2023-12-05T14:58:20.977Z - info: Starting rendering request 24 rootId=q4vv1ywd9kiak2h, id=q4vv1ywd9kiak2h
+2023-12-05T14:58:20.977Z - info: Rendering template { name: pns_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=q4vv1ywd9kiak2h, id=q4vv1ywd9kiak2h
+2023-12-05T14:58:21.095Z - info: Rendering request 24 finished in 140 ms rootId=q4vv1ywd9kiak2h, id=q4vv1ywd9kiak2h
+2023-12-05T14:59:06.428Z - info: Render request 25 queued for execution and waiting for available worker rootId=7b2ecxwt64dw04l, id=7b2ecxwt64dw04l
+2023-12-05T14:59:06.455Z - info: Starting rendering request 25 rootId=7b2ecxwt64dw04l, id=7b2ecxwt64dw04l
+2023-12-05T14:59:06.455Z - info: Rendering template { name: pp_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=7b2ecxwt64dw04l, id=7b2ecxwt64dw04l
+2023-12-05T14:59:06.558Z - info: Rendering request 25 finished in 131 ms rootId=7b2ecxwt64dw04l, id=7b2ecxwt64dw04l
+2023-12-05T15:00:14.595Z - error: Error when processing OData PATCH: /odata/assets(Aa55QWiJE1qlRLa3) Error: Entity (_id: Aa55QWiJE1qlRLa3) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T15:01:27.844Z - error: Error when processing OData PATCH: /odata/assets(Aa55QWiJE1qlRLa3) Error: Entity (_id: Aa55QWiJE1qlRLa3) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T15:01:30.349Z - info: Render request 26 queued for execution and waiting for available worker rootId=euopnq33ve3y822, id=euopnq33ve3y822
+2023-12-05T15:01:30.362Z - info: Starting rendering request 26 rootId=euopnq33ve3y822, id=euopnq33ve3y822
+2023-12-05T15:01:30.362Z - info: Rendering template { name: pp_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=euopnq33ve3y822, id=euopnq33ve3y822
+2023-12-05T15:01:30.473Z - info: Rendering request 26 finished in 124 ms rootId=euopnq33ve3y822, id=euopnq33ve3y822
+2023-12-05T15:05:07.356Z - error: Error when processing OData PATCH: /odata/assets(TcRpCZgOjF3ed1MG) Error: Entity (_id: TcRpCZgOjF3ed1MG) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T15:05:12.866Z - info: Render request 27 queued for execution and waiting for available worker rootId=lea9xbp7o8c7beu, id=lea9xbp7o8c7beu
+2023-12-05T15:05:12.890Z - info: Starting rendering request 27 rootId=lea9xbp7o8c7beu, id=lea9xbp7o8c7beu
+2023-12-05T15:05:12.891Z - info: Rendering template { name: pmo_slip_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=lea9xbp7o8c7beu, id=lea9xbp7o8c7beu
+2023-12-05T15:05:12.987Z - info: Rendering request 27 finished in 121 ms rootId=lea9xbp7o8c7beu, id=lea9xbp7o8c7beu
+2023-12-05T15:05:19.849Z - error: Error when processing OData PATCH: /odata/assets(TcRpCZgOjF3ed1MG) Error: Entity (_id: TcRpCZgOjF3ed1MG) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T15:05:22.308Z - info: Render request 28 queued for execution and waiting for available worker rootId=add3uixdlvytdf0, id=add3uixdlvytdf0
+2023-12-05T15:05:22.329Z - info: Starting rendering request 28 rootId=add3uixdlvytdf0, id=add3uixdlvytdf0
+2023-12-05T15:05:22.331Z - info: Rendering template { name: pmo_slip_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=add3uixdlvytdf0, id=add3uixdlvytdf0
+2023-12-05T15:05:22.432Z - info: Rendering request 28 finished in 124 ms rootId=add3uixdlvytdf0, id=add3uixdlvytdf0
+2023-12-05T15:05:43.154Z - error: Error when processing OData PATCH: /odata/assets(TcRpCZgOjF3ed1MG) Error: Entity (_id: TcRpCZgOjF3ed1MG) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T15:05:45.690Z - info: Render request 29 queued for execution and waiting for available worker rootId=ibtg6k1mu0dp1qp, id=ibtg6k1mu0dp1qp
+2023-12-05T15:05:45.705Z - info: Starting rendering request 29 rootId=ibtg6k1mu0dp1qp, id=ibtg6k1mu0dp1qp
+2023-12-05T15:05:45.706Z - info: Rendering template { name: pmo_slip_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=ibtg6k1mu0dp1qp, id=ibtg6k1mu0dp1qp
+2023-12-05T15:05:45.808Z - info: Rendering request 29 finished in 118 ms rootId=ibtg6k1mu0dp1qp, id=ibtg6k1mu0dp1qp
+2023-12-05T15:05:58.356Z - error: Error when processing OData PATCH: /odata/assets(TcRpCZgOjF3ed1MG) Error: Entity (_id: TcRpCZgOjF3ed1MG) was modified previously by another source
+    at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at MainReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+    at AsyncFunction.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-studio/lib/main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+    at async Object.update (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T15:06:01.807Z - info: Render request 30 queued for execution and waiting for available worker rootId=elr1dj6a5i07r4j, id=elr1dj6a5i07r4j
+2023-12-05T15:06:01.821Z - info: Starting rendering request 30 rootId=elr1dj6a5i07r4j, id=elr1dj6a5i07r4j
+2023-12-05T15:06:01.821Z - info: Rendering template { name: pmo_slip_index, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=elr1dj6a5i07r4j, id=elr1dj6a5i07r4j
+2023-12-05T15:06:01.931Z - info: Rendering request 30 finished in 125 ms rootId=elr1dj6a5i07r4j, id=elr1dj6a5i07r4j
+2023-12-05T15:36:05.753Z - info: fs store is loading data
+2023-12-05T15:48:04.319Z - info: fs store is loading data
+2023-12-05T16:05:01.983Z - info: fs store is loading data
+2023-12-05T16:13:24.316Z - info: fs store is loading data
+2023-12-05T16:29:49.301Z - info: fs store is loading data
+2023-12-05T16:33:55.653Z - info: fs store is loading data
+2023-12-05T16:35:34.339Z - info: fs store is loading data
+2023-12-05T16:54:32.244Z - info: fs store is loading data
+2023-12-05T16:57:45.222Z - info: fs store is loading data
+2023-12-05T18:26:08.469Z - info: fs store is loading data
+2023-12-05T18:33:17.399Z - info: fs store is loading data
+2023-12-05T18:45:02.455Z - info: fs store is loading data
+2023-12-05T18:57:29.141Z - info: Render request 31 queued for execution and waiting for available worker rootId=ysjaeae3jyz3ub8, id=ysjaeae3jyz3ub8
+2023-12-05T18:57:29.153Z - info: Starting rendering request 31 rootId=ysjaeae3jyz3ub8, id=ysjaeae3jyz3ub8
+2023-12-05T18:57:29.154Z - info: Rendering template { name: index_zahtev, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=ysjaeae3jyz3ub8, id=ysjaeae3jyz3ub8
+2023-12-05T18:57:29.594Z - info: pdf-utils is starting pdf processing rootId=ysjaeae3jyz3ub8, id=ysjaeae3jyz3ub8
+2023-12-05T18:57:29.596Z - info: Starting rendering (child) request rootId=ysjaeae3jyz3ub8, id=dxnd7sue7em9ljj
+2023-12-05T18:57:29.596Z - info: Rendering template { name: header-footer, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=ysjaeae3jyz3ub8, id=dxnd7sue7em9ljj
+2023-12-05T18:57:29.780Z - info: Rendering (child) request finished in 603 ms rootId=ysjaeae3jyz3ub8, id=dxnd7sue7em9ljj
+2023-12-05T18:57:29.781Z - info: pdf-utils pdf processing was finished rootId=ysjaeae3jyz3ub8, id=ysjaeae3jyz3ub8
+2023-12-05T18:57:29.781Z - info: Rendering request 31 finished in 640 ms rootId=ysjaeae3jyz3ub8, id=ysjaeae3jyz3ub8
+2023-12-05T18:57:30.103Z - info: Render request 32 queued for execution and waiting for available worker rootId=rahokzdgyywiq05, id=rahokzdgyywiq05
+2023-12-05T18:57:30.114Z - info: Starting rendering request 32 rootId=rahokzdgyywiq05, id=rahokzdgyywiq05
+2023-12-05T18:57:30.114Z - info: Rendering template { name: index_zahtev, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=rahokzdgyywiq05, id=rahokzdgyywiq05
+2023-12-05T18:57:30.461Z - info: pdf-utils is starting pdf processing rootId=rahokzdgyywiq05, id=rahokzdgyywiq05
+2023-12-05T18:57:30.463Z - info: Starting rendering (child) request rootId=rahokzdgyywiq05, id=k1ofug4d5deqf3e
+2023-12-05T18:57:30.463Z - info: Rendering template { name: header-footer, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=rahokzdgyywiq05, id=k1ofug4d5deqf3e
+2023-12-05T18:57:30.632Z - info: Rendering (child) request finished in 503 ms rootId=rahokzdgyywiq05, id=k1ofug4d5deqf3e
+2023-12-05T18:57:30.632Z - info: pdf-utils pdf processing was finished rootId=rahokzdgyywiq05, id=rahokzdgyywiq05
+2023-12-05T18:57:30.632Z - info: Rendering request 32 finished in 530 ms rootId=rahokzdgyywiq05, id=rahokzdgyywiq05
+2023-12-05T19:11:50.344Z - info: fs store is loading data
+2023-12-05T19:27:10.745Z - info: fs store is loading data
+2023-12-05T19:46:36.731Z - info: Render request 33 queued for execution and waiting for available worker rootId=fb7hy9ouj66494p, id=fb7hy9ouj66494p
+2023-12-05T19:46:36.741Z - info: Starting rendering request 33 rootId=fb7hy9ouj66494p, id=fb7hy9ouj66494p
+2023-12-05T19:46:36.741Z - info: Rendering template { name: index_zahtev, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=fb7hy9ouj66494p, id=fb7hy9ouj66494p
+2023-12-05T19:46:36.741Z - warn: Error when processing render request 33
+(because) request data can not be an array. you should pass an object in request.data input
+Error: Request data can not be an array. you should pass an object in request.data input
+  at module.exports (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+  at WorkerReporter.createError (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+  at invokeRender (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:49:22)
+  at WorkerReporter._render (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:147:13)
+  at async /Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:224:19
+  at async processAndResponse (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/advanced-workers/lib/workerHandler.js:41:17) rootId=fb7hy9ouj66494p, id=fb7hy9ouj66494p
+2023-12-05T19:46:36.741Z - warn: Rendering request 33 finished with error in 10 ms rootId=fb7hy9ouj66494p, id=fb7hy9ouj66494p
+2023-12-05T19:46:36.742Z - warn: Error during processing request at http://localhost:5488/api/report
+2023-12-05T21:51:04.402Z - info: fs store is loading data
+2023-12-05T21:59:45.778Z - info: fs store is loading data

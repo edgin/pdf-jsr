@@ -8,14 +8,14 @@
     "shortid": "tDl94dzZJk",
     "chrome": {
         "printBackground": true,
-        "width": "5.8cm",
-        "height": "70cm"
+        "width": "58mm",
+        "height": "21cm"
     },
     "creationDate": {
         "$$date": 1701756163019
     },
     "modificationDate": {
-        "$$date": 1701756163019
+        "$$date": 1701787969527
     },
     "_id": "q4MWEkqFpn2n7g9m",
     "$entitySet": "templates"
