@@ -9,14 +9,14 @@
     "chrome": {
         "printBackground": true,
         "width": "5.8cm",
-        "height": "50cm",
+        "height": "60cm",
         "viewportHeight": 2000
     },
     "creationDate": {
-        "$$date": 1700817150133
+        "$$date": 1701756174412
     },
     "modificationDate": {
-        "$$date": 1701701663858
+        "$$date": 1701756174412
     },
     "_id": "wNAiItRKhv6LwJA4",
     "$entitySet": "templates"

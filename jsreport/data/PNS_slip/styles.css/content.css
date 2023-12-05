@@ -3,98 +3,97 @@ body{
         margin: 0;
         font-size: 16px;
     }
-    h1, h2 {
-        text-align: center;
-        padding: 0;
-        margin: 0;
-    }
-    .naslov h1 {
-        font-size: 16px;
-        margin-top: 10px;
-    }
-    h2{
-         font-size: 14px;
-         text-transform: uppercase;
-    }
-    .naslov h2{
-        font-size: 12px;
-        letter-spacing: -0.8px;
-        text-align: center;
-    }
-    h3{
+h1, h2 {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.naslov h1 {
+    font-size: 16px;
+    margin-top: 10px;
+}
+h2{
         font-size: 14px;
-        padding: 0;
-        margin:0;
-        display: inline;
-    }
-    h4{
-        margin: 0;
-        padding: 0;
-    }
-    .protiv {
-        padding: 10px;
-       
-    }
-    .footer , .pouke_upozorenja{
-        padding: 0 10px 0px 10px;
-    }
-    .pouke_upozorenja {
-        font-size: 10px;
-        text-align: justify;
-        text-justify: inter-word;
-        line-height: 10px;
-         -webkit-hyphens: auto;
-        -moz-hyphens: auto;
-        -ms-hyphens: auto;
-        hyphens: auto;
-    }
-    .zaglavlje{
-        background-color: #80c1f2;
-        
-        line-height: 16px;
-        padding: 10px;
-    }
-    .uplata {
-        padding: 10px;
-        background-color: #80c1f2;
-        text-align: justify;
-    }
-    .cinjenicni-opis {
-        padding: 10px;
-        padding-top: 0;
-        word-break: break-all;
-        font-size: 12px;
-        hyphens:  auto;
-    }
-    .cinjenicni-opis h3{
-        padding: 0;
-        margin: 0;
-        text-align: center;
-        text-indent: -1;
         text-transform: uppercase;
-    }
-    .dodaci, .zakonska_odredba {
-        word-break: break-all;
-        padding: 10px;
-    }
-    .zakonska_odredba h4{
-        padding: 0;
-        margin: 0;
-    }
-    .pouke_upozorenja h3{
-        padding: 0;
-        margin: 0;
-        margin: 5px 0;
-        text-align: center;
-        display: block;
-    }
-    .okrivljeni_kontejner{
-        display: inline;
-    }
+}
+.naslov h2{
+    font-size: 12px;
+    letter-spacing: -0.8px;
+    text-align: center;
+}
+h3{
+    font-size: 14px;
+    padding: 0;
+    margin:0;
+    display: inline;
+}
+h4{
+    margin: 0;
+    padding: 0;
+}
+.protiv {
+    padding: 10px;
+    
+}
+.footer , .pouke_upozorenja{
+    padding: 0 10px 0px 10px;
+}
+.pouke_upozorenja {
+    font-size: 10px;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 10px;
+        -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+.zaglavlje{
+    background-color: #80c1f2;
+    
+    line-height: 16px;
+    padding: 10px;
+}
+.uplata {
+    padding: 10px;
+    background-color: #80c1f2;
+    text-align: justify;
+}
+.cinjenicni-opis {
+    padding: 10px;
+    padding-top: 0;
+    word-break: break-all;
+    font-size: 14px;
+    hyphens:  auto;
+}
+.cinjenicni-opis h3{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    text-indent: -1;
+    text-transform: uppercase;
+}
+.dodaci, .zakonska_odredba {
+    word-break: break-all;
+    padding: 10px;
+}
+.zakonska_odredba h4{
+    padding: 0;
+    margin: 0;
+}
+.pouke_upozorenja h3{
+    padding: 0;
+    margin: 5px 0;
+    text-align: center;
+    display: block;
+}
+.okrivljeni_kontejner{
+    display: inline;
+}
 
-    @media (max-width: 400px) {
-        .naslov p{
-            font-size: 14px;
-            text-align: center;
-        }
+@media (max-width: 400px) {
+    .naslov p{
+        font-size: 14px;
+        text-align: center;
     }
+}

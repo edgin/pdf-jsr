@@ -2,10 +2,10 @@ body{
     font-size: 16px;
 }
 .heading {
-    padding: 10px;
+    padding: 10px 0;
 }
 .naslov{
-    padding: 10px;
+    padding: 10px 0;
     text-align: justify;
     text-justify: inter-word;
 }
@@ -22,12 +22,13 @@ body{
     margin: 0;
 }
 .podaci{
-    padding: 10px;
+    padding: 10px 0;
+
 }
 .odluka{
-    padding: 10px;
+    padding: 10px 0;
 }         
 .potpisi{
-    padding-top: 20px;
+    margin-top: 20px;
     font-size: 12px;
 }

@@ -1396,3 +1396,14 @@
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async ListenerCollection.fire (/Users/lukamata/Projects/factory/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
     at async Object.update (/Users/lukamata/Projects/factory/jsreport/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:174:5)
+2023-12-05T05:53:55.572Z - error: Error when starting http server on port 5488 Error: listen EADDRINUSE: address already in use :::5488
+    at Server.setupListenHandle [as _listen2] (node:net:1817:16)
+    at listenInCluster (node:net:1865:12)
+    at Server.listen (node:net:1953:7)
+    at /Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-express/lib/main.js:22:12
+    at new Promise (<anonymous>)
+    at startAsync (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-express/lib/main.js:16:10)
+    at /Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-express/lib/main.js:50:14
+    at Object.start (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-express/lib/main.js:125:13)
+    at Object.<anonymous> (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-express/lib/main.js:333:30)
+    at async ListenerCollection.fire (/Users/lukamata/Projects/factory/PDF-JSR/jsreport/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
