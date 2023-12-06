@@ -9,14 +9,14 @@
 </head>
     <body>
         <div class="header">
-                КОПИЈА УПОЗОРЕЊА У ЕЛЕКТРОНСКОМ ОБЛИКУ<br>
+                КОПИЈА УПОЗОРЕЊА У ЕЛЕКТРОНСКОМ ОБЛИКУ
                 МУП Републике Србије, <br>
-                {{pu}}<br>
-                {{spi}}<br>
-                Ид. број: {{serijski_broj}}<br>
-                Дана : {{datum_podnosenja_zahteva}}год.<br>
-                Сл.Лице:{{ovlasceno_sluzbeno_lice.ime}}<br>
-                Бр.сл.лег.: {{ovlasceno_sluzbeno_lice.broj}}<br>
+                {{pu}} 
+                {{spi}} <br>
+                Ид. број: {{serijski_broj}} <br>
+                Дана : {{datum_podnosenja_zahteva}}год. <br>
+                Сл.Лице:{{ovlasceno_sluzbeno_lice.ime}} <br>
+                Бр.сл.лег.: {{ovlasceno_sluzbeno_lice.broj}} 
             <div class="naslov">
                 <p> Nа основу члана 168 и 169. Закона о прекршајима ("Службени гласник РС", бр 65/13, 13/16, 98/16 - УС, 91/19 - др.закон, 91/19, ???) издаје</p>
                 <h1>ПРЕКРШАЈНИ НАЛОГ</h1>
@@ -25,11 +25,11 @@
         </div>
         <div class="body">
             <div class="podaci">
-                    <h3>ЛИЦУ:</h3>
+                    
                     {{#kome_se_upucuje.fizicko_lice}}
                         <div class="okrivljeni_kontejner">
-                                {{okrivljeni.fizicko_lice.prezime}} {{okrivljeni.fizicko_lice.ime_roditelja}} {{okrivljeni.fizicko_lice.ime}},
-                                ЈМБГ: {{okrivljeni.fizicko_lice.jmbg}}, Држављанин: {{drzavljanin}}<br>
+                                ЛИЦУ {{okrivljeni.fizicko_lice.prezime}} {{okrivljeni.fizicko_lice.ime_roditelja}} {{okrivljeni.fizicko_lice.ime}},
+                                ЈМБГ: {{okrivljeni.fizicko_lice.jmbg}}, Држављанин: {{okrivljeni.fizicko_lice.drzavljanin}}
                                 Рођен/а: {{okrivljeni.fizicko_lice.rodjenje.datum}}. {{okrivljeni.fizicko_lice.rodjenje.drzava}} / {{okrivljeni.fizicko_lice.rodjenje.mesto}} / {{okrivljeni.fizicko_lice.rodjenje.opstina}}<br>
                         </div>
                     {{/kome_se_upucuje.fizicko_lice}}
@@ -71,8 +71,8 @@
                             број саобраћајне дозволе {{prikljucno.saobracajna_broj}}. 
 
             </div>
-            <div class="cinjenicni-opis">
-            <h2>Чињенични опис:</h2>
+            <div class="cinjenicni_opis">
+            <h2>Чињенични опис</h2>
                 {{cinjenicni_opis}}
             </div>
             <div class="zakonska_odredba"> 
@@ -85,35 +85,35 @@
                 {{#prilozi}}
                     <b>Прилози:</b>{{prilozi}}<br>
                 {{/prilozi}}
-                <h4>Чиме је учињен прекршај</h4>
+                <h2>Чиме је учињен прекршај</h2>
                 {{#kome_se_upucuje.fizicko_lice}}
                         {{#okrivljeni.fizicko_lice.zakonska_odredba}}
-                            ИЗ ЧЛАНА {{clan}}, СТАВ {{clan}}, ТАЧКА {{tacka}}, {{zakon}}
+                            ИЗ ЧЛАНА <b>{{clan}}</b>, СТАВ <b>{{clan}}</b>, ТАЧКА <b>{{tacka}}</b>, {{zakon}}
                         {{/okrivljeni.fizicko_lice.zakonska_odredba}}
                     {{/kome_se_upucuje.fizicko_lice}}
                     {{#kome_se_upucuje.odgovorno_lice}}
                         {{#okrivljeni.odgovorno_lice.zakonska_odredba}}
-                            ИЗ ЧЛАНА {{clan}}, СТАВ {{clan}}, ТАЧКА {{tacka}}, {{zakon}}
+                            ИЗ ЧЛАНА <b>{{clan}}</b>, СТАВ <b>{{clan}}</b>, ТАЧКА <b>{{tacka}}</b>, {{zakon}}
                         {{/okrivljeni.odgovorno_lice.zakonska_odredba}}
                     {{/kome_se_upucuje.odgovorno_lice}}
                     {{#kome_se_upucuje.preduzetnik}}
                         {{#okrivljeni.preduzetnik.zakonska_odredba}}
-                            ИЗ ЧЛАНА {{clan}}, СТАВ {{clan}}, ТАЧКА {{tacka}}, {{zakon}}
+                            ИЗ ЧЛАНА <b>{{clan}}</b>, СТАВ <b>{{clan}}</b>, ТАЧКА <b>{{tacka}}</b>, {{zakon}}
                         {{/okrivljeni.preduzetnik.zakonska_odredba}}
                     {{/kome_se_upucuje.preduzetnik}}
                     {{#kome_se_upucuje.pravno_lice}}
                         {{#okrivljeni.pravno_lice.zakonska_odredba}}
-                            ИЗ ЧЛАНА {{clan}}, СТАВ {{clan}}, ТАЧКА {{tacka}}, {{zakon}}
+                            ИЗ ЧЛАНА <b>{{clan}}</b>, СТАВ <b>{{clan}}</b>, ТАЧКА <b>{{tacka}}</b>, {{zakon}}
                         {{/okrivljeni.pravno_lice.zakonska_odredba}}
                     {{/kome_se_upucuje.pravno_lice}}
                 (Сл.гласник Републике Србије,бр. 41/09, 53/10, 101/11, 32/13 - одлука YC, 55/14, 96/15 - др.закон, 9/16 - одлука УС,
-                24/18, 41/18, 41/18 - др.закон, 87/18, 23/19 и 128/20 - др.закон)
-                    За који се изриче новчана казна у износу од {{kazna.novcana_kazna}} динара(РСД).<br>
-                    ПРОЧИТАТИ ПОУКЕ И УПОЗОРЕЊА
+                24/18, 41/18, 41/18 - др.закон, 87/18, 23/19 и 128/20 - др.закон)<br>
+                    За који се изриче новчана казна у износу од <b>{{kazna.novcana_kazna}}</b> динара(РСД).<br>
+                    <p class="pouke">ПРОЧИТАТИ ПОУКЕ И УПОЗОРЕЊА</p>
             </div>
             <div class="uplata">
                 Уплатити извршити у корист: БУЏЕТ РЕПУБЛИКЕ СРБИЈЕ, у сврху плаћања: 
-                УПЛАТА ПО ПРЕКРШАЈНОМ НАЛОГУ БРОЈ {{serijski_broj}} на рачун број {{racun.broj}} poziv {{racun.poziv_na_broj}} model {{racun.model}}
+                УПЛАТА ПО ПРЕКРШАЈНОМ НАЛОГУ БРОЈ <b>{{serijski_broj}}</b> на рачун број <b>{{racun.broj}}</b> poziv <b>{{racun.poziv_na_broj}}</b> model <b>{{racun.model}}</b>
             </div>
             <div class="dodaci">
                 {{#drugi_prekrsajni_nalog.prisutan}}
@@ -141,11 +141,13 @@
             </div>
         </div>
         <div class="footer">
-            Дигитално потписао квалификованим
-            електронским потписом полицијски службеник
-                EL.POTPIS<br>
-            Оверено квалификованим електронским печатом
-            Министарства унутрашњих послова
+            <div class="potpis">
+                Дигитално потписао квалификованим
+                електронским потписом полицијски службеник
+                    <b>{{ovlasceno_sluzbeno_lice.ime}}{{ovlasceno_sluzbeno_lice.prezime}}</b><br>
+                Оверено квалификованим електронским печатом
+                Министарства унутрашњих послова
+            </div>
             <div class="pouke_upozorenja">
                 <h3>Поуке и упозорења</h3>
                 <b>1)</b> ako lice protiv koga je izdat prekršajni nalog prihvati odgovornost i u roku od osam dana od dana prijema prekršajnog naloga plati polovinu izrečene kazne, oslobađa se plaćanja druge polovine izrečene novčane kazne (član 173. stav 1);<br>

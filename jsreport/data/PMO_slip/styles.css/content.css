@@ -1,5 +1,13 @@
 body{
     font-size: 16px;
+    padding: 0;
+    margin:0;
+}
+.header {
+     word-break: break-all;
+}
+.header .naslov {
+    word-break: normal!important;
 }
 .header, 
 .footer,
@@ -11,4 +19,12 @@ body{
 }
 .header .naslov h1 {
     font-size: 16px;
+    text-align: center;
+}
+.header .naslov h2 {
+    font-size: 12px;
+    text-align: center;
+}
+.footer {
+    text-align: center;
 }

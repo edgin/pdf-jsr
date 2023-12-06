@@ -1,3 +1,53 @@
 body{
         font-size: 16px;
+       
     }
+.header {
+     word-break: break-all;
+}
+.header .naslov h1 {
+    font-size: 16px;
+    text-align: center;
+}
+.header .naslov h2, h2{
+    font-size: 14px;
+     text-align: center;
+     text-transform: uppercase;
+     word-break: none;
+}
+.header .naslov p {
+    margin: 0;
+    padding: 5px 0 0 0;
+}
+.header, .body .uplata {
+    background-color: #80c1f2;
+}
+.body .cinjenicni_opis ,
+.body .zakonska_odredba, 
+.body .podaci,
+.body .dodaci,
+.footer .pouke_upozorenja{
+    word-break: break-all;
+}
+.zakonska_odredba p.pouke {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0;
+    margin: 5px 0 0 0;
+}
+.body .uplata {
+    margin: 5px 0;
+}
+.footer .potpis {
+    text-align: center;
+    margin: 5px 0;
+}
+.footer .pouke_upozorenja h3 {
+    font-size: 14px;
+    text-align: center;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+.footer .pouke_upozorenja {
+    font-size: 12px;
+}
