@@ -1,0 +1,186 @@
+<!DOCTYPE html lang="sr">
+<html>
+<head>
+<title>Page Title</title>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<style>
+    {#asset styles.css @encoding=utf8}
+</style>
+</head>
+    <body>
+        <div class="prva-strana-pns">
+            <div class="header plavo">
+                    КОПИЈА УПОЗОРЕЊА У ЕЛЕКТРОНСКОМ ОБЛИКУ<br>
+                    МУП Републике Србије, <br>
+                    {{pu}} 
+                    {{spi}} <br>
+                    Ид. број: {{serijski_broj}} <br>
+                    Дана : {{datum_podnosenja_zahteva}}год. <br>
+                    Сл.Лице:{{ovlasceno_sluzbeno_lice.ime}} <br>
+                    Бр.сл.лег.: {{ovlasceno_sluzbeno_lice.broj}} 
+                <div class="naslov">
+                    <p> Nа основу члана 168 и 169. Закона о прекршајима ("Службени гласник РС", бр 65/13, 13/16, 98/16 - УС, 91/19 - др.закон, 91/19, ???) издаје</p>
+                    <h1>ПРЕКРШАЈНИ НАЛОГ</h1>
+                    <h2>ЗА ПРЕКРШАЈ УЧИЊЕН МОТОРНИМ ВОЗИЛОМ У САОБРАЋАЈУ</h2>
+            </div>
+            </div>
+            <div class="body">
+                <div class="podaci">
+                        
+                        {{#kome_se_upucuje.fizicko_lice}}
+                            <div class="okrivljeni_kontejner">
+                                    ЛИЦУ {{okrivljeni.fizicko_lice.prezime}} {{okrivljeni.fizicko_lice.ime_roditelja}} {{okrivljeni.fizicko_lice.ime}}, држављанин: {{okrivljeni.fizicko_lice.drzavljanin}}
+                                    ЈМБГ: {{okrivljeni.fizicko_lice.jmbg}},
+                                    Рођен/а: {{okrivljeni.fizicko_lice.rodjenje.datum}}. {{okrivljeni.fizicko_lice.rodjenje.drzava}} / {{okrivljeni.fizicko_lice.rodjenje.mesto}} / {{okrivljeni.fizicko_lice.rodjenje.opstina}}<br>
+                            </div>
+                        {{/kome_se_upucuje.fizicko_lice}}
+                        {{#kome_se_upucuje.pravno_lice}}
+                            <div class="okrivljeni_kontejner">
+                                ПРАВНО ЛИЦЕ:  {{okrivljeni.pravno_lice.ime}}<br>
+                                Адреса правног лица: {{okrivljeni.pravno_lice.prebivaliste.mesto}} / {{okrivljeni.pravno_lice.prebivaliste.opstina}} /{{okrivljeni.pravno_lice.prebivaliste.ulica}} ул.  {{okrivljeni.pravno_lice.prebivaliste.broj}}  сп.  {{okrivljeni.pravno_lice.prebivaliste.sprat}}  ст.  {{okrivljeni.pravno_lice.prebivaliste.stan}}  <br>
+                                Мат.бр.:{{okrivljeni.pravno_lice.mat_broj}}<br>
+                            </div>
+                        {{/kome_se_upucuje.pravno_lice}}
+                        {{#kome_se_upucuje.preduzetnik}}
+                            <div class="okrivljeni_kontejner">
+
+                            NAZIV: {{okrivljeni.preduzetnik.naziv}} 
+                                PIB: {{okrivljeni.preduzetnik.pib}}
+                                MATICNI BROJ: {{okrivljeni.preduzetnik.mat_broj}}
+                            ({{okrivljeni.preduzetnik.ime_roditelja}}) {{okrivljeni.preduzetnik.ime}}, ЈМБГ: {{okrivljeni.preduzetnik.jmbg}}<br>
+                                Држављанство: РЕПУБЛИКА СРБИЈА<br>
+                                Рођен/а: {{okrivljeni.preduzetnik.rodjenje.datum}}. {{okrivljeni.preduzetnik.rodjenje.drzava}} / {{okrivljeni.preduzetnik.rodjenje.mesto}} / {{okrivljeni.preduzetnik.rodjenje.opstina}}<br>
+                                Седиште: {{okrivljeni.preduzetnik.prebivaliste.mesto}} / {{okrivljeni.preduzetnik.prebivaliste.opstina}} /{{okrivljeni.preduzetnik.prebivaliste.ulica}} ул.  {{okrivljeni.preduzetnik.prebivaliste.broj}}  сп.  {{okrivljeni.preduzetnik.prebivaliste.sprat}}  ст.  {{okrivljeni.preduzetnik.prebivaliste.stan}}  <br>
+                            </div>
+                        {{/kome_se_upucuje.preduzetnik}}
+                        {{#kome_se_upucuje.odgovorno_lice}}
+                            <div class="okrivljeni_kontejner">
+                                {{okrivljeni.odgovorno_lice.prezime}} ({{okrivljeni.odgovorno_lice.ime_roditelja}}) {{okrivljeni.odgovorno_lice.ime}}, ЈМБГ: {{okrivljeni.odgovorno_lice.jmbg}}<br>
+                                Држављанство:{{okrivljeni.odgovorno_lice.prezime}}<br>
+                                Рођен/а: {{okrivljeni.odgovorno_lice.rodjenje.datum}}. {{okrivljeni.odgovorno_lice.rodjenje.drzava}} / {{okrivljeni.odgovorno_lice.rodjenje.mesto}} / {{okrivljeni.odgovorno_lice.rodjenje.opstina}}<br>
+                                Пребивалиште: {{okrivljeni.odgovorno_lice.prebivaliste.mesto}} / {{okrivljeni.odgovorno_lice.prebivaliste.opstina}} /{{okrivljeni.odgovorno_lice.prebivaliste.ulica}} ул.  {{okrivljeni.odgovorno_lice.prebivaliste.broj}}  сп.  {{okrivljeni.odgovorno_lice.prebivaliste.sprat}}  ст.  {{okrivljeni.odgovorno_lice.prebivaliste.stan}}  <br>
+                                Занимање:  {{okrivljeni.odgovorno_lice.zaposlenje.zaposlenje}}  <br>
+                                Место и адреса запослења: {{okrivljeni.odgovorno_lice.zaposlenje.adresa}} <br>
+                                Funkcija koju obavlja u pravnom licu : {{okrivljeni.odgovorno_lice.zaposlenje.funkcija}}<br>
+                                    
+                            </div>
+                        {{/kome_se_upucuje.odgovorno_lice}}
+                                Возачка дозвола : {{dozvola.kategorija}} категорије, 
+                                број  {{dozvola.broj}}, 
+                                издата од {{dozvola.izdata}}, 
+                                возило регистарске ознаке {{vozilo.registarski_broj}} са прикључним возилом регистарске ознаке {{prikljucno.registarski_broj}}, 
+                                број саобраћајне дозволе {{prikljucno.saobracajna_broj}}. 
+
+                </div>
+                <div class="cinjenicni_opis">
+                <h2>Чињенични опис</h2>
+                    {{cinjenicni_opis}}
+                </div>
+                <div class="zakonska_odredba"> 
+                    {{#prekrsaj_otkriven}}
+                        <b>Прекршај откривен:</b> {{prekrsaj_otkriven}}<br>
+                    {{/prekrsaj_otkriven}}
+                    {{#dokazi}}
+                        <b>Докази:</b>{{dokazi}}<br>
+                    {{/dokazi}}
+                    {{#prilozi}}
+                        <b>Прилози:</b>{{prilozi}}<br>
+                    {{/prilozi}}
+                    <h2>Чиме је учињен прекршај</h2>
+                    {{#kome_se_upucuje.fizicko_lice}}
+                            {{#okrivljeni.fizicko_lice.zakonska_odredba}}
+                                ИЗ ЧЛАНА <b>{{clan}}</b>, СТАВ <b>{{clan}}</b>, ТАЧКА <b>{{tacka}}</b>, {{zakon}}
+                            {{/okrivljeni.fizicko_lice.zakonska_odredba}}
+                        {{/kome_se_upucuje.fizicko_lice}}
+                        {{#kome_se_upucuje.odgovorno_lice}}
+                            {{#okrivljeni.odgovorno_lice.zakonska_odredba}}
+                                ИЗ ЧЛАНА <b>{{clan}}</b>, СТАВ <b>{{clan}}</b>, ТАЧКА <b>{{tacka}}</b>, {{zakon}}
+                            {{/okrivljeni.odgovorno_lice.zakonska_odredba}}
+                        {{/kome_se_upucuje.odgovorno_lice}}
+                        {{#kome_se_upucuje.preduzetnik}}
+                            {{#okrivljeni.preduzetnik.zakonska_odredba}}
+                                ИЗ ЧЛАНА <b>{{clan}}</b>, СТАВ <b>{{clan}}</b>, ТАЧКА <b>{{tacka}}</b>, {{zakon}}
+                            {{/okrivljeni.preduzetnik.zakonska_odredba}}
+                        {{/kome_se_upucuje.preduzetnik}}
+                        {{#kome_se_upucuje.pravno_lice}}
+                            {{#okrivljeni.pravno_lice.zakonska_odredba}}
+                                ИЗ ЧЛАНА <b>{{clan}}</b>, СТАВ <b>{{clan}}</b>, ТАЧКА <b>{{tacka}}</b>, {{zakon}}
+                            {{/okrivljeni.pravno_lice.zakonska_odredba}}
+                        {{/kome_se_upucuje.pravno_lice}}
+                    (Сл.гласник Републике Србије,бр. 41/09, 53/10, 101/11, 32/13 - одлука YC, 55/14, 96/15 - др.закон, 9/16 - одлука УС,
+                    24/18, 41/18, 41/18 - др.закон, 87/18, 23/19 и 128/20 - др.закон)<br>
+                        За који се изриче новчана казна у износу од <b>{{kazna.novcana_kazna}}</b> динара(РСД).<br>
+                        <p class="pouke">ПРОЧИТАТИ ПОУКЕ И УПОЗОРЕЊА на полеђини</p>
+                </div>
+                <div class="uplata plavo">
+                    Уплату извршити у корист: БУЏЕТ РЕПУБЛИКЕ СРБИЈЕ, у сврху плаћања: 
+                    УПЛАТА ПО ПРЕКРШАЈНОМ НАЛОГУ БРОЈ <b>{{serijski_broj}}</b> на рачун број <b>{{racun.broj}}</b> poziv <b>{{racun.poziv_na_broj}}</b> model <b>{{racun.model}}</b>
+                </div>
+                <div class="dodaci">
+                    {{#drugi_prekrsajni_nalog.prisutan}}
+                        Да се поводом истог прекршаја издаје другом лицу прекршајни налог: <b>ДА</b>, број налога: <b>{{drugi_prekrsajni_nalog.broj}}</b>
+                    {{/drugi_prekrsajni_nalog.prisutan}}
+                    Лично уручено 
+                    {{#uruceno_licno}}
+                        <b>ДА</b> 
+                    {{/uruceno_licno}}
+                    {{^uruceno_licno}}
+                        <b>НЕ</b>
+                    {{/uruceno_licno}}
+                    , датум уручења {{datum_urucenja}}
+                    Уручено путем поште 
+                    {{#uruceno_putem_poste}}
+                        <b>ДА</b>
+                    {{/uruceno_putem_poste}}
+                    {{^uruceno_putem_poste}}
+                        <b>НЕ</b>
+                    {{/uruceno_putem_poste}}.
+                <div class="plavo">Датум заказаног претреса <b>{{pretres.datum}}</b>
+                    време <b>{{pretres.vreme}}</b>
+                    Прекршајни суд у <b>{{prekrsajni_sud}}</b></div>
+                    Забелешка службеног лица: 
+                    </br><b>{{beleska_sluzbenog_lica}}</b>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="potpis">
+                    <div class="potpis-okr-lica">
+                        Потпис и печат лица против кога је издат прекршајни налог
+                    </div>
+                    <div class="potpis-sl-lica">
+                            Дигитално потписао квалификованим
+                    електронским потписом полицијски службеник
+                        <b>{{ovlasceno_sluzbeno_lice.ime}}{{ovlasceno_sluzbeno_lice.prezime}}</b><br>
+                    Оверено квалификованим електронским печатом
+                    Министарства унутрашњих послова
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class='page-break'></div>
+        <div class="druga-strana-pns">
+            <div class="pecati">
+                <div class="pecat">
+                    <div class="header">ПРЕКРШАЈНИ НАЛОГ ЈЕ</div>
+                    <div class="body">КОНАЧАН ДАНА ______ 20___. године</div>
+                    <div class="footer">________________  (потпис службеног лица)</div>
+                </div>
+                <div class="pecat">
+                    <div class="header">ЗАБЕЛЕШКА ДА НОВЧАНА КАЗНА НИЈЕ ПЛАЋЕНА</div>
+                    <div class="body">закључно са даном ______ 20 _____. године, у остављеном року није плаћена новчана казна изречена прекршајним налогом број: _________ od ______ 20 ______. године.</div>
+                    <div class="footer">_____________________ (потпис службеног лица)</div>                                   
+                </div>
+            </div>
+            <div class="pouke_upozorenja">
+                <h3>Поуке и упозорења</h3>
+                <b>1)</b> ako lice protiv koga je izdat prekršajni nalog prihvati odgovornost i u roku od osam dana od dana prijema prekršajnog naloga plati polovinu izrečene kazne, oslobađa se plaćanja druge polovine izrečene novčane kazne (član 173. stav 1);<br>
+                <b>2)</b> lice protiv koga je izdat prekršajni nalog može prihvatiti odgovornost za prekršaj i nakon isteka roka od osam dana od prijema prekršajnog naloga, ako pre postupka izvršenja dobrovoljno plati celokupan iznos izrečene novčane kazne (član 173. stav 4);<br>
+                <b>3)</b> lice protiv koga je izdat prekršajni nalog, ukoliko ne prihvata svoju odgovornost, može nadležnom sudu u roku od osam dana od prijema prekršajnog naloga, lično ili preko pošte, da dostavi potpisan prekršajni nalog, koji tada predstavlja zahtev za sudsko odlučivanje o prekršajnom nalogu (član 174. stav 1);<br>
+                <b>4)</b> ako sud utvrdi da je lice protiv koga je izdat prekršajni nalog i koji je zahtevao sudsko odlučivanje odgovoran za prekršaj, svojom odlukom će ga obavezati da novčanu kaznu iz prekršajnog naloga plati u punom iznosu kao i da nadoknadi sudske troškove (član 174. stav 7);<br>
+                <b>5)</b> ako lice protiv koga je izdat prekršajni nalog u roku od osam dana od dana prijema prekršajnog nalog ne plati izrečenu kaznu ili ne podnese zahtev za sudsko odlučivanje o izdatom prekršajnom nalogu, smatraće se da je prihvatio odgovornost propuštanjem, a prekršajni nalog će postati konačan i izvršan (član 173. stav 2);<br>
+                <b>6)</b> lice protiv koga je izdat prekršajni nalog (kažnjeno lice) u slučaju prinudnog izvršenja izrečene novčane kazne, biće dužno da nadoknadi troškove izvršenja (član 318. stav 6);<br>
+                <b>7)</b> fizičkom licu, preduzetniku i odgovornom licu u pravnom licu protiv koga je izdat prekršajni nalog neplaćena novčana kazna može se zameniti kaznom zatvora ili radom u javnom interesu (član 41).<br>
+            </div>
+        </div>
+    </body>
+</html>
