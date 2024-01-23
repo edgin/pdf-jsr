@@ -1,0 +1,120 @@
+    <head>
+        <style>
+              {#asset styles.css }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <div class="zaglavlje">
+                    КОПИЈА УПОЗОРЕЊА У ЕЛЕКТРОНСКОМ ОБЛИКУ<br>
+                    Обр. ”ПП”<br>
+                    МУП Републике Србије, <br>
+                    {{pu}}, 
+                    {{spi}}<br>
+                    Дана : {{datum_podnosenja_zahteva}}год.<br>
+                    Сл.Лице:{{ovlasceno_sluzbeno_lice.ime}}<br>
+                    Бр.сл.лег.: {{ovlasceno_sluzbeno_lice.broj}}<br>
+                    Назив уређаја РАДАР фаб.бр. 1234 бр. рдж. жига - уверења 5431, датум важења 23.10.2024
+            </div>
+             <div class="naslov">
+                <p>Ha основу Закона о општем управном поступку на лицу места / у службеним просторијама, сачињен је:</p>
+                <h1>ЗАПИСНИК О ИЗВРШЕНОЈ КОНТРОЛИ УЧЕСНИКА У САОБРАЋАЈУ - ВОЗИЛА</h1>
+            </div>
+        </div>
+        <div class="body">
+            <div class="podaci">
+                Дана {{datum_prijave}}.год у {{vreme_prijave}} час. и мин. 
+                у месту {{mesto}} општина {{opstina}} 
+                {{#put}}
+                    пут {{.}} (бр.км)
+                {{/put}}
+                {{#ulica}}
+                     {{.}} улица, 
+                {{/ulica}}
+               {{#raskrsnica}}
+                 к.бр/раскрсница {{.}}, 
+                {{/raskrsnica}}
+                GPS: X = 12.12121 , Y = 1.2121212, 
+                извршена је контрола 
+                {{lice.ime}}{{lice.roditelj}}{{lice.prezime}}
+                 рођен-а {{lice.datum_rodjenja}} године, 
+                ЈМБГ {{lice.jmbg}}, 
+                пол {{lice.pol}} 
+                држављанин {{lice.drzavljanin}}
+                Л.К.бр.{{lice.lk.broj}} 
+                издата од {{lice.lk.izdata_od}} , 
+                воз. дозвола 
+                {{lice.voz_dozvola.kategorje}}категорије, 
+                број {{lice.voz_dozvola.broj}} 
+                уздата од {{lice.voz_dozvola.izdata_od}}
+                у својству {{lice.svojstvo}} 
+                врста {{vozilo.vrsta}} возила, 
+                марке {{vozilo.marka}}
+                тип {{vozilo.tip}}, 
+                рег.ознаке {{vozilo.reg}}, 
+                бр.шасије {{vozilo.sasija}}
+                са прикључним возилом рег.озн {{priklj_vozilo.reg}}
+                власника {{priklj_vozilo.vlasnik_jmbg}}
+                ЈМБГ {{priklj_vozilo.jmbg}}
+                корисника {{priklj_vozilo.korisnik}}
+                ЈМБГ {{priklj_vozilo.korisnik_jmbg}}
+            </div>
+             <div class="cinjenicni_opis">
+                <h2>утврђено је</h2>
+                {{cinjenicni_opis}} 
+            </div> 
+            <div class="zakonska_odredba">
+                Што представља: 
+                <ol>
+                    {{#zakonska_odredba}}
+                    <li> прекршај - привредни преступ из чл.<b>{{clan}}</b>, ст. <b>{{clan}}</b>, тач. <b>{{tacka}}</b> ЗоБС-а на путевима / {{zakon}}<br></li>
+                    {{/zakonska_odredba}}
+                </ol>
+            </div>
+            <div class="dodaci">
+                {{#dete}}
+                <div class="dete">
+                    У тренутку учињеног прекршаја у возилу се налазило дете млађе од 12 година: ДА <br>
+                    Подаци о детету: {{.}}<br>
+                </div>
+                {{/dete}}
+                    {{^dete}}
+                <div class="dete">
+                    У тренутку учињеног прекршаја у возилу се налазило дете млађе од 12 година: НЕ<br>
+                </div>
+                {{/dete}}
+                <div class="kontrola_izvrsena">
+                        <b>1.</b>Контрола извршена:{{uredjaj}}        
+                </div>
+                <div class="primedbe">
+                    {{#primedbа}}
+                        <b>2.</b> Контролисаном лицу је прочитан записник и на исти ИМА примедби: {{primedba}}
+                    {{/primedbа}}
+                    {{^primedbа}}
+                       <b>2.</b>  Контролисаном лицу је прочитан записник и на исти НЕМА примедби 
+                        {{/primedbа}}
+                </div>
+                <div class="ocevici_dokazi">
+                        <b>3.</b> Очевици/докази возила: {{dokazi}}
+                </div>                    
+                <div class="dodatni_pmo">
+                {{#pmo}}
+                    Саставни део овог записника je образац "ПМО" серијског броја {{.}}
+                {{/pmo}}
+                {{^pmo}}
+                    Саставни део овог записника није образац "ПМО" 
+                {{/pmo}}
+                </div>
+            </div>
+    </div>
+    <div class="footer">
+        <div class="potpis">
+         Дигитално потписао квалификованим
+                електронским потписом полицијски службеник<br>
+                    <b>{{ovlasceno_sluzbeno_lice.ime}}{{ovlasceno_sluzbeno_lice.prezime}}</b><br>
+                Оверено квалификованим електронским печатом
+                Министарства унутрашњих послова
+        </div>
+       
+    </div>
+</body>

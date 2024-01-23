@@ -1,0 +1,79 @@
+{
+    "pu": "ПОЛИЦИЈСКА УПРАВА ЗА ГРАД БЕОГРАД",
+    "spi": "СПИ ЗА УВИЂАЈЕ САОБРАЋАЈНИХ НЕЗГОДА",
+    "serijski_broj": "4-144-00044/23",
+    "datum_podnosenja_zahteva": "04.04.2023.",
+    "podaci_o_detetu": "",
+    "ministarstvo": "MУП РЕПУБЛИКЕ СРБИЈЕ",
+    "odeljenje": "ОДЕЉЕЊЕ ЗА САОБРАЋАЈНО ТЕХНИЧКЕ ПОСЛОВЕ У БЕОГРАДУ",
+    "datum_prijave": "22.02.2023.",
+    "vreme_prijave": "17:22",
+    "mesto": "Београд",
+    "opstina": "Вождовац",
+    "ulica": "Vojvode Stepe",
+    "zakonska_odredba": [
+        {
+            "clan": "32",
+            "stav": "12",
+            "tacka": "12", 
+            "dodatak": ""
+        },
+        {
+            "clan": "32",
+            "stav": "12",
+            "tacka": "12", 
+            "dodatak": ""
+        }
+    ],
+    "put": "Магистрални пут А1",
+    "rasckrsnica": "Cetinjske i Svetogorske",
+    "gps": {
+        "x": "1234567",
+        "y": "1234562"
+    }, 
+    "lice": {
+        "ime": "Стефан",
+        "prezime": "Ивановић",
+        "roditelj": "Душан",
+        "rodjen": "22.02.1987",
+        "jmbg": "123456754",
+        "pol": {
+            "zenski": false, 
+            "muski": true
+        },
+        "drzavljanin": "Републике Србије",
+        "lk":{
+            "broj": "00001234",
+            "izdata_od": "СУП СТАРИ ГРАД"
+        },
+        "voz_dozvola": {
+            "broj": "12345",
+            "kategorija": "Б",
+            "izdata_od": "СУП СТАРИ ГРАД"
+        },
+        "svojstvo": "Возач"
+    },
+    "vozilo": {
+            "vrsta": "Путничко",
+            "marka": "Renault",
+            "reg": "БГ 1234 GA",
+            "sasija": "123456"
+        },
+    "priklj_vozilo": {
+        "reg": "БГ 1235 MR",
+        "vlasnik": "Mирољуб Владић",
+        "vlasnik_jmbg": "123456754",
+        "korisnik": "Дејан Владић",
+        "korisnik_jmbg": "123456754"
+    },
+    "dete": "Дечак, 12 година, Воја Поповић", 
+    "primedba": "Лице изјављује да није видео знак јер се налази у крошњи.",
+    "dokazi": "Ивана Ташић ЈМБГ 12345336 је видела догадђај",
+    "pmo": "12345678",
+    "uredjaj": "Непосредним опажањем",
+    "ovlasceno_sluzbeno_lice": {
+        "ime": "Дејан Ивановић",
+        "broj": "12325246"
+    },
+    "cinjenicni_opis": "Дана 02.04.2023.године у 13:17 часова у OVO JE PROBNI TEKST. OVO JE PROBNI TEKST SAMO ZA DEMO. OVO JE PROBNI TEKST SAMO ZA DEMO.OVO JE PROBNI TEKST SAMO ZA DEMO.OVO JE PROBNI TEKST SAMO ZA DEMO.OVO JE PROBNI TEKST SAMO ZA DEMO.OVO JE PROBNI TEKST SAMO ZA DEMO.OVO JE PROBNI TEKST SAMO ZA DEMO.OVO JE PROBNI TEKST SAMO ZA DEMO. "
+}

@@ -1,153 +1,153 @@
 {
-    "ministarstvo": "MУП РЕПУБЛИКЕ СРБИЈЕ",
-    "pu": "ПОЛИЦИЈСКА УПРАВА ЗА ГРАД БЕОГРАД",
-    "spi": "ОДЕЉЕЊЕ ЗА САОБРАЋАЈНО ТЕХНИЧКЕ ПОСЛОВЕ У БЕОГРАДУ",
-    "serijski_broj": "6-144-00044/23",
-    "datum_prijave": "22.02.2023.",
-    "vreme_prijave": "17:22",
-    "datum": "22.02.2023",
-    "vreme": "13:12",
-    "lice": {
-        "ime": "Dejan",
-        "prezime": "Popovic",
-        "roditelj": "Vlada",
-        "jmbg": "12145623",
-        "svojstvo": "svojstvo lica"
-    },
-    "sluzbeno_lice": {
-        "prezime": "Ђорђевић", 
-        "ime": "Александра", 
-        "broj_legitimacije": "12213214"
-    }, 
-    "mesto": "Beograd",
-    "ulica": "Тадеуша Кошћука 11",
-    "km_puta": "22", 
-    "zakon":"На основу члана 168 и 169. Закона о прекршајима('Службени гласник РС', бр.65/13,13/16,98/16 - УС, 91/19 - др. закон, 91/19, ___ ) издаје",
-    "vozilo":{
-         "marka": "Renault",
-         "tip":"ПУТНИЧКО",
-         "reg_broj": "BG 2133-NA"
-    },
-    "pesak":{
-        "aktivno": true, 
-        "naslov": "ЗА ПРЕКРШАЈ УЧИЊЕН ФИЗИЧКИМ ЛИЦЕМ У САОБРАЋАЈУ"
-    }, 
-    "primedba": "Neka primedba ",
-    "pmo": {
-        "utvrdjivanje_alkohola_psihoaktivnih_supstanci": false,
-        "zdravstvena_ustanova": false,
+  "ministarstvo": "MУП РЕПУБЛИКЕ СРБИЈЕ",
+  "pu": "ПОЛИЦИЈСКА УПРАВА ЗА ГРАД БЕОГРАД",
+  "spi": "ОДЕЉЕЊЕ ЗА САОБРАЋАЈНО ТЕХНИЧКЕ ПОСЛОВЕ У БЕОГРАДУ",
+  "serijski_broj": "6-144-00044/23",
+  "datum_prijave": "22.02.2023.",
+  "vreme_prijave": "17:22",
+  "datum": "22.02.2023",
+  "vreme": "13:12",
+  "lice": {
+      "ime": "Dejan",
+      "prezime": "Popovic",
+      "roditelj": "Vlada",
+      "jmbg": "12145623",
+      "svojstvo": "svojstvo lica"
+  },
+  "sluzbeno_lice": {
+      "prezime": "Ђорђевић", 
+      "ime": "Александра", 
+      "broj_legitimacije": "12213214"
+  }, 
+  "mesto": "Beograd",
+  "ulica": "Тадеуша Кошћука 11",
+  "km_puta": "22", 
+  "zakon":"На основу члана 168 и 169. Закона о прекршајима('Службени гласник РС', бр.65/13,13/16,98/16 - УС, 91/19 - др. закон, 91/19, ___ ) издаје",
+  "vozilo":{
+        "marka": "Renault",
+        "tip":"ПУТНИЧКО",
+        "reg_broj": "BG 2133-NA"
+  },
+  "pesak":{
+      "aktivno": true, 
+      "naslov": "ЗА ПРЕКРШАЈ УЧИЊЕН ФИЗИЧКИМ ЛИЦЕМ У САОБРАЋАЈУ"
+  }, 
+  "primedba": "Neka primedba ",
+  "pmo": {
+      "utvrdjivanje_alkohola_psihoaktivnih_supstanci": false,
+      "zdravstvena_ustanova": false,
+      "analiza_krvi_urina": false,
+      "kontrolni_tehnicki_pregled": false,
+      "osovinsko_opterecenje_masa_vozila": false,
+      "iskljucenje_iz_saobracaja": false,
+      "privremeno_iskljucenje_iz_saobracaja": false,
+      "premestanje_vozila": false,
+      "uklanjanje_vozila": false,
+      "privremeno_oduzimanje_inostrane_vozacke_dozvole": false,
+      "privremeno_oduzimanje_predmeta_dokaza": false,
+      "privremeno_oduzimanje_registarskih_tablica": false,
+      "alkohol_detail": {
+        "alkohol_u_krvi": null,
+        "datum": null,
+        "vreme": null,
+        "uredjaj_marka": null,
+        "uredjaj_fabricki_broj": null,
+        "uredjaj_uverenje_ispravnosti": null,
+        "uredjaj_datum_vazenja": null,
+        "broj": null,
+        "psihoaktivna_supstanca": null,
+        "osporavao": false,
         "analiza_krvi_urina": false,
-        "kontrolni_tehnicki_pregled": false,
-        "osovinsko_opterecenje_masa_vozila": false,
-        "iskljucenje_iz_saobracaja": false,
-        "privremeno_iskljucenje_iz_saobracaja": false,
-        "premestanje_vozila": false,
-        "uklanjanje_vozila": false,
-        "privremeno_oduzimanje_inostrane_vozacke_dozvole": false,
-        "privremeno_oduzimanje_predmeta_dokaza": false,
-        "privremeno_oduzimanje_registarskih_tablica": false,
-        "alkohol_detail": {
-          "alkohol_u_krvi": null,
-          "datum": null,
-          "vreme": null,
-          "uredjaj_marka": null,
-          "uredjaj_fabricki_broj": null,
-          "uredjaj_uverenje_ispravnosti": null,
-          "uredjaj_datum_vazenja": null,
-          "broj": null,
-          "psihoaktivna_supstanca": null,
-          "osporavao": false,
-          "analiza_krvi_urina": false,
-          "alko_15_min": false,
-          "zahtevao": false
-        },
-        "analiza_krvi_urina_detail": {
-          "opstina": null,
-          "mesto": null,
-          "vreme": null,
-          "naziv_ustanove": null,
-          "datum": null
-        },
-        "zdravstvena_ustanova_detail": {
-          "datum": null,
-          "vreme": null,
-          "naziv_ustanove": null,
-          "opstina": null,
-          "mesto": null,
-          "utvrdjeno_je": null
-        },
-        "kontrolni_tehnicki_pregled_detail": {
-          "datum": null,
-          "vreme": null,
-          "naziv_ustanove": null,
-          "opstina": null,
-          "mesto": null,
-          "utvrdjeno_je": null,
-          "podvrgnuto_kontrolnom_pregledu": false
-        },
-        "osovinsko_opterecenje_masa_vozila_detail": {
-          "datum": null,
-          "vreme": null,
-          "lokacija_merenja": null,
-          "privredno_drustvo": null,
-          "merni_uredjaj": null,
-          "uredjaj_fabricki_broj": null,
-          "uredjaj_datum_vazenja": null,
-          "uredjaj_uverenje_ispravnosti": null,
-          "utvrdjeno_je": null,
-          "podvrgnuto_merenju": false
-        },
-        "iskljucenje_iz_saobracaja_detail": {
-          "datum": null,
-          "vreme": null,
-          "trajanje_iskljucenja_do_datum": null,
-          "iskljucenje_od_saobracaja_zbog": null
-        },
-        "privremeno_iskljucenje_iz_saobracaja_detail": {
-         "privremeno_iskljucenje_datum_od": null,
-          "privremeno_iskljucenje_datum_do": null,
-          "privremeno_iskljucenje_vreme_od": null,
-          "privremeno_iskljucenje_vreme_do": null,
-          "iskljucenje_od_saobracaja_zbog": null
-        },
-        "premestanje_vozila_detail": {
-          "datum_premestanja": null,
-          "vreme_premestanja": null,
-          "privredno_drustvo": null,
-          "vlasnik_datum_preuzimanja": null,
-          "vlasnik_vreme_preuzimanja": null,
-          "ulica_broj": null
-        },
-        "uklanjanje_vozila_detail": {
-          "datum": null,
-          "vreme": null,
-          "broj_resenja": null
-        },
-        "privremeno_oduzimanje_inostrane_vozacke_dozvole_detail": {
-          "datum": null,
-          "vreme": null,
-          "broj_isprave": null,
-          "isprava_izdata_od": null
-        },
-        "privremeno_oduzimanje_predmeta_dokaza_detail": {
-          "datum": null,
-          "vreme": null,
-          "predmet": null
-        },
-        "privremeno_oduzimanje_registarskih_tablica_detail": {
-          "datum": null,
-          "vreme": null,
-          "registarski_broj": null,
-          "mesto": null,
-          "opstina": null,
-          "naziv_spi": null,
-          "ulica_broj": null,
-          "soba": null
-        },
-        "primedba_detail": {
-          "opis_primedbe": null
-        }
-   }
+        "alko_15_min": false,
+        "zahtevao": false
+      },
+      "analiza_krvi_urina_detail": {
+        "opstina": null,
+        "mesto": null,
+        "vreme": null,
+        "naziv_ustanove": null,
+        "datum": null
+      },
+      "zdravstvena_ustanova_detail": {
+        "datum": null,
+        "vreme": null,
+        "naziv_ustanove": null,
+        "opstina": null,
+        "mesto": null,
+        "utvrdjeno_je": null
+      },
+      "kontrolni_tehnicki_pregled_detail": {
+        "datum": null,
+        "vreme": null,
+        "naziv_ustanove": null,
+        "opstina": null,
+        "mesto": null,
+        "utvrdjeno_je": null,
+        "podvrgnuto_kontrolnom_pregledu": false
+      },
+      "osovinsko_opterecenje_masa_vozila_detail": {
+        "datum": null,
+        "vreme": null,
+        "lokacija_merenja": null,
+        "privredno_drustvo": null,
+        "merni_uredjaj": null,
+        "uredjaj_fabricki_broj": null,
+        "uredjaj_datum_vazenja": null,
+        "uredjaj_uverenje_ispravnosti": null,
+        "utvrdjeno_je": null,
+        "podvrgnuto_merenju": false
+      },
+      "iskljucenje_iz_saobracaja_detail": {
+        "datum": null,
+        "vreme": null,
+        "trajanje_iskljucenja_do_datum": null,
+        "iskljucenje_od_saobracaja_zbog": null
+      },
+      "privremeno_iskljucenje_iz_saobracaja_detail": {
+        "privremeno_iskljucenje_datum_od": null,
+        "privremeno_iskljucenje_datum_do": null,
+        "privremeno_iskljucenje_vreme_od": null,
+        "privremeno_iskljucenje_vreme_do": null,
+        "iskljucenje_od_saobracaja_zbog": null
+      },
+      "premestanje_vozila_detail": {
+        "datum_premestanja": null,
+        "vreme_premestanja": null,
+        "privredno_drustvo": null,
+        "vlasnik_datum_preuzimanja": null,
+        "vlasnik_vreme_preuzimanja": null,
+        "ulica_broj": null
+      },
+      "uklanjanje_vozila_detail": {
+        "datum": null,
+        "vreme": null,
+        "broj_resenja": null
+      },
+      "privremeno_oduzimanje_inostrane_vozacke_dozvole_detail": {
+        "datum": null,
+        "vreme": null,
+        "broj_isprave": null,
+        "isprava_izdata_od": null
+      },
+      "privremeno_oduzimanje_predmeta_dokaza_detail": {
+        "datum": null,
+        "vreme": null,
+        "predmet": null
+      },
+      "privremeno_oduzimanje_registarskih_tablica_detail": {
+        "datum": null,
+        "vreme": null,
+        "registarski_broj": null,
+        "mesto": null,
+        "opstina": null,
+        "naziv_spi": null,
+        "ulica_broj": null,
+        "soba": null
+      },
+      "primedba_detail": {
+        "opis_primedbe": null
+      }
+  }
 }
 
              
