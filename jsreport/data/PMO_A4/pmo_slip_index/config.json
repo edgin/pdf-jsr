@@ -7,16 +7,16 @@
     },
     "chrome": {
         "printBackground": true,
-        "width": "5.8cm",
-        "height": "40cm"
+        "width": "21cm",
+        "height": "29.7cm"
     },
     "creationDate": {
-        "$$date": 1701756150090
+        "$$date": 1706002930354
     },
     "modificationDate": {
-        "$$date": 1706002765810
+        "$$date": 1706003378683
     },
-    "shortid": "qUFFbjc",
-    "_id": "lE0kRC6eGv9UqSb2",
+    "shortid": "Eep3hdC",
+    "_id": "LqQpvc9q0vl6iXFa",
     "$entitySet": "templates"
 }

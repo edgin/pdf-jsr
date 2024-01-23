@@ -1,0 +1,41 @@
+body{
+    font-size: 16px;
+    margin:0;
+    padding: 20px;
+}
+.header {
+     word-break: break-all;
+}
+.header .zaglavlje {
+    word-break: keep-all;
+    width: 300px;
+}
+.header .naslov {
+    word-break: normal!important;
+}
+.header, 
+.footer,
+.body .odluka,
+.body .podaci, 
+.body .dodaci
+ {
+    padding: 10px;
+}
+.header .naslov h1 {
+    font-size: 16px;
+    text-align: center;
+}
+.header .naslov h2 {
+    font-size: 12px;
+    text-align: center;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+}
+.footer .potpis {
+    width: 300px;
+    text-align: center;
+}
