@@ -88,16 +88,24 @@ background-color: #80c1f2;
 .body .uplata {
     margin: 5px 0;
 }
-.footer .potpis {
-    width: 400px;
+.footer{
+    width: 100%;
     position: absolute;
     bottom: 0;
-    right: 0;
-    text-align: center;
     margin: 5px 0;
     padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
-
+.footer *:first-child {
+    text-align: center;
+    width: 200px;
+}
+.footer *:last-child {
+    text-align: center;
+    width: 400px;
+}
 .footer .pouke_upozorenja h3 {
     font-size: 14px;
     text-align: center;

@@ -58,9 +58,9 @@
                 бр.шасије {{vozilo.sasija}}
                 са прикључним возилом рег.озн {{priklj_vozilo.reg}}
                 власника {{priklj_vozilo.vlasnik_jmbg}}
-                <b>ЈМБГ {{priklj_vozilo.jmbg}}</b>
+                <b>ЈМБГ - МБ {{priklj_vozilo.jmbg}}</b>
                 корисника {{priklj_vozilo.korisnik}}
-                <b>ЈМБГ {{priklj_vozilo.korisnik_jmbg}}</b>
+                <b>ЈМБГ - МБ {{priklj_vozilo.korisnik_jmbg}}</b>
             </div>
              <div class="cinjenicni_opis">
                 <b>утврђено је</b><br>
@@ -99,7 +99,8 @@
                 </div>
                 <div class="ocevici_dokazi">
                         <b>3.</b> Очевици/докази возила: {{dokazi}}
-                </div>                    
+                </div>     
+                Овај записник је сачињен у три истоветна примерка, од којих је један уручен контролисаном лицу.               
                 <div class="dodatni_pmo">
                 {{#pmo}}
                     Саставни део овог записника je образац "ПМО" серијског броја {{.}}
@@ -111,9 +112,14 @@
             </div>
     </div>
     <div class="footer">
-        <div class="potpis">
+        <div class="potpis-okr-lica">
+            Потпис контролисаног лица
+
+        </div>
+        <div class="potpis-sl-lica">
          Дигитално потписао квалификованим
                 електронским потписом полицијски службеник<br>
+               сл.значка бр. {{ovlasceno_sluzbeno_lice.sluzbeni_broj}}
                     <b>{{ovlasceno_sluzbeno_lice.ime}}{{ovlasceno_sluzbeno_lice.prezime}}</b><br>
                 Оверено квалификованим електронским печатом
                 Министарства унутрашњих послова
