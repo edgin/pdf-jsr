@@ -13,19 +13,29 @@ background-color: #80c1f2;
     background-color: #80c1f2;
     margin: 5px 0;
 }
+.header {
+    margin-bottom: 10px;
+}
+.header .naslov{
+    text-align: center;
+    padding: 10px;
+}
 .header .naslov p {
      word-break: break-all;
+     font-size: 12px;
 }
 .header .naslov h1 {
     font-size: 14px;
     text-align: center;
-     word-break: none;
+    word-break: none;
+    margin: 5px 0 0 0;
+    padding: 0;
 }
 .header .naslov h2, h2{
     font-size: 14px;
-     text-align: center;
-     text-transform: uppercase;
-     word-break: none;
+    text-align: center;
+    text-transform: uppercase;
+    word-break: none;
 }
 .header .naslov p {
     margin: 0;
@@ -38,6 +48,18 @@ background-color: #80c1f2;
     width: 350px;
     word-break: keep-all;
 }
+.header .zaglavlje {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header .zaglavlje *:first-child {
+    width: 400px;
+}
+.header .zaglavlje *:last-child {
+    width: 150px;
+}
 .body {
     margin-bottom: auto;
 }
@@ -48,6 +70,10 @@ background-color: #80c1f2;
 .footer .pouke_upozorenja{
     word-break: break-all;
 }
+.body .cinjenicni_opis {
+    padding: 5px 0;
+}
+
 .zakonska_odredba p.pouke {
     font-size: 12px;
     font-weight: bold;

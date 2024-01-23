@@ -6,15 +6,18 @@
     <body>
         <div class="header">
             <div class="zaglavlje">
+                <div class="levo">
                     КОПИЈА УПОЗОРЕЊА У ЕЛЕКТРОНСКОМ ОБЛИКУ<br>
-                    Обр. ”ПП”<br>
                     МУП Републике Србије, <br>
-                    {{pu}}, 
-                    {{spi}}<br>
-                    Дана : {{datum_podnosenja_zahteva}}год.<br>
-                    Сл.Лице:{{ovlasceno_sluzbeno_lice.ime}}<br>
-                    Бр.сл.лег.: {{ovlasceno_sluzbeno_lice.broj}}<br>
-                    Назив уређаја РАДАР фаб.бр. 1234 бр. рдж. жига - уверења 5431, датум важења 23.10.2024
+                    ПУ у {{pu}} СПИ, <br>
+                    ПИ {{spi}}<br>
+                    Дана 
+                </div>
+                <div class="desno">
+                    Обр. ”ПП”<br>
+                    1.Правно лице<br>
+                    2.Физичко лице
+                </div>
             </div>
              <div class="naslov">
                 <p>Ha основу Закона о општем управном поступку на лицу места / у службеним просторијама, сачињен је:</p>
@@ -38,7 +41,7 @@
                 извршена је контрола 
                 {{lice.ime}}{{lice.roditelj}}{{lice.prezime}}
                  рођен-а {{lice.datum_rodjenja}} године, 
-                ЈМБГ {{lice.jmbg}}, 
+                <b>ЈМБГ{{lice.jmbg}}</b>, 
                 пол {{lice.pol}} 
                 држављанин {{lice.drzavljanin}}
                 Л.К.бр.{{lice.lk.broj}} 
@@ -55,16 +58,16 @@
                 бр.шасије {{vozilo.sasija}}
                 са прикључним возилом рег.озн {{priklj_vozilo.reg}}
                 власника {{priklj_vozilo.vlasnik_jmbg}}
-                ЈМБГ {{priklj_vozilo.jmbg}}
+                <b>ЈМБГ {{priklj_vozilo.jmbg}}</b>
                 корисника {{priklj_vozilo.korisnik}}
-                ЈМБГ {{priklj_vozilo.korisnik_jmbg}}
+                <b>ЈМБГ {{priklj_vozilo.korisnik_jmbg}}</b>
             </div>
              <div class="cinjenicni_opis">
-                <h2>утврђено је</h2>
+                <b>утврђено је</b><br>
                 {{cinjenicni_opis}} 
             </div> 
             <div class="zakonska_odredba">
-                Што представља: 
+                <b>Што представља:</b>
                 <ol>
                     {{#zakonska_odredba}}
                     <li> прекршај - привредни преступ из чл.<b>{{clan}}</b>, ст. <b>{{clan}}</b>, тач. <b>{{tacka}}</b> ЗоБС-а на путевима / {{zakon}}<br></li>
