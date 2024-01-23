@@ -1,0 +1,101 @@
+body{
+       font-size: 16px;
+       height: 100%;
+    }
+
+.plavo{
+    background-color: #80c1f2;
+}
+.prva-strana-pns{
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 100px);
+    align-items: stretch;
+    padding: 20px;
+}
+.prva-strana-pns .body {
+    flex-grow: 2;
+    height: 700px;
+}
+.prva-strana-pns > .header {
+    flex-grow: 0;
+}
+.prva-strana-pns .footer .potpis {
+    height: 100px;
+    width: 100%;
+    align-self: flex-end;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.prva-strana-pns .footer .potpis .potpis-okr-lica, 
+.prva-strana-pns .footer .potpis .potpis-sl-lica {
+    max-width: 350px;
+    text-align: center;
+}
+.header {
+     word-break: break-all;
+     padding: 5px;
+     margin-bottom: 10px;
+}
+.header .naslov h1 {
+    font-size: 16px;
+    text-align: center;
+}
+.header .naslov h2, h2{
+    font-size: 14px;
+     text-align: center;
+     text-transform: uppercase;
+     word-break: none;
+}
+.header .naslov p {
+    margin: 0;
+    padding: 5px 0 0 0;
+}
+.body .uplata {
+    margin: 5px 0;
+    padding: 5px 10px;
+}
+
+.druga-strana-pns {
+    height: 100%;
+    position: relative;
+}
+.druga-strana-pns .pouke_upozorenja h3 {
+    font-size: 14px;
+    text-align: center;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+.druga-strana-pns .pouke_upozorenja {
+    font-size: 12px;
+}
+.druga-strana-pns .pecati {
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.druga-strana-pns .pecati .pecat {
+    width: 300px;
+}
+.druga-strana-pns .pecati * .header {
+    background-color: transparent;
+     word-break: keep-all;
+}
+.druga-strana-pns .pecati * .body {
+    padding-bottom: 10px;
+}
+.druga-strana-pns .pecati * .footer {
+    text-align: center;
+}
+.druga-strana-pns .pouke_upozorenja {
+     position: absolute;
+     bottom: 0;
+     height: 300px;
+     align-self:flex-end;
+     margin: 50px;
+}
+.page-break    { display: block; page-break-before: always; }
